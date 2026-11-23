@@ -17,7 +17,7 @@ web-search summaries of abstracts and papers. Evidence beyond the abstract is re
 | `mackenzie-lip` | no t_err | ± 2 Myr (1267 ± 2 Ma) | lecheminant1989 |
 | `tamu-massif` | 145 Ma | 144.6 ± 0.8 Ma | sager2013 |
 | `qingshania-multicellular` | "up to 20 or more cells" | "cells up to 190 µm wide, some holding possible spores" (no cell count in the paper) | miao2024 |
-| `mcarthur-river-zinc` | brine/euxinic wording, "Here's Your Chance", "stagnant" basin | removed (not in source); added the 1655–1640 Ma regional synchrony | page1998 |
+| `mcarthur-river-zinc` | brine/euxinic wording, "Here's Your Chance", "stagnant" basin | removed (not in source); added the 1655–1640 Ma regional synchrony | page1998 (merged into `mount-isa-ore` 2026-11-23) |
 | `wiborg-rapakivi` | "Finnish for crumbly stone" | removed (not in source); "type locality" added | ramo2014 |
 | `gale-crater-lakes` | "an impact 3.8–3.6 Ga makes Gale crater" | the mound's layered sediment builds 3.8–3.6 Ga | thomson2011 (new) |
 | `chicxulub-impact` | "about 10 km across" | "a large asteroid" (size not in renne2013) | renne2013 |
@@ -27,7 +27,7 @@ web-search summaries of abstracts and papers. Evidence beyond the abstract is re
 | `inner-core-nucleation-early` | Ediacaran alternative uncited | bono2019 added | bono2019 |
 | `vesta-rheasilvia-impact` | marchi2012 only (abstract was a journal summary) | heck2017 added (500 km basin ~1 Ga) | heck2017 |
 
-**Still unverified (11 events):**
+**Still unverified (13 events):**
 | Event | What is missing |
 |---|---|
 | `nuvvuagittuq-crust` | Source for the ~3.8 Ga counter-view (e.g. Cates & Mojzsis 2007); date itself matches oneil2008 |
@@ -41,6 +41,8 @@ web-search summaries of abstracts and papers. Evidence beyond the abstract is re
 | `borealopelta-last-meal` | 112 Ma vs the 2017 paper's "Aptian" (ICS: Aptian ends 113.2 Ma) |
 | `europa-young-surface` | 30–70 Myr comes from Zahnle's 2004 workshop abstract, not zahnle2003 |
 | `shoemaker-levy-9` | 16–22 July 1994 not in hammel1995 abstract |
+| `mars-deuteronilus-ocean` | ivanov2017 abstract not retrievable (Elsevier 403, ADS empty); check the ~3.6 Ga model age and that it dates the Vastitas Borealis surface, not the water (added 2026-11-22, dig 176–202) |
+| `premier-kimberlite` | Neither abstract says the Cullinan diamond came from the Premier mine or that it is the largest gem diamond found; t_err 30 Myr is a placeholder for tappe2021's 'c. 1150 Ma' (a precise age: Wu et al. 2013, Chem. Geol., doi 10.1016/j.chemgeo.2012.06.002, no abstract) (added 2026-11-22, dig 666–694) |
 
 **Non-event items checked:** hutchinson2011 (adults 6,000–8,000 kg, "Sue" ~9,500 kg: caption OK); williams2000
 (620 Ma: 21.9 ± 0.4 h, 400 ± 7 days: OK); gough1981 (luminosity rose from ~70%: consistent with the model formula).
@@ -112,7 +114,7 @@ Bibliographic details from doi.org/Crossref. Dates checked against abstracts or 
 | merle2014 | `imbrium-basin` | Phosphate age 3,934 Ma (attributed via search summary to "Nemchin 2014"; check it is this paper) |
 | li2021 | `youngest-lunar-volcanism` | 2,030 ± 4 Ma; most basalt volcanism ended 2.9–2.8 Ga |
 | mazrouei2019 | `impact-rate-increase` | Factor ~2.6 increase **~290 Ma (from memory)**; abstract snippet only says "within ~500 Myr" |
-| drabon2024, lowe2015 | `archean-impact-s2` | 3.26 Ga; ≥16 Archean impacts >10 km; tsunami, upper-ocean boiling, iron upwelling, quick recovery; Barberton |
+| drabon2024, lowe2015 | `archean-impact-s2` | 3.26 Ga; ≥16 Archean impacts >10 km; tsunami, upper-ocean boiling, iron upwelling, quick recovery; Barberton (merged into `impacts-boil-oceans` 2026-11-23) |
 | erickson2020 | `yarrabubba-impact`, `sudbury-impact` | Yarrabubba 2229 ± 5 Ma, ~70 km; Sudbury 1850 ± 1 Ma (**secondary citation**; primary is Krogh et al. 1984, no DOI found) |
 | kamo1996 | `vredefort-impact` | 2,023 ± 4 Ma |
 | hodych1992 | `manicouagan-impact` | 214 ± 1 Ma; ~12 Myr before T/J boundary |
@@ -261,7 +263,7 @@ DOIs and titles came from web search summaries (publisher, PMC, Crossref mirrors
 | Key | Used for | Claim to check |
 |---|---|---|
 | brocks2023 | `protosterol-biota` | Protosterols in the 1.64 Ga Barney Creek Fm; full author list |
-| page1998 | `protosterol-biota`, `mcarthur-river-zinc` | HYC Pyritic Shale tuffs 1638 ± 7, 1640 ± 3, 1639 ± 3 Ma; brine/euxinic wording |
+| page1998 | `protosterol-biota`, `mcarthur-river-zinc` | HYC Pyritic Shale tuffs 1638 ± 7, 1640 ± 3, 1639 ± 3 Ma; brine/euxinic wording (merged into `mount-isa-ore` 2026-11-23) |
 | miao2024 | `qingshania-multicellular` | ~1635 Ma; "up to 20 or more cells" and spore-like bodies (from memory); ± 5 Myr is the session's choice |
 | ramo2014 | `wiborg-rapakivi` | Span 1642–1627 Ma; exact title (paraphrased); DOI (probably 10.17741/bgsf/86.2.00x); "crumbly stone" etymology needs a source |
 | bengtson2017, bengtson2009 | `tirohan-red-algae` | Age ~1.6 Ga (Pb–Pb 1650 ± 89 Ma); ± 90 Myr is the session's choice |
@@ -291,8 +293,8 @@ Eight events added from `docs/gaps/276-314.md`; seven are `verified: true` (clai
   copy at hdl.handle.net/1721.1/61263 (MIT DSpace refused automated download).
 - `whundo-arc`: smithies2005 has no cached abstract (date in its title); claims rest on vankranendonk2007 and vandenburg2026.
 - `maniitsoq-impact-claim`: garde2012 has no cached abstract; the proposal is described in yakymchuk2021's abstract.
-- `prinsep-orogeny`: t = midpoint of kiyokawa2019's 3070–3050 Ma; vankranendonk2007 says 3.07 Ga.
-- `dominion-group-volcanism` map caption: "about 450 km" is measured on the map (Klerksdorp to Barberton), not from a source.
+- `prinsep-orogeny` (merged into `pilbara-nucleus-rifts` 2026-11-23): t = midpoint of kiyokawa2019's 3070–3050 Ma; vankranendonk2007 says 3.07 Ga.
+- `dominion-group-volcanism` (merged into `kaapvaal-craton-stable` 2026-11-23) map caption: "about 450 km" is measured on the map (Klerksdorp to Barberton), not from a source.
 
 ## "To add" list pass (2026-11-21/22)
 Events from the content-categories.md "To add" column, one at a time. Verified unless listed here.
@@ -311,3 +313,26 @@ Events from the content-categories.md "To add" column, one at a time. Verified u
 - `giants-causeway-antrim-lavas` (`verified: false`): lava ages are in ganerod2010's summary (read from the PDF at
   geologist.nl); the Causeway Tholeiite's place between the Tardree rhyolite and the Upper Basalt is from a GSA Today
   (July 2026) summary, not a cited source. Find a citable stratigraphy (e.g. BGS / Lyle 2000) before verifying.
+
+## Gap dig, pages 156–174 (2026-11-22)
+Three events added from `docs/gaps/156-174.md`; `acasta-reheated` (merged into `acasta-gneiss` 2026-11-23) (bowring1999 abstract) and `isua-forearc-sediments`
+(boyd2024 OA full text, quotes in sources/abstracts/boyd2024.md) are verified.
+- `anshan-oldest-china` (cut 2026-11-23, significance review) (`verified: false`): 3773 ± 6 Ma banded trondhjemitic gneiss (Shengousi) is from web-search
+  excerpts of the wan2012 abstract (Elsevier elides it; UOW repository ro.uow.edu.au/scipapers/4559 returned 403).
+  zhang2023 abstract confirms "oldest rocks in China (~3.8 Ga)". The inherited-zircon objection (Wu et al., SHRIMP,
+  Baijiafen/Dongshan emplaced ~3.3 and 3.1 Ga) is from a search summary, not a cited source: add a citation or soften.
+
+## Gap dig, pages 516–534 (2026-11-22)
+Seven events added from `docs/gaps/516-534.md`; `purtuniq-ophiolite` (scott1992), `jormua-ophiolite` (peltonen1996),
+`snowbird-eclogites` (baldwin2004), `first-phosphorites` (lepland2014) are verified from abstracts; `pechenga-nickel` (cut 2026-11-23, significance review)
+and the Zaonega dates from the martin2015 accepted manuscript (quotes in sources/abstracts/martin2015.md).
+- `zaonega-shungite` (`verified: false`): the oil-to-shungite claim rests on the melezhik1999 title (abstract elided).
+  Read its abstract. Note the Re–Os age of 2.05 Ga for the Shunga "fossil oil field" (Hannah et al. 2008), older than
+  martin2015's U–Pb 1975–1968 Ma; if the conflict matters, tag `debated`.
+- `glenburgh-orogeny` (`verified: false`): 1965–1950 Ma collision window is in the companion GSWA Record 2010/5 abstract
+  and in web-search summaries of johnson2011; johnson2011's own abstract was not seen (Elsevier elides it).
+- `karelian-dykes-231` (cut 2026-11-23, significance review) (`verified: false`, dig 452–468): the 2.31 Ga age and the break-up link come from the
+  stepanova2015 title only (abstract elided by Elsevier, none in OpenAlex/Semantic Scholar). Check the U–Pb age and error.
+- `great-dyke-zimbabwe` (`verified: false`, dig 396–408): the 2574 ± 2 Ma age is in the wingate2000 abstract; the
+  ~550 km × 11 km size and "world's second-largest PGE resource after the Bushveld" come from web-search snippets of
+  oberthur2013 (introduction; not in its abstract). Check both in the oberthur2013 full text.

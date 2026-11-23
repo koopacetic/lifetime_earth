@@ -10,6 +10,7 @@ description: Find the emptiest stretches of the Lifetime of the Earth book and p
 3. For each stretch, list candidate topics that genuinely fall in that time: dated rock formations, impacts,
    isotope excursions, orogenies, glaciations, first appearances, supercontinent events, zircon or detrital records.
    Never fake precision to fill a page; an honestly empty page is fine.
-4. Present candidates with likely sources; on approval, follow the `add-events` skill.
+4. Present candidates with likely sources and a proposed `importance` (1–5, docs/significance-review.md;
+   1–2 = local record, suggest skip unless nothing better exists); on approval, follow the `add-events` skill.
    To research one stretch in depth, use the `dig-gap` skill instead.
 5. Re-run `./run fullness` and report the change.

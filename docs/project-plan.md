@@ -32,6 +32,7 @@ Started early (2026-11-20). Worklist by theme: docs/content-categories.md. Sessi
 | 14 | Cenozoic (not the final page) | 901–913 |
 | 15 | **Final page & human history**: zoom insets / compaction design plus content | 914 |
 | 16+ | Gap filling by fullness report; verification passes (`verified: true`) | all |
+| 16a | **Duplicate review** (to circle back): find events that tell the same story twice (same rock, impact, sample or claim under different ids, e.g. `archean-impact-s2` vs `impacts-boil-oceans`), and series of near-identical records (one more zircon, BIF or dyke swarm). `./run add` only catches near-duplicates at insert time (close `t` and shared title words), so also check across wider time gaps and by shared sources. Merge or cut; see docs/significance-review.md | all |
 
 ## Phase 4: Art & extras
 | # | Session | Output |

@@ -1,0 +1,10 @@
+# spencer2018
+spencer2018 | 2018 | A {Palaeoproterozoic} tectono-magmatic lull as a potential trigger for the supercontinent cycle
+
+- DOI: 10.1038/s41561-017-0051-y
+- Link: https://doi.org/10.1038/s41561-017-0051-y
+- Open access: closed
+- Abstract from: publisher page
+
+## Abstract
+The geologic record exhibits periods of active and quiescent geologic processes, including magmatism, metamorphism and mineralization. This apparent episodicity has been ascribed either to bias in the geologic record or fundamental changes in geodynamic processes. An appraisal of the global geologic record from about 2.3 to 2.2 billion years ago demonstrates a Palaeoproterozoic tectono-magmatic lull. During this lull, global-scale continental magmatism (plume and arc magmatism) and orogenic activity decreased. There was also a lack of passive margin sedimentation and relative plate motions were subdued. A global compilation of mafic igneous rocks demonstrates that this episode of magmatic quiescence was terminated about 2.2 billion years ago by a flare-up of juvenile magmatism. This post-lull magmatic flare-up is distinct from earlier such events, in that the material extracted from the mantle during the flare-up yielded significant amounts of continental material that amalgamated to form Nuna — Earth’s first hemispheric supercontinent. We posit that the juvenile magmatic flare-up was caused by the release of significant thermal energy that had accumulated over some time. This flux of mantle-derived energy could have provided a mechanism for dramatic growth of continental crust, as well as the increase in relative plate motions required to complete the transition to modern plate tectonics and the supercontinent cycle. These events may also be linked to Palaeoproterozoic atmospheric oxygenation and equilibration of the carbon cycle. Earth experienced a lull in magmatic and tectonic activity about 2.3 billion years ago, followed by a flare-up of magmatism, according to a compilation of existing geologic data. These events might mark the transition to the supercontinent cycle.

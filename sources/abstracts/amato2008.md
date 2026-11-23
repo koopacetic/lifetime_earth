@@ -1,0 +1,10 @@
+# amato2008
+amato2008 | 2008 | Evolution of the {Mazatzal} province and the timing of the {Mazatzal} orogeny: Insights from {U-Pb} geochronology and geochemistry of igneous and metasedimentary rocks in southern {New Mexico}
+
+- DOI: 10.1130/B26200.1
+- Link: https://doi.org/10.1130/B26200.1
+- Open access: closed
+- Abstract from: OpenAlex
+
+## Abstract
+New U-Pb zircon ages, geochemistry, and Nd isotopic data are presented from three localities in the Paleoproterozoic Mazatzal province of southern New Mexico, United States. These data help in understanding the source regions and tectonic setting of magmatism from 1680 to 1620 Ma, the timing of the Mazatzal orogeny, the nature of postorogenic magmatism, Proterozoic plate tectonics, and provide a link between Mazatzal subblocks in Arizona and northern New Mexico. The data indicate a period from 1680 to 1650 Ma in which juvenile felsic granitoids were formed, and a later event between 1646 and 1633 Ma, when these rocks were deformed together with sedimentary rocks. No evidence of pre-1680 Ma rocks or inherited zircons was observed. The igneous rocks have ϵNd(t) from −1.2 to +4.3 with most between +2 and +4, suggesting a mantle source or derivation from similar-aged crust. Nd isotope and trace element concentrations are consistent with models for typical arc magmatism. Detrital zircon ages from metasedimentary rocks indicate that sedimentation occurred until at least 1646 Ma. Both local and Yavapai province sources contributed to the detritus. All of the samples older than ca. 1650 Ma are deformed, whereas undeformed porphyrob-lasts were found in the contact aureole of a previously dated 1633 Ma gabbro. Regionally, the Mazatzal orogeny occurred mainly between 1654 and 1643 Ma, during final accretion of a series of island arcs and intervening basins that may have amalgamated offshore. Rhyolite magmatism in the southern Mazatzal province was coeval with gabbro intrusions at 1633 Ma and this bimodal magmatism may have been related to extensional processes following arc accretion.

@@ -181,6 +181,7 @@
     "text": "Oxygen isotopes in 4.3-billion-year-old zircon grains from the Jack Hills, Western Australia, show they grew from magma that had melted crust once altered by liquid water near the surface. A hydrosphere, perhaps oceans, was already in contact with the crust.",
     "sources": ["mojzsis2001", "wilde2001"],
     "tags": ["ocean", "first", "debated"],
+    "importance": 4,
     "verified": true
   },
   {
@@ -226,6 +227,40 @@
     "verified": true
   },
   {
+    "id": "mount-narryer-zircons",
+    "t": -4150000000,
+    "t_err": 50000000,
+    "title": "Continents already exist: zircons older than any rock",
+    "text": "Four detrital zircon grains from quartzite at Mount Narryer, Western Australia, crystallized 4.1–4.2 billion years ago. Found in 1983 by ion microprobe, they were the first proof that crust existed on Earth before 3.8 billion years ago, long before the oldest surviving rocks. Grains this old later turned up far away too: 4,127 ± 4 million years at Longquan in southern China, and 3.96 billion in Montana's Beartooth Mountains.",
+    "sources": ["froude1983", "xing2014", "mueller1992"],
+    "tags": ["tectonics", "first", "record"],
+    "importance": 3,
+    "verified": true,
+    "notes": "Merged 2026-11-23: cathaysia-hadean-zircon (xing2014), beartooth-zircons (mueller1992)."
+  },
+  {
+    "id": "mars-magnetization-stops",
+    "t": -4122000000,
+    "t_err": 8000000,
+    "title": "Mars's crust stops recording a magnetic field: did its dynamo die?",
+    "text": "Large impact basins on Mars older than about 4.12 billion years (crater-count model age) hold re-magnetized crust; younger ones are demagnetized, and the switch took under 20 million years. One reading is that the martian dynamo died; others argue that a field persisted and the younger basins simply excavated less magnetic rock.",
+    "sources": ["lillis2008", "mittelholz2020"],
+    "tags": ["solar", "magnetic", "debated"],
+    "importance": 2,
+    "verified": true
+  },
+  {
+    "id": "hadean-zircon-inclusions-subduction",
+    "t": -4105000000,
+    "t_err": 85000000,
+    "title": "Mineral inclusions in Jack Hills zircons hint at Hadean subduction",
+    "text": "Mineral inclusions in Jack Hills zircons 4.02–4.19 billion years old show that their magmas formed at about 700 °C and 7 kbar. That implies low heat flow, three to five times below estimates for the Hadean Earth as a whole, as found today only above subduction zones; a sign, contested, that plates were already converging.",
+    "sources": ["hopkins2008"],
+    "tags": ["tectonics", "debated"],
+    "importance": 3,
+    "verified": true
+  },
+  {
     "id": "zircon-carbon-4100",
     "t": -4100000000,
     "title": "Possible traces of life in a 4.1-billion-year-old zircon",
@@ -234,6 +269,18 @@
     "tags": ["origin-of-life", "debated"],
     "importance": 3,
     "verified": true
+  },
+  {
+    "id": "alh84001-crystallizes",
+    "t": -4091000000,
+    "t_err": 30000000,
+    "title": "ALH84001: the oldest martian igneous rock, and the 1996 'life on Mars' claim",
+    "text": "The martian meteorite ALH84001 crystallized 4.091 ± 0.030 billion years ago (lutetium–hafnium age), during heavy bombardment and around the time Mars's magnetic field faded. Its magma came from the same deep mantle source that fed much younger shergottite lavas 150–570 million years ago. In 1996 a team argued that carbonate globules, organic molecules and tiny magnetite grains inside it could be fossil remains of martian microbes; they allowed that non-biological origins were possible, and the claim remains disputed.",
+    "sources": ["lapen2010", "mckay1996"],
+    "tags": ["solar", "record", "debated"],
+    "importance": 3,
+    "verified": true,
+    "notes": "Life claim from mckay1996 abstract (PAHs, carbonate globules, single-domain magnetite; 'inorganic formation is possible'), added 2026-11-23."
   },
   {
     "id": "mercury-resurfaced",
@@ -262,10 +309,21 @@
     "t": -4015000000,
     "t_err": 15000000,
     "title": "Acasta Gneiss: oldest known intact rocks",
-    "text": "Granite-like gneisses in northwestern Canada crystallized 4.00–4.03 billion years ago, the oldest dated whole rocks on Earth.",
-    "sources": ["bowring1999"],
+    "text": "Granite-like gneisses in northwestern Canada crystallized 4.00–4.03 billion years ago, the oldest dated whole rocks on Earth. First dated in 1989 at 3,962 million years, they were pushed past 4 billion a decade later. They were reheated again and again, near 3.75, 3.6 and 1.7 billion years ago.",
+    "sources": ["bowring1999", "bowring1989"],
     "tags": ["tectonics", "first"],
     "importance": 4,
+    "verified": true,
+    "notes": "Merged 2026-11-23: acasta-gneiss-3962 (bowring1989), acasta-reheated (bowring1999)."
+  },
+  {
+    "id": "saglek-graphite-life",
+    "t": -3950000000,
+    "title": "Life before 3.95 billion years ago? Light carbon in Labrador",
+    "text": "Graphite in metasediments of the Saglek Block, northern Labrador, is up to 25‰ lighter in carbon-13 than carbonate in the same rocks, which its discoverers read as a trace of life older than 3.95 billion years. Critics say field relations and zircon ages fail to show the sediments are that old; they may be far younger.",
+    "sources": ["tashiro2017", "whitehouse2019"],
+    "tags": ["origin-of-life", "debated"],
+    "importance": 3,
     "verified": true
   },
   {
@@ -285,7 +343,7 @@
     "span": [-4250000000, -3560000000],
     "title": "The Moon has a strong magnetic field",
     "text": "Apollo samples record a lunar core dynamo producing surface fields of several tens of microtesla from 4.25 to 3.56 billion years ago.",
-    "sources": ["mighani2020"],
+    "sources": ["mighani2020", "suavet2013"],
     "tags": ["moon", "magnetic"],
     "importance": 3,
     "verified": true
@@ -302,24 +360,25 @@
     "verified": true
   },
   {
-    "id": "spa-second-impact-3870",
-    "t": -3870000000,
-    "title": "Second impact recorded in far-side Moon samples",
-    "text": "Chang'e-6 norites record a second impact event 3.87 billion years ago, in the same interval as the great nearside basins.",
-    "sources": ["su2025"],
-    "tags": ["moon", "impact"],
-    "importance": 2,
-    "verified": true
-  },
-  {
     "id": "late-heavy-bombardment",
     "t": -3850000000,
     "span": [-4200000000, -3500000000],
     "title": "Late Heavy Bombardment: heavy impacts on the Moon and Earth",
-    "text": "Lunar impact-melt rocks and meteorite shock ages point to elevated impacts between about 4.2–4.0 and 3.5 billion years ago. Whether this was a sharp 'cataclysm' or the tail of a declining bombardment is debated; large impacts on Earth continued to about 2.5–2.0 billion years ago.",
-    "sources": ["bottke2017"],
+    "text": "Lunar impact-melt rocks and meteorite shock ages point to elevated impacts between about 4.2–4.0 and 3.5 billion years ago. Whether this was a sharp 'cataclysm' or the tail of a declining bombardment is debated; large impacts on Earth continued to about 2.5–2.0 billion years ago. Rocks from the Moon's far side, returned by Chang'e-6, record an impact 3.87 billion years ago, alongside the great nearside basins.",
+    "sources": ["bottke2017", "su2025"],
     "tags": ["impact", "moon", "debated"],
     "importance": 4,
+    "verified": true,
+    "notes": "Merged 2026-11-23: spa-second-impact-3870 (su2025)."
+  },
+  {
+    "id": "akilia-earliest-life-claim",
+    "t": -3825000000,
+    "title": "Akilia, Greenland: the 1996 'earliest life' claim",
+    "text": "In 1996 isotopically light carbon inside apatite grains from a banded rock on Akilia island was announced as life older than 3.8, possibly 3.85 billion years. The rock is at least 3,825 ± 6 million years old, but critics argued it is altered igneous rock, not sediment, and later found no graphite in the apatite at all.",
+    "sources": ["mojzsis1996", "manning2006", "lepland2005"],
+    "tags": ["origin-of-life", "debated"],
+    "importance": 3,
     "verified": true
   },
   {
@@ -333,6 +392,17 @@
     "verified": true
   },
   {
+    "id": "isua-forearc-sediments",
+    "t": -3705000000,
+    "t_err": 15000000,
+    "title": "Oldest known eroded sediments settle in a Greenland fore-arc",
+    "text": "The inner panels of the Isua belt formed 3.72–3.69 billion years ago. Their turbidites and muds, the oldest known detrital sediments, were eroded from basalt and tonalite and laid down over chemical sediments on boninite-like lava. One team reads this as a fore-arc basin above a young subduction zone; whether plate tectonics ran this early is disputed.",
+    "sources": ["boyd2024", "wiemer2018"],
+    "tags": ["tectonics", "ocean", "first", "debated"],
+    "importance": 3,
+    "verified": true
+  },
+  {
     "id": "gale-crater-lakes",
     "t": -3700000000,
     "t_err": 100000000,
@@ -340,6 +410,16 @@
     "text": "Layered sediment builds the great mound inside Gale crater 3.8–3.6 billion years ago. Streams, deltas and lakes deposit at least 75 metres of sediment in it, lasting intermittently for thousands to millions of years: evidence of a wetter early Mars, explored by the Curiosity rover.",
     "sources": ["thomson2011", "grotzinger2015"],
     "tags": ["solar", "climate", "impact"],
+    "importance": 3,
+    "verified": true
+  },
+  {
+    "id": "isua-magnetic-field",
+    "t": -3700000000,
+    "title": "Possible oldest record of Earth's magnetic field, in Isua iron formation",
+    "text": "Banded iron formation in northeast Isua, Greenland, may hold a magnetization acquired 3.7 billion years ago, recording a field stronger than 15 µT; a fold test using folding 3.6 billion years ago supports it. A field this weak may have let more of the atmosphere escape.",
+    "sources": ["nichols2024"],
+    "tags": ["magnetic", "debated"],
     "importance": 3,
     "verified": true
   },
@@ -360,6 +440,50 @@
     "text": "Magnetized lava flows at Lucus Planum show a Martian core dynamo was active 3.7 billion years ago, as it was 4.5 billion years ago. The giant basins formed in between are unmagnetized, so when and how the field died is debated.",
     "sources": ["mittelholz2020"],
     "tags": ["solar", "magnetic", "debated"],
+    "importance": 3,
+    "verified": true
+  },
+  {
+    "id": "isua-terranes-collide",
+    "t": -3670000000,
+    "t_err": 10000000,
+    "title": "Two Greenland terranes collide: crust thickens as in a modern collision",
+    "text": "Near Isua in southwest Greenland, a block of crust about 3.7 billion years old was pushed against one about 3.8 billion years old between 3.68 and 3.66 billion years ago. A rare high-pressure granulite of about 3.66 billion years shows the crust was thickened. The authors see convergent plate boundaries; others argue the early Archean mantle was too hot for rigid plates (debated). The thickened crust was then heated, stretched and invaded by granites until 3.60 billion years ago (the Isukasian orogeny).",
+    "sources": ["nutman2013", "wiemer2018"],
+    "tags": ["tectonics", "debated"],
+    "importance": 3,
+    "verified": true,
+    "notes": "Merged 2026-11-23: isukasian-orogeny (nutman2013)."
+  },
+  {
+    "id": "ancient-gneiss-complex",
+    "t": -3660000000,
+    "title": "Eswatini's oldest rocks: new continent made by remelting older crust",
+    "text": "The oldest grey gneisses of the Ancient Gneiss Complex in Eswatini (Swaziland) formed 3.66 billion years ago by remelting older crust, perhaps Late Hadean: their hafnium model ages are 3.77 to 4.08 billion years. New crust from the mantle followed between 3.54 and 3.32 billion years ago.",
+    "sources": ["zeh2011", "schoene2009"],
+    "tags": ["tectonics"],
+    "importance": 2,
+    "verified": true
+  },
+  {
+    "id": "mars-deuteronilus-ocean",
+    "t": -3600000000,
+    "title": "An ocean on Mars? The Deuteronilus contact",
+    "text": "A sharp boundary traced for thousands of kilometres across Mars's northern plains has surfaces with crater-count ages near 3.6 billion years. Its shape fits neither lava nor ice, and the authors read it as the shore of a water or mud ocean (debated).",
+    "sources": ["ivanov2017"],
+    "tags": ["solar", "ocean", "debated"],
+    "importance": 3,
+    "verified": false,
+    "notes": "Age and claim from a web-search summary of the abstract; abstract not retrievable (Elsevier 403). See verification-backlog.md."
+  },
+  {
+    "id": "pilbara-crustal-overturn",
+    "t": -3506500000,
+    "span": [-3600000000, -3413000000],
+    "title": "East Pilbara: granite domes rise through sinking lavas",
+    "text": "In Western Australia's East Pilbara, granitoids intruded from about 3.60 to 3.46 billion years ago and rose through denser lavas above them in gravitational overturns; the last ended about 3.413 billion years ago. The crust grew in cycles of about 100 million years before it was rigid enough for plate-like behaviour.",
+    "sources": ["wiemer2018"],
+    "tags": ["tectonics", "debated"],
     "importance": 3,
     "verified": true
   },
@@ -418,7 +542,7 @@
     "text": "Rocks from South Africa's Kaapvaal craton record a geodynamo 3.45–3.4 billion years ago. With the stronger solar wind of the young Sun, the magnetosphere reached only about half its present distance.",
     "sources": ["tarduno2010"],
     "tags": ["magnetic", "first"],
-    "importance": 3,
+    "importance": 4,
     "verified": true
   },
   {
@@ -466,6 +590,7 @@
     "text": "Molecular clocks place the common ancestors of all living bacteria and of all living archaea after 3.4 billion years ago, long after LUCA. The oldest fossil traces of life therefore belong to extinct early branches of these lineages.",
     "sources": ["betts2018"],
     "tags": ["microbes", "origin-of-life", "debated"],
+    "importance": 4,
     "verified": true
   },
   {
@@ -492,47 +617,30 @@
     "text": "Shallow coastal sediments in Barberton's Josefsdal Chert preserve a whole community: photosynthetic mats spread over the surface while chemical-eating microbes lived on volcanic grains and fed on hydrothermal fluids seeping up through the same sediment. Like the older Buck Reef mats, they thrived without oxygen.",
     "sources": ["westall2015"],
     "tags": ["microbes", "ecosystem"],
-    "importance": 3,
+    "importance": 2,
     "verified": true
   },
   {
     "id": "impacts-boil-oceans",
     "t": -3290000000,
     "title": "Giant impacts boil the ocean surface",
-    "text": "Rocks in the Barberton belt record two giant asteroid impacts, 3.29 and 3.23 billion years ago, that heated the atmosphere, boiled the ocean surface and evaporated tens of metres to perhaps 100 m of seawater.",
-    "sources": ["lowe2015"],
+    "text": "Spherule beds record at least 16 major Archean impacts by bodies over 10 km across. In South Africa's Barberton belt, giants of 3.29 and 3.23 billion years ago heated the atmosphere, boiled the ocean surface and evaporated tens of metres to perhaps 100 m of seawater. Another, S2, about 3.26 billion years ago, raised a tsunami and mixed iron-rich deep water upward; microbial life recovered quickly.",
+    "sources": ["lowe2015", "drabon2024"],
     "tags": ["impact", "ocean", "curiosity"],
     "importance": 3,
-    "verified": true
-  },
-  {
-    "id": "archean-impact-s2",
-    "t": -3260000000,
-    "title": "Giant S2 impact boils the upper ocean",
-    "text": "One of at least 16 major Archean impacts by bodies over 10 km across, recorded by spherule beds in South Africa's Barberton belt. It raised a global tsunami, boiled the upper ocean and mixed iron-rich deep water upward; microbial life recovered quickly.",
-    "sources": ["drabon2024", "lowe2015"],
-    "tags": ["impact", "ocean", "curiosity"],
-    "importance": 3,
-    "verified": true
+    "verified": true,
+    "notes": "Merged 2026-11-23: archean-impact-s2 (drabon2024)."
   },
   {
     "id": "moodies-land-mats",
     "t": -3220000000,
     "title": "Life on land: microbial mats along Moodies rivers",
-    "text": "Fossil microbial mats drape river gravels of the Moodies Group, South Africa: the oldest direct evidence of life on land. Their carbon and nitrogen isotopes differ from those of mats in nearby tidal flats, so land communities already cycled nutrients their own way.",
-    "sources": ["homann2018"],
+    "text": "Fossil microbial mats drape river gravels of the Moodies Group, South Africa: the oldest direct evidence of life on land. Their carbon and nitrogen isotopes differ from those of mats in nearby tidal flats, so land communities already cycled nutrients their own way. Shales of the same age hold unusually large organic-walled microfossils that survive tests for a non-biological origin.",
+    "sources": ["homann2018", "javaux2010"],
     "tags": ["microbes", "ecosystem", "first"],
     "importance": 4,
-    "verified": true
-  },
-  {
-    "id": "moodies-microfossils",
-    "t": -3200000000,
-    "title": "Large organic-walled microfossils in Moodies shales",
-    "text": "Relatively large carbon-walled spheres in 3.2-billion-year-old shallow-marine shales and siltstones of South Africa survive tests for a non-biological origin. They appear to be microfossils of big microorganisms living beside microbial mats in sunlit shallows.",
-    "sources": ["javaux2010"],
-    "tags": ["microbes", "debated"],
-    "verified": true
+    "verified": true,
+    "notes": "Merged 2026-11-23: moodies-microfossils (javaux2010)."
   },
   {
     "id": "nitrogen-fixation",
@@ -548,12 +656,18 @@
     "id": "pilbara-nucleus-rifts",
     "t": -3185000000,
     "t_err": 15000000,
-    "title": "The Pilbara's old core becomes a stable continent, then rifts at its edges",
-    "text": "Three bursts of mantle-plume volcanism between 3.53 and 3.24 billion years ago left the East Pilbara (Western Australia) on a thick, drained mantle root. By about 3.2 billion years ago it was a buoyant continent that could not be subducted. Between 3.2 and 3.17 billion years ago its margins were stretched and rifted apart.",
-    "sources": ["vankranendonk2007"],
+    "title": "The Pilbara becomes one of the first stable continents",
+    "text": "Three bursts of mantle-plume volcanism between 3.53 and 3.24 billion years ago left the East Pilbara (Western Australia) on a thick, drained mantle root. By about 3.2 billion years ago it was a buoyant continent that could not be subducted, and its margins were stretched and rifted. Between 3,070 and 3,050 million years ago three younger slices of crust, the West Pilbara terranes, were pushed onto it.",
+    "sources": ["vankranendonk2007", "kiyokawa2019"],
     "tags": ["tectonics"],
-    "importance": 2,
-    "verified": true
+    "importance": 3,
+    "art": {
+      "file": "line/pilbara-map.svg",
+      "caption": "Pilbara craton today. The old East Pilbara core lies around Marble Bar; the younger West Pilbara terranes, around Karratha, joined it about 3.07 billion years ago.",
+      "sources": ["vankranendonk2007"]
+    },
+    "verified": true,
+    "notes": "Merged 2026-11-23: prinsep-orogeny (vankranendonk2007, kiyokawa2019) with its map; cleaverville-iron-formation cut."
   },
   {
     "id": "faint-young-sun-paradox",
@@ -564,6 +678,7 @@
     "text": "The young Sun shines about 25% dimmer than today; with today's air, Earth would be frozen for its first 2 billion years. Yet Archean rocks show liquid water and life. Extra greenhouse gases such as carbon dioxide or methane are the usual answer, but none fits all the evidence and the puzzle is unsolved.",
     "sources": ["feulner2012", "gough1981"],
     "tags": ["climate", "solar", "debated"],
+    "importance": 4,
     "verified": true
   },
   {
@@ -574,17 +689,25 @@
     "text": "In the Pilbara, a 10-km-thick pile of 3.12-billion-year-old lavas, the Whundo Group, has the chemistry of a modern oceanic island arc, down to boninites, a rare lava of subduction zones. Many read it as early subduction. A 2026 study proposes 'dripduction' instead: short-lived sinking of wet lithosphere, without lasting plate boundaries.",
     "sources": ["vankranendonk2007", "smithies2005", "vandenburg2026"],
     "tags": ["tectonics", "volcanic", "debated"],
+    "importance": 2,
     "verified": true
   },
   {
     "id": "kaapvaal-craton-stable",
     "t": -3100000000,
     "t_err": 20000000,
-    "title": "Kaapvaal settles into a craton",
-    "text": "After about 3.2 billion years ago the eastern Kaapvaal (South Africa) stopped growing by new melt from the mantle. Its granites of about 3.1 billion years ago formed by remelting older crust, a sign that the block had become a stable craton.",
-    "sources": ["schoene2009", "moyen2024"],
+    "title": "Kaapvaal becomes a stable continent, and soon starts to rift",
+    "text": "After about 3.2 billion years ago the eastern Kaapvaal (South Africa) stopped growing by new melt from the mantle. Its granites of about 3.1 billion years ago formed by remelting older crust, a sign that the block had become a stable craton. By 3,074 ± 5 million years ago it was already being pulled apart: more than 2 km of lavas and ash of the Dominion Group erupted on land in a rift inside the craton, the oldest known, but the rift failed.",
+    "sources": ["schoene2009", "moyen2024", "agangi2020"],
     "tags": ["tectonics"],
-    "verified": true
+    "importance": 3,
+    "art": {
+      "file": "line/kaapvaal-dominion-map.svg",
+      "caption": "Kaapvaal craton today. The Barberton greenstone belt is part of the craton's oldest core; the Dominion Group rift lavas lie about 450 km to the west.",
+      "sources": ["agangi2020", "schoene2009"]
+    },
+    "verified": true,
+    "notes": "Merged 2026-11-23: dominion-group-volcanism (agangi2020) with its map."
   },
   {
     "id": "archaean-genetic-expansion",
@@ -594,49 +717,9 @@
     "text": "Mapping the histories of 3,983 gene families onto geological time suggests that a short burst of innovation, while bacterial lineages rapidly diversified, created 27% of today's major gene families. Many of the new genes run electron-transport and respiratory chains; later genes increasingly use oxygen. The window, roughly 3.33–2.85 billion years ago, rests on molecular-clock dating.",
     "sources": ["david2010"],
     "tags": ["microbes", "innovation", "debated"],
+    "importance": 3,
     "verified": false,
     "notes": "Abstract confirms 3,983 families, 27%, electron transport/respiration, later O2 use; the 3.33-2.85 Ga window is from the paper body, not checked (green OA copy hdl.handle.net/1721.1/61263 refused automated download)."
-  },
-  {
-    "id": "cleaverville-iron-formation",
-    "t": -3087000000,
-    "t_err": 27000000,
-    "title": "Cleaverville: banded iron on a Pilbara seafloor",
-    "text": "Black shale and banded iron formation of the Cleaverville Formation, now on the coast of Western Australia, settled on the seafloor between 3,114 and 3,060 million years ago, at least 40–90 million years earlier than once thought. Soon after, the Prinsep Orogeny folded them.",
-    "sources": ["kiyokawa2019"],
-    "tags": ["ocean"],
-    "importance": 2,
-    "verified": true
-  },
-  {
-    "id": "dominion-group-volcanism",
-    "t": -3074000000,
-    "t_err": 5000000,
-    "title": "Dominion Group: the first rift lavas inside the Kaapvaal continent",
-    "text": "More than 2 km of lavas and ash erupted on land 3,074 ± 5 million years ago in the Dominion Group (South Africa), the oldest known volcanism from a rift inside the Kaapvaal craton. The continent began to pull apart soon after it had stabilised, but the rift failed.",
-    "sources": ["agangi2020"],
-    "tags": ["volcanic", "tectonics", "first"],
-    "art": {
-      "file": "line/kaapvaal-dominion-map.svg",
-      "caption": "Dominion Group and Barberton today. The Dominion lavas lie about 450 km west of the Barberton greenstone belt, part of the craton's oldest core.",
-      "sources": ["agangi2020", "schoene2009"]
-    },
-    "verified": true
-  },
-  {
-    "id": "prinsep-orogeny",
-    "t": -3060000000,
-    "t_err": 10000000,
-    "title": "Prinsep Orogeny: West Pilbara terranes collide with the East Pilbara",
-    "text": "Three slices of crust, the Sholl (3.12 billion years old), Karratha (3.27) and Regal (about 3.2) terranes, were pushed together and onto the older East Pilbara between 3,070 and 3,050 million years ago. The collision folded the Cleaverville seafloor rocks; afterwards the region sagged into the De Grey basin (3.02–2.93 billion years ago).",
-    "sources": ["vankranendonk2007", "kiyokawa2019"],
-    "tags": ["tectonics"],
-    "art": {
-      "file": "line/pilbara-map.svg",
-      "caption": "Pilbara craton today. The West Pilbara terranes, around Karratha, joined the older East Pilbara, around Marble Bar, about 3.07 billion years ago.",
-      "sources": ["vankranendonk2007"]
-    },
-    "verified": true
   },
   {
     "id": "maniitsoq-impact-claim",
@@ -646,6 +729,7 @@
     "text": "In 2012 a structure around Maniitsoq, West Greenland, was proposed as the scar of a giant impact about 3 billion years ago, which would make it Earth's oldest known impact structure; zircons reset 3,000.9 ± 1.9 million years ago gave its minimum age. A 2021 survey of 5,587 zircons found no impact signs: the rocks, including norites intruded 3,013–3,001 million years ago, have ordinary explanations.",
     "sources": ["garde2012", "schersten2013", "yakymchuk2021", "waterton2020"],
     "tags": ["impact", "debated", "curiosity"],
+    "importance": 2,
     "art": {
       "file": "line/maniitsoq-map.svg",
       "caption": "Maniitsoq, West Greenland, today. The proposed impact structure lay in this region; a 2021 study found no evidence of an impact.",
@@ -723,11 +807,11 @@
     "id": "klipriviersberg-flood-basalts",
     "t": -2789000000,
     "t_err": 4000000,
-    "title": "Klipriviersberg flood basalts bury the Witwatersrand",
+    "title": "Ventersdorp flood basalts begin, sealing in the Witwatersrand gold",
     "text": "Floods of basalt lava spread over South Africa's Kaapvaal craton, the first pulse of the Ventersdorp large igneous province. Their feeder sills, dated to 2,789 ± 4 and 2,787 ± 2 million years, cut the gold-bearing Witwatersrand rocks, so the gold is at least this old.",
     "sources": ["gumsley2020"],
     "tags": ["volcanic"],
-    "importance": 3,
+    "importance": 2,
     "verified": true,
     "notes": "U-Pb ID-TIMS baddeleyite ages on mafic sills interpreted as feeders to Klipriviersberg Group flood basalts. Platberg pulse 2729/2724 Ma (same paper) not added (low priority)."
   },
@@ -754,18 +838,6 @@
     "importance": 4,
     "verified": true,
     "notes": "Succession dated c. 2775-2715 Ma; t = midpoint, t_err = half range. Exact age of the reversed interval within it not given in the abstract."
-  },
-  {
-    "id": "tumbiana-modern-bacteria",
-    "t": -2724000000,
-    "t_err": 5000000,
-    "title": "Living bacteria found inside 2.7-billion-year-old stromatolites",
-    "text": "Fresh drill cores through the Tumbiana stromatolites of Western Australia turned out to host living modern bacteria deep in the rock. They are a warning that traces of life in very old rocks may have arrived much later.",
-    "sources": ["gerard2009"],
-    "tags": ["microbes", "curiosity"],
-    "importance": 2,
-    "verified": true,
-    "notes": "gerard2009 abstract: 2,724 Myr-old stromatolites, Tumbiana Formation; indigenous living bacteria in fresh diamond drillcores. t_err is a rounding allowance."
   },
   {
     "id": "tumbiana-lake-stromatolites",
@@ -826,10 +898,12 @@
     "t": -2630000000,
     "t_err": 6000000,
     "title": "Jeerinah impact: ejecta spread over two continents",
-    "text": "A large asteroid hit a partly continental target. Its melt droplets, iridium and the oldest known shocked quartz in distant ejecta form a millimetre-thin layer in Pilbara shale, likely the same layer as in Carawine (Australia) and Monteville (South Africa). It is the first of at least three impacts recorded between 2.63 and 2.49 billion years ago.",
+    "text": "A large asteroid hit a partly continental target. Its melt droplets, iridium and the oldest known shocked quartz in distant ejecta form a millimetre-thin layer in Pilbara shale, likely the same layer as in Carawine (Australia) and Monteville (South Africa). It is the first of at least three impacts recorded between 2.63 and 2.49 billion years ago. The second left a spherule layer in the Wittenoom Formation, below an ash bed dated 2,504 million years.",
     "sources": ["rasmussen2004", "rasmussen2005"],
     "tags": ["impact"],
-    "verified": true
+    "importance": 3,
+    "verified": true,
+    "notes": "Merged 2026-11-23: wittenoom-impact (rasmussen2005)."
   },
   {
     "id": "archean-supercratons",
@@ -838,6 +912,7 @@
     "text": "About 35 large pieces of Archean crust survive, most with rifted edges: fragments of bigger landmasses. One view joins them all in a single supercontinent, Kenorland. Another sees separate supercratons with their own histories: Superia (Superior), Vaalbara (Kaapvaal) and Sclavia (Slave craton), assembled by about 2.6 billion years ago.",
     "sources": ["bleeker2003"],
     "tags": ["supercontinent", "tectonics", "debated"],
+    "importance": 3,
     "verified": true
   },
   {
@@ -852,13 +927,35 @@
     "verified": true
   },
   {
-    "id": "wittenoom-impact",
-    "t": -2530000000,
-    "t_err": 30000000,
-    "title": "A second great impact rains spherules on the Hamersley sea",
-    "text": "A layer of once-molten droplets in the Wittenoom Formation of Western Australia records the second of three large impacts that struck between 2.63 and 2.48 billion years ago. A volcanic ash bed just below the later Dales Gorge layer, dated 2,504 million years, brackets its age.",
-    "sources": ["rasmussen2005"],
-    "tags": ["impact"],
+    "id": "great-dyke-zimbabwe",
+    "t": -2574000000,
+    "t_err": 2000000,
+    "title": "The Great Dyke slices across Zimbabwe",
+    "text": "Magma fills a crack about 550 km long and up to 11 km wide across the Zimbabwe craton, together with two satellite dykes, all within a few million years of 2574 Ma. Its layered rocks hold the world's second-largest platinum resource, after the Bushveld Complex.",
+    "sources": ["wingate2000", "oberthur2013"],
+    "tags": ["volcanic", "record"],
+    "importance": 3,
+    "verified": false
+  },
+  {
+    "id": "campbellrand-platform",
+    "t": -2540000000,
+    "span": [-2560000000, -2520000000],
+    "title": "A vast carbonate platform grows on the Kaapvaal craton",
+    "text": "The Campbellrand–Malmani platform of South Africa builds up largely from crystals that grew straight on the seafloor: aragonite fans and calcite crusts up to decimetres thick. Seawater must have been supersaturated in calcium carbonate, unlike any younger ocean.",
+    "sources": ["sumner2004"],
+    "tags": ["ocean"],
+    "importance": 3,
+    "verified": true
+  },
+  {
+    "id": "gamohaan-sulfur-bacteria",
+    "t": -2520000000,
+    "title": "Giant sulfur bacteria fossilized in deep-water chert",
+    "text": "Black chert of the Gamohaan Formation, South Africa, holds unusually large spherical microfossils, 20–265 µm across. Their size, setting and sulfur isotopes suggest sulfur-oxidizing bacteria like the modern _Thiomargarita_: the oldest reported fossil sulfur bacteria.",
+    "sources": ["czaja2016"],
+    "tags": ["microbes", "record"],
+    "importance": 2,
     "verified": true
   },
   {
@@ -876,11 +973,12 @@
     "id": "banded-iron-peak",
     "t": -2500000000,
     "title": "Banded iron formations at their peak",
-    "text": "Huge banded iron formations, the source of much of the world's iron ore, are laid down in iron-rich, oxygen-poor seas around the end of the Archean.",
-    "sources": ["bekker2010"],
+    "text": "Huge banded iron formations, the source of much of the world's iron ore, are laid down in iron-rich, oxygen-poor seas around the end of the Archean. In Western Australia the Hamersley Group's run of banded iron begins with the 230 m Marra Mamba Iron Formation, its top dated 2,597 ± 5 million years.",
+    "sources": ["bekker2010", "trendall1998"],
     "tags": ["ocean"],
     "importance": 3,
-    "verified": true
+    "verified": true,
+    "notes": "Merged 2026-11-23: marra-mamba-iron-formation (trendall1998)."
   },
   {
     "id": "dales-gorge-kuruman-impact",
@@ -890,6 +988,7 @@
     "text": "Spherule layers in the Dales Gorge (Australia) and Kuruman (South Africa) banded iron formations, laid down at the same time, both carry meteoritic iridium: likely one impact. The rocks above show no lasting change, so even large impacts did not always reset the surface environment.",
     "sources": ["simonson2015", "rasmussen2005"],
     "tags": ["impact", "ocean"],
+    "importance": 3,
     "verified": true
   },
   {
@@ -909,6 +1008,7 @@
     "text": "Rifting of the Superior craton's ancestral landmass starts about 2.45 billion years ago; Sclavia holds together until after 2.23 billion. The freed cratons drift alone for some 200 million years before joining Laurentia, the core of North America, 2.0–1.8 billion years ago.",
     "sources": ["bleeker2003"],
     "tags": ["supercontinent", "tectonics"],
+    "importance": 3,
     "verified": true
   },
   {
@@ -922,6 +1022,26 @@
     "verified": true
   },
   {
+    "id": "hotazel-manganese",
+    "t": -2400000000,
+    "title": "Kalahari manganese: the largest deposit on land",
+    "text": "Around 2.4 billion years ago, iron and manganese layers build up on the seafloor of the Kaapvaal craton in South Africa: the Hotazel Formation, the oldest large chemical manganese deposit and the biggest land-based one on Earth. Metals from hydrothermal plumes were oxidized, mostly with the help of microbes, near the start of the Great Oxidation.",
+    "sources": ["smith2026"],
+    "tags": ["ocean", "record"],
+    "importance": 3,
+    "verified": true
+  },
+  {
+    "id": "ongeluk-fungus-like-fossils",
+    "t": -2400000000,
+    "title": "Fungus-like threads inside 2.4-billion-year-old lava",
+    "text": "Gas bubbles in Ongeluk basalt from South Africa hold branching, tangled filaments like the fungal mycelia found in younger volcanic rock under the sea. If they are fungi, the group is two to three times older than thought and began in the deep biosphere, not on land; they may instead be an unknown fungus-like branch.",
+    "sources": ["bengtson2017fungi"],
+    "tags": ["microbes", "debated"],
+    "importance": 2,
+    "verified": true
+  },
+  {
     "id": "ozone-shield",
     "t": -2400000000,
     "t_err": 80000000,
@@ -929,19 +1049,56 @@
     "text": "Once oxygen passes about 1/100,000 of today's level, ozone begins to shield the lower air from ultraviolet light, so oxygen lasts longer and builds up faster. A model shows this feedback can flip the atmosphere from a low-oxygen state to a high one: a possible switch behind the Great Oxidation.",
     "sources": ["goldblatt2006"],
     "tags": ["atmosphere", "first"],
+    "importance": 4,
     "verified": true,
     "notes": "goldblatt2006 dates the Great Oxidation 'approximately 2.4 billion years ago'; the book's GOE entry is 2.32 Ga (bekker2004)."
+  },
+  {
+    "id": "arrowsmith-orogeny",
+    "t": -2380000000,
+    "t_err": 10000000,
+    "title": "Arrowsmith orogeny: mountain-building in a quiet age",
+    "text": "On the northwest margin of the Rae craton in northern Canada, a long-lived collision belt (2.5–2.3 billion years old) melts deep crust around 2.38 billion years ago; granites keep forming until 2.31 billion. It is one of the few records of mountain-building during the global magmatic lull.",
+    "sources": ["neil2025", "partin2023"],
+    "tags": ["mountains", "tectonics"],
+    "importance": 2,
+    "verified": true
+  },
+  {
+    "id": "dharwar-giant-dyke-swarm",
+    "t": -2367000000,
+    "t_err": 3000000,
+    "title": "A giant fan of dykes spreads across southern India",
+    "text": "Within about 5 million years, around 2,367 million years ago, magma fills cracks over 140,000 km² of the Dharwar craton. The dykes fan out through 40° from a focal point some 300 km to the west, likely above the head of a mantle plume.",
+    "sources": ["kumar2012"],
+    "tags": ["volcanic", "tectonics"],
+    "importance": 2,
+    "verified": true
   },
   {
     "id": "huronian-glaciation",
     "t": -2330000000,
     "span": [-2450000000, -2210000000],
     "title": "Huronian glaciations: the first great ice ages",
-    "text": "Repeated glaciations spread ice to low latitudes as oxygen rises and methane falls during the Great Oxidation Event.",
-    "sources": ["young2013", "gumsley2017"],
+    "text": "Repeated glaciations spread ice to low latitudes as oxygen rises and methane falls during the Great Oxidation Event. Volcanic ash in Ontario's Cobalt Group, which holds the third and youngest glacial unit, dates to about 2,310 million years ago.",
+    "sources": ["young2013", "gumsley2017", "rasmussen2024"],
     "tags": ["glaciation", "first"],
     "importance": 4,
-    "verified": true
+    "verified": true,
+    "notes": "Merged 2026-11-23: gordon-lake-ash (rasmussen2024)."
+  },
+  {
+    "id": "tectono-magmatic-lull",
+    "t": -2325000000,
+    "span": [-2450000000, -2200000000],
+    "mention": ["mid"],
+    "title": "A quiet Earth? The great magmatic lull",
+    "text": "Zircon ages suggest that volcanism and crust-building slowed sharply from about 2.45 billion years ago for 200–250 million years: few new island arcs, little new crust, a gap in banded iron. One idea is that plate motions largely stalled. Busy belts in Canada and China, such as a volcanic arc at Xiong'ershan 2.33–2.27 billion years ago, question how quiet it really was.",
+    "sources": ["condie2009", "neil2025", "spencer2018", "liu2024"],
+    "tags": ["tectonics", "volcanic", "debated"],
+    "importance": 2,
+    "verified": true,
+    "notes": "Merged 2026-11-23: xiongershan-arc (liu2024)."
   },
   {
     "id": "great-oxidation",
@@ -953,6 +1110,31 @@
     "tags": ["atmosphere", "cycles", "microbes"],
     "importance": 5,
     "verified": true
+  },
+  {
+    "id": "oxygen-oscillations",
+    "t": -2270000000,
+    "span": [-2320000000, -2220000000],
+    "mention": ["mid"],
+    "title": "Oxygen rises and falls for 100 million more years",
+    "text": "After 2.32 billion years ago, sulfur and iron records from South Africa show air oxygen still swinging above and below a trace level with each change in ocean chemistry and climate. It stays up for good only around 2.22 billion years ago.",
+    "sources": ["poulton2021", "gumsley2017"],
+    "tags": ["atmosphere", "climate", "debated"],
+    "importance": 3,
+    "verified": true,
+    "notes": "poulton2021: oscillations across 1e-5 PAL for ~200 Myr (from ~2.43 Ga), permanent ~2.22 Ga with Lomagundi. gumsley2017: oscillations until <=2,250-2,240 Ma. Dig 452-468."
+  },
+  {
+    "id": "malley-dykes",
+    "t": -2231000000,
+    "t_err": 2000000,
+    "title": "Malley dykes cut the Slave craton",
+    "text": "Diabase dykes cut the Slave craton of northern Canada 2,231 million years ago. Their magnetism shows the Slave and Superior cratons were probably not parts of one supercontinent at this time; Sclavia, the Slave's ancestral landmass, breaks up only after 2.23 billion years ago.",
+    "sources": ["buchan2012", "bleeker2003"],
+    "tags": ["volcanic", "supercontinent", "magnetic"],
+    "importance": 2,
+    "verified": true,
+    "notes": "buchan2012 abstract: 2231 ± 2 Ma, U-Pb baddeleyite; Slave and Superior not drifting together 2.23-2.03 Ga. bleeker2003 verification: Sclavia did not break up before 2.23 Ga, break-up 2.2-2.0 Ga. Dig 452-468."
   },
   {
     "id": "yarrabubba-impact",
@@ -972,7 +1154,7 @@
     "text": "Once 2.7-billion-year-old molecular fossils were shown to be contamination, the oldest fossil evidence of cyanobacteria, the oxygen makers, reverted to about 2.15 billion years ago.",
     "sources": ["rasmussen2008"],
     "tags": ["microbes", "first", "debated"],
-    "importance": 2,
+    "importance": 3,
     "verified": true
   },
   {
@@ -1004,6 +1186,7 @@
     "text": "A vast body of magma crystallizes in layers beneath the Kaapvaal craton of South Africa, alongside magmatism across the northern craton and Botswana. Its Merensky Reef and other layers hold most of the world's known platinum-group metals, chromium and vanadium.",
     "sources": ["scoates2008"],
     "tags": ["volcanic", "record"],
+    "importance": 3,
     "verified": true
   },
   {
@@ -1025,8 +1208,51 @@
     "text": "An asteroid strikes what is now South Africa. Zircons shock-metamorphosed and melted by the impact date the Vredefort structure to 2,023 million years ago.",
     "sources": ["kamo1996"],
     "tags": ["impact"],
+    "importance": 4,
+    "verified": true
+  },
+  {
+    "id": "purtuniq-ophiolite",
+    "t": -1998000000,
+    "title": "Purtuniq ophiolite: a slice of 2-billion-year-old ocean floor",
+    "text": "Thrust sheets in the Cape Smith belt of northern Quebec preserve pillow lavas, sheeted dykes and gabbros of oceanic crust formed at a spreading ridge about 1,998 million years ago. With a younger, Hawaii-like suite on top, the section is more than 9 km thick: ancient ridge crust was at least as thick as today's.",
+    "sources": ["scott1992"],
+    "tags": ["tectonics", "ocean"],
     "importance": 3,
     "verified": true
+  },
+  {
+    "id": "first-phosphorites",
+    "t": -1971000000,
+    "t_err": 7000000,
+    "title": "Earliest phosphorite deposits",
+    "text": "The oldest known phosphorus-rich sediments formed in the Zaonega Formation of Karelia about 2 billion years ago, some 300 million years after oxygen first built up in the air. Phosphatized microfossils resembling sulphur bacteria suggest that microbes helped precipitate the phosphate, as they do at modern seeps and upwelling zones.",
+    "sources": ["lepland2014", "martin2015"],
+    "tags": ["cycles", "microbes", "first"],
+    "importance": 3,
+    "verified": true
+  },
+  {
+    "id": "zaonega-shungite",
+    "t": -1971000000,
+    "t_err": 7000000,
+    "title": "Karelia's Zaonega sea buries carbon, later cooked into shungite",
+    "text": "In the Onega Basin of Russian Karelia, muds rich in organic carbon piled up between about 1,975 and 1,968 million years ago, alongside lava flows. Heat later turned the organic matter into petroleum and then into shungite, a black rock of almost pure carbon: the remains of a 2-billion-year-old oil field.",
+    "sources": ["martin2015", "melezhik1999"],
+    "tags": ["cycles", "ocean", "curiosity"],
+    "importance": 3,
+    "verified": false
+  },
+  {
+    "id": "glenburgh-orogeny",
+    "t": -1957500000,
+    "t_err": 7500000,
+    "title": "Glenburgh Orogeny: the Yilgarn Craton collides with the Pilbara",
+    "text": "An ocean closed and the Yilgarn Craton collided with the Pilbara Craton and the Glenburgh Terrane between about 1,965 and 1,950 million years ago. The collision completed the West Australian Craton.",
+    "sources": ["johnson2011"],
+    "tags": ["tectonics"],
+    "importance": 2,
+    "verified": false
   },
   {
     "id": "columbia-nuna",
@@ -1037,6 +1263,27 @@
     "sources": ["zhao2002"],
     "tags": ["supercontinent", "tectonics"],
     "importance": 4,
+    "verified": true
+  },
+  {
+    "id": "jormua-ophiolite",
+    "t": -1950000000,
+    "title": "Jormua ophiolite: a Red Sea–style ocean opens in Finland",
+    "text": "In northeastern Finland, the Jormua ophiolite preserves a fragment of oceanic crust formed about 1,950 million years ago as a continent rifted apart, like the young Red Sea today. Its basalts show no sign of a subduction-related origin.",
+    "sources": ["peltonen1996"],
+    "tags": ["tectonics", "ocean"],
+    "importance": 3,
+    "verified": true
+  },
+  {
+    "id": "snowbird-eclogites",
+    "t": -1904000000,
+    "t_err": 300000,
+    "title": "Snowbird eclogites: continental crust pulled down to mantle depths",
+    "text": "In northern Saskatchewan, eclogites record rock squeezed at pressures of at least 1.8–2.0 GPa and heated to 920–1,000 °C; zircon dates this peak to 1,904.0 ± 0.3 million years ago. They show continental crust subducted deep into the mantle, then rising back quickly because it was buoyant.",
+    "sources": ["baldwin2004"],
+    "tags": ["tectonics"],
+    "importance": 3,
     "verified": true
   },
   {
@@ -1083,6 +1330,53 @@
     "verified": true
   },
   {
+    "id": "avanavero-lip",
+    "t": -1794000000,
+    "t_err": 2000000,
+    "title": "Avanavero dolerites flood the Guiana Shield",
+    "text": "Sills and dykes of dolerite, the Avanavero large igneous province, intrude the Guiana Shield of northern South America, some into the sedimentary rocks of the Roraima Supergroup. Baddeleyite crystals date them to 1,795 ± 2 and 1,793 ± 1 million years. Their magnetism suggests Amazonia lay next to Laurentia and Baltica, perhaps at the core of the supercontinent Columbia.",
+    "sources": ["reis2013"],
+    "tags": ["volcanic", "supercontinent"],
+    "importance": 2,
+    "verified": true,
+    "notes": "reis2013 abstract (via ISC index page): U-Pb ID-TIMS baddeleyite 1795 ± 2 and 1793 ± 1 Ma (Pakaraima, Urupi blocks), Guyana dyke 1794 ± 4 Ma; some intrude Roraima Supergroup and Urupi Fm; palaeomagnetism supports Laurentia/Baltica/Amazonia link at 1.79 Ga, possibly core of Columbia. Dig 556-568."
+  },
+  {
+    "id": "xionger-lip",
+    "t": -1780000000,
+    "title": "The Xiong'er lavas and a giant dyke swarm flood North China",
+    "text": "Along the southern edge of the North China craton, 3–7 km of lava, from basalt to rhyolite, piles up over more than 60,000 km², while a swarm of dykes cuts across more than 100,000 km² of the craton's interior. Together they form a large igneous province 1.78 billion years old, which its describers attribute to a mantle plume.",
+    "sources": ["peng2008"],
+    "tags": ["volcanic", "tectonics"],
+    "importance": 2,
+    "verified": true,
+    "notes": "peng2008 abstract (via ISC index page): XVP 1.78 Ga, > 0.06 M km2, 3-7 km of extrusives, basalt to rhyolite; NCDS coeval, outcrop > 0.1 M km2; combined LIP > 0.1 M km3; mantle plume favoured. Dig 556-568."
+  },
+  {
+    "id": "mcdermott-eukaryotes",
+    "t": -1755000000,
+    "t_err": 25000000,
+    "title": "Complex cells already bud, form colonies and open their cysts",
+    "text": "Microfossils in the 1.78–1.73-billion-year-old McDermott Formation of northern Australia have shapes that need a cytoskeleton and internal membranes. Some reproduced by budding, formed simple multicellular clusters or opened their cyst walls, and some may have eaten other cells. Their describer argues the last common ancestor of all eukaryotes is older than 1.75 billion years; molecular clocks place it anywhere from 1.2 to over 1.8 billion.",
+    "sources": ["javaux2025", "brocks2023"],
+    "tags": ["microbes", "first", "debated"],
+    "importance": 3,
+    "verified": true,
+    "notes": "javaux2025 abstract (Europe PMC): 1.78-1.73 Ga McDermott Fm, McArthur Basin; complexity requires cytoskeleton and endomembrane system; pushes minimum age of uncontested eukaryote fossils back >100 Myr; budding, simple multicellularity, programmed cyst openings, possible eukaryovory and ectosymbiosis; LECA >1.75 Ga. brocks2023 abstract: molecular clocks put LECA between ~1.2 and >1.8 Ga. Dig 556-568."
+  },
+  {
+    "id": "homestake-gold",
+    "t": -1736000000,
+    "t_err": 8000000,
+    "title": "Gold arrives at Homestake, the mine that later caught neutrinos from the Sun",
+    "text": "Gold is carried into the rocks of the Black Hills at Homestake, one of the largest hydrothermal gold deposits known, from which more than 40 million ounces have been mined. Arsenopyrite from the ore gives a rhenium–osmium age of 1,736 ± 8 million years, as blocks of the crust began to be uplifted. From 1970 the Homestake mine at Lead also housed a chlorine detector counting neutrinos from the Sun.",
+    "sources": ["morelli2010", "davis1990", "cleveland1998"],
+    "tags": ["curiosity"],
+    "importance": 3,
+    "verified": true,
+    "notes": "morelli2010 abstract (JCU ResearchOnline): one of the largest known hydrothermal gold deposits, >40 Moz Au produced; arsenopyrite Re-Os 1736 ± 8 Ma (MSWD 1.6); gold introduced ca. 1730 Ma, coincident with onset of exhumation of crustal blocks. Dig 556-568. Neutrino detector: davis1990 abstract ('in the Homestake mine, Lead, SD', 1970–1988) and cleveland1998 abstract ('since 1970'). added 2026-11-23."
+  },
+  {
     "id": "oldest-eukaryote-fossils",
     "t": -1730000000,
     "t_err": 50000000,
@@ -1094,13 +1388,47 @@
     "verified": true
   },
   {
-    "id": "mcarthur-river-zinc",
-    "t": -1640000000,
-    "t_err": 3000000,
-    "title": "Zinc and lead ore forms in an Australian basin",
-    "text": "The McArthur River zinc–lead deposit forms in the shales of the McArthur Basin, northern Australia. Volcanic ash beds in the host rocks date it to about 1,640 million years, the same time as ore-hosting shales across the Mount Isa region.",
-    "sources": ["page1998"],
-    "tags": ["ocean", "cycles", "curiosity"],
+    "id": "grand-canyon-basement-metamorphism",
+    "t": -1701500000,
+    "t_err": 4500000,
+    "title": "Grand Canyon basement rocks are baked deep in the crust",
+    "text": "Volcanic and sedimentary rocks laid down 1,750–1,741 million years ago, now exposed in the Grand Canyon's Upper Granite Gorge, are buried and heated, in places to granulite grade; monazite grown in them dates the peak to 1,706–1,697 Ma. Granite and pegmatite dykes injected between 1,698 and 1,662 Ma locally make up half of the rock.",
+    "sources": ["hawkins1996"],
+    "tags": ["tectonics", "curiosity"],
+    "importance": 2,
+    "verified": true
+  },
+  {
+    "id": "mount-isa-ore",
+    "t": -1665000000,
+    "span": [-1690000000, -1640000000],
+    "title": "Australia's giant lead–zinc–silver ores form",
+    "text": "Over some 50 million years, giant lead–zinc–silver ore bodies form in muddy basins of Australia: Broken Hill (New South Wales; ash beside the ore dated 1,685 ± 3 million years), then Mount Isa and Hilton in Queensland (host shales 1,654–1,652 million years old) and McArthur River in the Northern Territory (about 1,640 million). Their metals were laid down with the sediment or soon after burial. Sullivan in British Columbia, unusually rich in tin, followed 1,475 ± 4 million years ago.",
+    "sources": ["page1998", "page2005", "slack2020"],
+    "tags": ["cycles", "curiosity"],
+    "importance": 2,
+    "verified": true,
+    "notes": "Merged 2026-11-23: broken-hill-ore (page2005), mcarthur-river-zinc (page1998), sullivan-ore (slack2020). Span = Broken Hill to McArthur River."
+  },
+  {
+    "id": "changcheng-microfossils",
+    "t": -1655500000,
+    "t_err": 17500000,
+    "title": "An early menagerie of single-celled eukaryotes in North China",
+    "text": "Black shales of the lower Changcheng Group, 1,673–1,638 million years old, preserve 15 species of organic-walled microfossils. Six, among them _Germinosphaera_, _Dictyosphaera_ and _Valeria_, are unambiguous eukaryotes: cells with a nucleus were already moderately diverse.",
+    "sources": ["miao2019"],
+    "tags": ["microbes", "curiosity"],
+    "importance": 2,
+    "verified": true
+  },
+  {
+    "id": "mazatzal-orogeny",
+    "t": -1648500000,
+    "t_err": 5500000,
+    "title": "Mazatzal orogeny: island arcs crushed onto southern Laurentia",
+    "text": "A string of island arcs and the basins between them are squeezed onto the southern edge of Laurentia, in what is now Arizona and New Mexico, mainly between 1,654 and 1,643 million years ago. The arcs' granites, 1,680–1,650 Ma old, are new crust drawn from the mantle.",
+    "sources": ["amato2008"],
+    "tags": ["tectonics"],
     "importance": 2,
     "verified": true
   },
@@ -1140,12 +1468,13 @@
     "id": "wiborg-rapakivi",
     "t": -1634500000,
     "span": [-1642000000, -1627000000],
-    "title": "The Wiborg batholith: type rock of rapakivi granite",
-    "text": "Huge bodies of granite crystallise beneath southeast Finland and Russian Karelia over some 15 million years. Their pale ovoid feldspar crystals rimmed with plagioclase define 'rapakivi' granite; Wiborg is its type locality.",
-    "sources": ["ramo2014"],
+    "title": "The Wiborg batholith: rapakivi, the granite of St Petersburg",
+    "text": "Huge bodies of granite crystallise beneath southeast Finland and Russian Karelia over some 15 million years. Their pale ovoid feldspar crystals rimmed with plagioclase define 'rapakivi' granite; Wiborg is its type locality. Quarried near Virolahti, it went into St Petersburg's grandest structures from 1760 to 1917, among them the Alexander Column and the 112 columns of St Isaac's Cathedral; it is still sold worldwide as polished stone such as Baltic Brown.",
+    "sources": ["ramo2014", "bulakh2020"],
     "tags": ["tectonics", "curiosity"],
-    "importance": 2,
-    "verified": true
+    "importance": 3,
+    "verified": true,
+    "notes": "Building-stone facts from bulakh2020 abstract, added 2026-11-23."
   },
   {
     "id": "mitochondria-endosymbiosis",
@@ -1236,6 +1565,48 @@
     "verified": true
   },
   {
+    "id": "horodyskia",
+    "t": -1450000000,
+    "title": "_Horodyskia_: a string of beads, fossil or mud?",
+    "text": "Strings of millimetre-sized beads, up to 15 cm long, cover bedding planes of the Appekunny Formation in Montana and Alberta. Named _Horodyskia moniliformis_ in 2000 and counted by some among the oldest eukaryotes, they were reinterpreted in 2019 as mud flocs caught on tufts of a microbial mat.",
+    "sources": ["rule2019"],
+    "tags": ["microbes", "debated", "curiosity"],
+    "importance": 2,
+    "verified": true
+  },
+  {
+    "id": "tieling-oxygenation",
+    "t": -1445000000,
+    "t_err": 5000000,
+    "title": "Oxygen reaches most of the seafloor?",
+    "text": "Manganese- and iron-rich rocks of the Tieling Formation, North China, about 1,440–1,450 million years old, record molybdenum isotopes heavier than the usual Mesoproterozoic baseline. Modelling suggests up to 80% of the global seafloor was oxygenated: a broader pulse than the local oxygen oases seen elsewhere in this era, though how global it was is debated.",
+    "sources": ["yan2025"],
+    "tags": ["atmosphere", "ocean", "debated"],
+    "importance": 2,
+    "verified": true
+  },
+  {
+    "id": "antarctic-laurentian-granite",
+    "t": -1440000000,
+    "title": "A North American granite turns up in Antarctica",
+    "text": "A glacial boulder of A-type granite found in Antarctica crystallized about 1,440 million years ago, and its chemistry and hafnium and neodymium isotopes match the distinctive granites of that age in North America. East Antarctica must hold granites like them, a sign that the two continents were neighbours.",
+    "sources": ["goodge2008"],
+    "tags": ["tectonics", "supercontinent", "curiosity"],
+    "importance": 2,
+    "verified": true
+  },
+  {
+    "id": "belt-basin",
+    "t": -1435500000,
+    "span": [-1470000000, -1401000000],
+    "title": "The Belt basin fills with 15–20 km of sediment",
+    "text": "A deep basin in western Montana and neighbouring Canada fills with the 15–20 km of mud and sand of the Belt Supergroup. Volcanic ash beds dated at 1,454 (at Logan Pass, Glacier National Park), 1,443 and 1,401 million years, above 1,470-million-year-old sills near its base, show that all but its top 1,700 m piled up in only about 70 million years.",
+    "sources": ["evans2000"],
+    "tags": ["tectonics", "ocean"],
+    "importance": 2,
+    "verified": true
+  },
+  {
     "id": "columbia-breakup",
     "t": -1425000000,
     "span": [-1600000000, -1250000000],
@@ -1243,6 +1614,18 @@
     "text": "Rifts open along the margins of Laurentia (Belt-Purcell basin), Baltica and Siberia from about 1.6 billion years ago. The break-up ends about 1.3–1.2 billion years ago, marked in North America by the Mackenzie (1.27 billion) and Sudbury (1.24 billion) dyke swarms.",
     "sources": ["zhao2004"],
     "tags": ["supercontinent", "tectonics"],
+    "importance": 4,
+    "verified": true
+  },
+  {
+    "id": "granite-rhyolite-provinces",
+    "t": -1420000000,
+    "span": [-1500000000, -1340000000],
+    "title": "Granites and rhyolites spread across North America",
+    "text": "Granite and rhyolite magmas intrude and erupt across North America, from the midcontinent to the southwest, starting 1,500–1,400 million years ago and generally later towards the west; a younger pulse follows 1,390–1,340 million years ago. Basalt pooling under the crust melted it from below.",
+    "sources": ["bickford2015"],
+    "tags": ["volcanic", "tectonics"],
+    "importance": 2,
     "verified": true
   },
   {
@@ -1274,6 +1657,18 @@
     "text": "Chromium isotopes in sediments from China, Australia and North America show little oxidation at Earth's surface from 1.8 to 0.8 billion years ago: oxygen in the air was at most 0.1% of today's. This may explain why animals appeared so late. Short oxygen pulses are debated.",
     "sources": ["planavsky2014b"],
     "tags": ["atmosphere", "debated"],
+    "importance": 4,
+    "verified": true
+  },
+  {
+    "id": "argyle-diamonds",
+    "t": -1284000000,
+    "t_err": 27000000,
+    "title": "Argyle: the world's biggest diamond source erupts",
+    "text": "The Argyle lamproite in Western Australia, the world's largest source of natural diamonds, erupted between 1,311 and 1,257 million years ago. Stretching of the crust as the supercontinent Columbia (Nuna) broke up let small batches of melt rise through an old, weak rift zone.",
+    "sources": ["olierook2023"],
+    "tags": ["volcanic", "record", "curiosity"],
+    "importance": 3,
     "verified": true
   },
   {
@@ -1288,6 +1683,16 @@
     "verified": true
   },
   {
+    "id": "eukaryote-photosynthesis-origin",
+    "t": -1250000000,
+    "title": "Eukaryotes gain chloroplasts? (molecular clock)",
+    "text": "A molecular clock calibrated on the 1,047-million-year-old red alga _Bangiomorpha_ puts the origin of photosynthesis in eukaryotes, the endosymbiosis that produced the chloroplast, at about 1.25 billion years ago. Older fossils interpreted as red algae, about 1.6 billion years old, would push it earlier.",
+    "sources": ["gibson2017", "bengtson2017"],
+    "tags": ["plants", "innovation", "debated"],
+    "importance": 4,
+    "verified": true
+  },
+  {
     "id": "inner-core-nucleation-early",
     "t": -1250000000,
     "t_err": 250000000,
@@ -1296,6 +1701,72 @@
     "sources": ["biggin2015", "bono2019"],
     "tags": ["magnetic", "interior", "debated"],
     "importance": 2,
+    "verified": true
+  },
+  {
+    "id": "stac-fada-impact",
+    "t": -1177000000,
+    "t_err": 5000000,
+    "title": "An asteroid hits Scotland: the Stac Fada impact",
+    "text": "A layer of melt and debris thrown out by an impact lies among the Stoer Group sandstones of northwest Scotland. It is dated to 1,177 ± 5 million years from feldspar that grew from hot fluids in the fresh ejecta, beside an evaporating lake. The crater has not been found; a buried structure under a gravity low about 50 km to the east has been proposed.",
+    "sources": ["parnell2011", "kenny2019"],
+    "tags": ["impact"],
+    "importance": 3,
+    "verified": true
+  },
+  {
+    "id": "musgrave-orogeny",
+    "t": -1170000000,
+    "span": [-1220000000, -1120000000],
+    "title": "Musgrave Orogeny: a hundred million years of red-hot crust",
+    "text": "In central Australia the crust stays at ultrahigh temperatures from about 1,220 to 1,120 million years ago. Granites intrude at 1,000 °C or more across over 15,000 km², fed largely by melts from the mantle while the region is stretched and thinned.",
+    "sources": ["smithies2011"],
+    "tags": ["tectonics", "record"],
+    "importance": 3,
+    "verified": true
+  },
+  {
+    "id": "shawinigan-orogeny",
+    "t": -1170000000,
+    "span": [-1200000000, -1140000000],
+    "title": "The Grenville mountains build up in three stages",
+    "text": "From the Adirondacks to the southern Appalachians and Texas, the margin of ancestral North America records the same three mountain-building episodes: the Elzevirian (about 1,250–1,220 million years ago), the Shawinigan (1,200–1,140) and the Grenvillian (1,090–980). Together they built the Grenville orogen.",
+    "sources": ["mclelland2013"],
+    "tags": ["tectonics", "mountains"],
+    "importance": 3,
+    "verified": true
+  },
+  {
+    "id": "premier-kimberlite",
+    "t": -1150000000,
+    "t_err": 30000000,
+    "title": "Premier kimberlite: the pipe of the Cullinan diamond erupts",
+    "text": "About 1,150 million years ago a kimberlite pipe erupts through the Kaapvaal craton of South Africa, carrying up rock from the base of the continent at 200 km depth. Its mine produced the Cullinan, the largest gem diamond ever found; such giant diamonds grew from metallic iron–carbon liquid deep in the mantle.",
+    "sources": ["tappe2021", "smith2016"],
+    "tags": ["volcanic", "curiosity", "record"],
+    "importance": 3,
+    "verified": false,
+    "notes": "Not in either abstract: that the Cullinan diamond came from the Premier mine, and that it is the largest gem diamond found. Kimberlite age 'c. 1150 Ma' (tappe2021); t_err is a placeholder."
+  },
+  {
+    "id": "umkondo-lip",
+    "t": -1109000000,
+    "t_err": 3000000,
+    "title": "Umkondo: one flood of magma across two continents",
+    "text": "From 1,112 to 1,106 million years ago, magma spreads through two million square kilometres of the Kalahari craton in southern Africa, during the same magnetic polarity interval as the great eruptions in North America. The two are probably parts of one large igneous province, erupted while Rodinia was being assembled.",
+    "sources": ["hanson2004"],
+    "tags": ["volcanic", "supercontinent"],
+    "importance": 3,
+    "verified": true
+  },
+  {
+    "id": "fossil-chlorophyll-cyanobacteria",
+    "t": -1100000000,
+    "title": "Fossil chlorophyll: an ocean run by tiny cyanobacteria",
+    "text": "Molecular remains of chlorophyll in 1.1-billion-year-old marine rocks show, from their nitrogen isotopes, that cyanobacteria dominated the ocean's primary producers and larger algae were scarce. Small cells at the base of the food chain may have held back the rise of large, complex life.",
+    "sources": ["gueneli2018"],
+    "tags": ["microbes", "ocean", "ecosystem"],
+    "importance": 3,
     "verified": true
   },
   {
@@ -1310,14 +1781,16 @@
     "verified": true
   },
   {
-    "id": "midcontinent-rift-plume",
-    "t": -1097000000,
-    "t_err": 1000000,
-    "title": "A mantle plume feeds sills in the Grand Canyon and the Midcontinent Rift",
-    "text": "About 1,098 million years ago a short pulse of magma, under 1 million years, injects sills over 100 m thick beneath Death Valley, the Grand Canyon and central Arizona. Some 2 million years later the long-lived Midcontinent Rift of central North America flares up again, forming the Duluth Complex; the plume's heat may have spread there under the thinned rift.",
-    "sources": ["mohr2024"],
-    "tags": ["volcanic", "tectonics"],
-    "verified": true
+    "id": "midcontinent-rift",
+    "t": -1096000000,
+    "span": [-1109000000, -1083000000],
+    "title": "Midcontinent Rift: North America nearly splits in two",
+    "text": "From 1,109 to 1,083 million years ago lava pours out along a rift through the middle of North America, around today's Lake Superior, but the continent never breaks apart. Magnetism frozen in the lavas shows the continent racing from high to low latitudes at more than 27 cm a year, before the Grenvillian collisions (1,090–980 million years ago) helped assemble Rodinia. Just before, about 1,098 million years ago, a brief plume pulse injected thick sills beneath the Grand Canyon and Death Valley.",
+    "sources": ["swansonhysell2019", "mohr2024"],
+    "tags": ["volcanic", "tectonics", "supercontinent"],
+    "importance": 4,
+    "verified": true,
+    "notes": "Merged 2026-11-23: midcontinent-rift-plume (mohr2024)."
   },
   {
     "id": "talakh-khaya-superchron",
@@ -1327,6 +1800,7 @@
     "text": "Rocks of the Talakh-Khaya section in eastern Siberia, near the end of the Mesoproterozoic, record 33 reversals followed by one long normal-polarity interval: a proposed superchron. Slightly younger Ural rocks record over 40 polarity intervals, perhaps 5–10 reversals per million years. Sharp switches between calm and frantic reversing may be typical of the Precambrian field.",
     "sources": ["pavlov2010"],
     "tags": ["magnetic", "debated"],
+    "importance": 2,
     "verified": false,
     "notes": "Abstract dates the sections only as ~1100-800 Ma; date of the Talakh-Khaya interval needs the full text."
   },
@@ -1383,6 +1857,49 @@
     "verified": true
   },
   {
+    "id": "big-cottonwood-tidal-day",
+    "t": -900000000,
+    "t_err": 100000000,
+    "title": "Tides in Utah record a day of about 18.9 hours",
+    "text": "Tidal laminae in Utah's Big Cottonwood Formation, roughly 1.0 billion to 800 million years old, record daily, monthly and yearly tide cycles. Counted layers give a day of about 18.9 hours and a Moon already retreating at close to today's rate.",
+    "sources": ["sonett1998", "chan1994"],
+    "tags": ["moon", "cycles"],
+    "importance": 2,
+    "verified": true
+  },
+  {
+    "id": "little-dal-sponge-reefs",
+    "t": -890000000,
+    "title": "Sponges in 890-million-year-old reefs? Perhaps the oldest animals",
+    "text": "Reefs built by cyanobacteria in northwestern Canada contain a worm-like mesh of tubes identical to the fossil tissue of horny (keratose) sponges. If it is sponge, it is the oldest animal body fossil known, older than the Snowball Earth glaciations; the identification is debated.",
+    "sources": ["turner2021"],
+    "tags": ["animals", "first", "debated"],
+    "importance": 4,
+    "verified": true
+  },
+  {
+    "id": "manso-dykes",
+    "t": -860000000,
+    "t_err": 9000000,
+    "title": "Manso dykes pin down West Africa's place in Rodinia",
+    "text": "Dolerite dykes in Ghana, about 860 million years old, preserve the direction of Earth's magnetic field. This first reliable Tonian pole puts West Africa at high latitude, probably joined to Baltica, Amazonia and Congo–São Francisco from about 1.2 to 0.8 billion years ago.",
+    "sources": ["antonio2021"],
+    "tags": ["magnetic", "supercontinent", "volcanic"],
+    "importance": 2,
+    "verified": true
+  },
+  {
+    "id": "gairdner-dyke-swarm",
+    "t": -827000000,
+    "t_err": 6000000,
+    "title": "A mantle plume? Gairdner dykes and their South China twins",
+    "text": "The Gairdner dyke swarm of South Australia intrudes 827 ± 6 million years ago, and dykes and sills in South China are the same age (828 ± 7). Both are read as products of a mantle plume that may have started the rifting of Rodinia; the plume interpretation is debated.",
+    "sources": ["wingate1998", "li1999"],
+    "tags": ["volcanic", "supercontinent", "debated"],
+    "importance": 3,
+    "verified": true
+  },
+  {
     "id": "copernicus-crater",
     "t": -800000000,
     "t_err": 15000000,
@@ -1401,7 +1918,7 @@
     "text": "Rifting tears Rodinia apart between about 825 and 740 million years ago, opening new oceans shortly before the Snowball Earth glaciations.",
     "sources": ["li2008"],
     "tags": ["supercontinent", "tectonics"],
-    "importance": 3,
+    "importance": 4,
     "verified": true
   },
   {
@@ -1487,6 +2004,7 @@
     "text": "The southern supercontinent comes together in stages. Eastern Africa collides with pieces of Madagascar, India, Sri Lanka and East Antarctica in the East African Orogen (about 750–620 million years ago); Australia joins in the Kuunga Orogeny (570–530 million). East Gondwana exists only from the Cambrian.",
     "sources": ["meert2003"],
     "tags": ["supercontinent", "tectonics", "mountains"],
+    "importance": 4,
     "verified": true
   },
   {
@@ -1551,6 +2069,7 @@
     "text": "An impression from Newfoundland shows twisted bundles of fibres arranged in four, with forking corner branches, like the muscles of living stalked jellyfish (Staurozoa). It may be the earliest body fossil of muscle tissue and of a true animal with tissues (eumetazoan).",
     "sources": ["liu2014"],
     "tags": ["animals", "first", "debated"],
+    "importance": 3,
     "verified": true
   },
   {
@@ -1561,6 +2080,7 @@
     "text": "Mountain building, new passive margins and climate and sea-level signals around the Precambrian–Cambrian transition have been read as the brief assembly and break-up of a supercontinent, Pannotia. Critics find the evidence tied up with the assembly of Gondwana and doubt Pannotia existed.",
     "sources": ["nance2019", "evans2021"],
     "tags": ["supercontinent", "tectonics", "debated"],
+    "importance": 3,
     "verified": true
   },
   {
@@ -1585,6 +2105,7 @@
     "text": "About 80% of the Ediacaran organisms of the White Sea assemblage are missing from the following Nama assemblage, a loss comparable to the great extinctions of later times. The same environments are well sampled in both, so the drop is real; survivors with large surface area for their volume hint at falling oxygen.",
     "sources": ["evans2022"],
     "tags": ["extinction", "animals", "debated"],
+    "importance": 4,
     "verified": true
   },
   {
@@ -1594,6 +2115,7 @@
     "text": "_Cloudina_, the earliest known animal with a mineral skeleton, lives in seas worldwide. In Namibia's Nama Group its individuals attach and cement to one another into open reef frameworks, facing nutrient-rich currents: possibly a defence against competitors and the first predators.",
     "sources": ["penny2014"],
     "tags": ["animals", "innovation", "ecosystem", "first"],
+    "importance": 4,
     "verified": true
   },
   {
@@ -1604,6 +2126,7 @@
     "text": "_Treptichnus_ burrows in the Shibantan beds of China, alongside Ediacara-type fossils, are the earliest known burrow systems that go down into the sediment, not just along it. Digging churns the microbial mats that Ediacaran organisms depended on, and their decline follows.",
     "sources": ["chen2025"],
     "tags": ["animals", "behaviour", "first", "ecosystem"],
+    "importance": 4,
     "verified": true
   },
   {
@@ -1646,6 +2169,7 @@
     "text": "Sponges with chalky skeletons, the archaeocyaths, help build reefs on shallow carbonate platforms, notably in Siberia. Most species were generalists, living on hard or soft bottoms, in the open or in reef crevices: reef-building seems to follow naturally once animals can attach permanently.",
     "sources": ["zhuravlev2026", "ogg2020"],
     "tags": ["animals", "ecosystem"],
+    "importance": 3,
     "verified": true,
     "notes": "zhuravlev2026 analyses Cloudina and archaeocyath occurrences ca 547–521 Ma (earliest Cambrian archaeocyaths); t approximates their early reef span."
   },
@@ -1671,6 +2195,7 @@
     "text": "Eyes up to 3 cm long, each with more than 16,000 lenses, belong to _Anomalocaris_, the metre-long top predator of Cambrian seas, from the Emu Bay Shale of South Australia. Among the sharpest eyes ever, they show that compound eyes evolved before hard exoskeletons and that visual hunting drove the early predator–prey arms race.",
     "sources": ["paterson2011"],
     "tags": ["animals", "innovation", "curiosity"],
+    "importance": 3,
     "verified": true
   },
   {
@@ -1707,6 +2232,7 @@
     "text": "_Opabinia_ of the Burgess Shale, once a famous 'weird wonder' with five eyes and a long, clawed proboscis, is now known as an early relative of arthropods, near _Anomalocaris_ in the family tree. A second opabiniid from Utah shows the group lived through several Cambrian stages.",
     "sources": ["pates2022"],
     "tags": ["animals", "curiosity", "ancestor"],
+    "importance": 3,
     "verified": false,
     "notes": "Date: Burgess Shale taken as Wuliuan (ICS ~506.5–504.5 Ma); not in pates2022's abstract. 'Five eyes, clawed proboscis' is general knowledge (Whittington 1975)."
   },
@@ -1751,6 +2277,7 @@
     "text": "Volcanic island arcs crash into the eastern margin of Laurentia (North America) in the Ordovician, the first of three mountain-building episodes that make the Appalachians. The Acadian collisions follow in the Silurian–Devonian, and the Alleghanian, when Gondwana arrives to complete Pangaea, from the late Mississippian into the Permian.",
     "sources": ["hatcher2010", "ogg2020"],
     "tags": ["mountains", "tectonics"],
+    "importance": 3,
     "verified": true,
     "notes": "t and t_err span the Ordovician (ogg2020); hatcher2010 dates the Taconic only as Ordovician."
   },
@@ -1775,6 +2302,7 @@
     "text": "The armour of the early vertebrate _Eriptychius_ carries small tooth-like bumps (odontodes) with large dentine tubules, the oldest known vertebrate dental tissue. Their resemblance to the sense organs of arthropods suggests dentine first evolved to feel. The Cambrian _Anatolepis_, long claimed as older, turns out to be an arthropod.",
     "sources": ["haridy2025", "ogg2020"],
     "tags": ["fish", "innovation", "first", "curiosity"],
+    "importance": 3,
     "verified": true,
     "notes": "Middle Ordovician per haridy2025; t and t_err span the Middle Ordovician (ogg2020)."
   },
@@ -1786,6 +2314,7 @@
     "text": "Limestone now at the summit of Everest accumulates in a warm sea on the north Indian margin of Gondwana. Conodonts (tiny tooth-like fossils) in matching strata of southern Tibet date it to the middle Ordovician (Darriwilian). The India–Asia collision later lifts it to the roof of the world.",
     "sources": ["stouge2021", "najman2010"],
     "tags": ["mountains", "ocean", "curiosity"],
+    "importance": 3,
     "verified": true,
     "notes": "t = middle–late Darriwilian (ICS 469.4–458.2 Ma)."
   },
@@ -1873,6 +2402,7 @@
     "text": "Small, smooth stems that fork in two, each tipped with a spore capsule; no leaves. _Cooksonia_ has stomata and water-conducting tubes, so it is a true vascular plant; the smallest specimens were probably too thin to feed themselves and may have depended on a separate gametophyte generation, as mosses do.",
     "sources": ["edwards1992", "boyce2008", "ogg2020"],
     "tags": ["plants", "ancestor"],
+    "importance": 3,
     "art": {
       "file": "line/cooksonia.svg",
       "caption": "_Cooksonia_: smooth stems that fork in two, each ending in a single spore capsule.",
@@ -1903,6 +2433,7 @@
     "text": "A shark from New Brunswick, Canada, preserved whole with its teeth in place and one of the oldest shark braincases. It also bears paired spines on its pectoral fins, unknown in cartilaginous fishes before. Shark-like scales go back to perhaps 455 million years ago, but bodies are rare.",
     "sources": ["miller2003"],
     "tags": ["fish", "ancestor", "first"],
+    "importance": 2,
     "verified": true
   },
   {
@@ -1929,6 +2460,7 @@
     "text": "Two small Early Devonian plants grow secondary xylem, wood, the earliest known. They are far too small to need it for support: wood first evolved to move water, and only later held up trees.",
     "sources": ["gerrienne2011"],
     "tags": ["plants", "innovation", "first"],
+    "importance": 4,
     "verified": true
   },
   {
@@ -2030,6 +2562,7 @@
     "text": "The earliest known tetrapod limbs, from East Greenland, have more than five digits: eight on the forelimb of _Acanthostega_, seven on the hindlimb of _Ichthyostega_. Their shape suggests digits first evolved for life in water, not for walking on land, and five fingers is not the original pattern.",
     "sources": ["coates1990", "ogg2020"],
     "tags": ["animals", "ancestor", "first", "curiosity"],
+    "importance": 4,
     "verified": true,
     "notes": "Upper Devonian per coates1990; t and t_err span the Late Devonian (ogg2020). Drawing art/line/acanthostega.svg (PhyloPic, Hartman, CC0) fetched but detached: wide-art layout bug (collision-pages.md)."
   },
@@ -2040,7 +2573,7 @@
     "text": "Magnetic stripes beneath the eastern Mediterranean suggest its floor is Paleozoic ocean crust about 340 million years old, the oldest known ocean floor not yet recycled into the mantle.",
     "sources": ["granot2016"],
     "tags": ["ocean", "tectonics", "curiosity"],
-    "importance": 2,
+    "importance": 3,
     "verified": true
   },
   {
@@ -2087,6 +2620,7 @@
     "text": "Tiny leafy shoots from Upper Carboniferous shale in Yorkshire were charred by a wildfire before burial, which kept their cells uncrushed. Their sunken stomata and leaf form match the early conifer _Lebachia_: the earliest record of a conifer.",
     "sources": ["scott1983"],
     "tags": ["plants", "first"],
+    "importance": 2,
     "verified": false,
     "notes": "scott1983 dates it as Westphalian B (regional stage); t ≈ 313 Ma (Duckmantian) is a conversion not checked against a timescale source."
   },
@@ -2180,7 +2714,7 @@
     "text": "From the late Carboniferous to the late Permian Earth's magnetic field stays in reversed polarity, with no known reversals. Its exact start and end ages are still argued over.",
     "sources": ["opdyke1995", "ogg2020"],
     "tags": ["magnetic"],
-    "importance": 2,
+    "importance": 3,
     "verified": true,
     "notes": "Span 318-265 Ma from memory; check boundaries against Ogg 2020."
   },
@@ -2230,6 +2764,7 @@
     "text": "Early Triassic plant fossils are scarce, which long suggested that plants died out along with animals. Global records of plant fossils and pollen show this is mostly a sampling gap: pollen shows gymnosperms persisting, and plant losses were smaller and more selective than a mass extinction.",
     "sources": ["nowak2019"],
     "tags": ["plants", "extinction", "debated"],
+    "importance": 2,
     "verified": true
   },
   {
@@ -2240,6 +2775,7 @@
     "text": "A single fossil from the Early Triassic of Madagascar is the earliest known lissamphibian, the group of living amphibians. It mixes frog features with older ones: a longer trunk, a tail and hind legs not built for jumping.",
     "sources": ["ascarrunz2016", "ogg2020"],
     "tags": ["animals", "first", "ancestor"],
+    "importance": 3,
     "verified": true,
     "notes": "Early Triassic per ascarrunz2016; t and t_err span the Early Triassic (ogg2020). 'Longer trunk' = 15 presacral vertebrae vs frogs' fewer; 'tail' = caudal vertebrae reported."
   },
@@ -2251,6 +2787,7 @@
     "text": "Small coral-rich patch reefs grow in clear, nutrient-poor shallows of the western Tethys. Growth bands and isotopes in exceptionally preserved corals from the Italian Dolomites show they already hosted algae in their tissues, as modern reef corals do: a partnership in place before the reef boom at the end of the Triassic.",
     "sources": ["frankowiak2021", "ogg2020"],
     "tags": ["animals", "ecosystem", "innovation"],
+    "importance": 3,
     "verified": true,
     "notes": "Carnian per frankowiak2021; t and t_err span the Carnian (~237–227 Ma, ogg2020)."
   },
@@ -2276,6 +2813,7 @@
     "text": "The group of today's 26 or so crocodiles, alligators, caimans and gharials starts some 230 million years ago. Its Mesozoic members were far more varied: sea-going thalattosuchians, land-dwelling notosuchians, plant-eaters and top predators. Skull variety peaks in the Cretaceous; only the semi-aquatic predators survive.",
     "sources": ["stubbs2021"],
     "tags": ["reptiles", "ancestor", "first"],
+    "importance": 3,
     "verified": true
   },
   {
@@ -2311,6 +2849,7 @@
     "text": "The oldest unambiguous pterosaurs appear in the Late Triassic. Their closest relatives turn out to be lagerpetids, small running dinosaur precursors with no hint of flight, which places pterosaurs firmly on the bird side of the reptile family tree.",
     "sources": ["ezcurra2020", "ogg2020"],
     "tags": ["reptiles", "first", "innovation"],
+    "importance": 4,
     "verified": true,
     "notes": "Late Triassic per ezcurra2020; t and t_err span 237–201.4 Ma (ogg2020)."
   },
@@ -2344,6 +2883,7 @@
     "text": "In Patagonia, over 100 eggs and 80 skeletons of the early long-necked dinosaur _Mussaurus_, from embryos to adults, lie together. Eggs and hatchlings cluster in a nesting area, and individuals of similar age are grouped: a herd sorted by age. It is the oldest evidence of complex social behaviour in dinosaurs, by at least 40 million years.",
     "sources": ["pol2021"],
     "tags": ["dinosaurs", "behaviour", "first"],
+    "importance": 3,
     "verified": true
   },
   {
@@ -2369,6 +2909,7 @@
     "text": "A docodont from the Middle Jurassic of China is the most primitive relative of mammals known to have had fur. It swam and burrowed like a platypus, with a broad, flat, partly scaly tail like a beaver's: early mammal relatives were not all small shrew-like insect-eaters.",
     "sources": ["ji2006", "ogg2020"],
     "tags": ["mammals", "innovation", "first", "curiosity"],
+    "importance": 3,
     "verified": true,
     "notes": "ji2006's abstract says Middle Jurassic only; t and t_err span the Middle Jurassic (ogg2020)."
   },
@@ -2420,6 +2961,7 @@
     "text": "_Equisetum thermale_, preserved in place in the San Agustín hot-spring deposit of Patagonia, has every feature of living horsetails. It grew in dense stands in hot, mineral-rich wetlands, showing that modern-type _Equisetum_ existed in the Jurassic, much earlier than molecular clocks suggest.",
     "sources": ["channing2011", "ogg2020"],
     "tags": ["plants", "ancestor", "debated"],
+    "importance": 2,
     "verified": true,
     "notes": "Upper Jurassic per channing2011; t and t_err span the Late Jurassic (ogg2020)."
   },
@@ -2513,6 +3055,7 @@
     "text": "Undersea eruptions build Ontong Java Nui, a vast volcanic plateau in the western Pacific, over some 5 million years. Their peak coincides with Oceanic Anoxic Event 1a, when black organic-rich mud spreads over stagnant sea floors; osmium isotopes in Italian black shales record the volcanic pulses.",
     "sources": ["matsumoto2025", "tejada2009"],
     "tags": ["volcanic", "ocean"],
+    "importance": 4,
     "verified": true
   },
   {
@@ -2537,6 +3080,7 @@
     "text": "Salt basins now on the shelves of Brazil and of Angola, Congo and Gabon were once one rift basin in the subtropics. It was cut in two about 112 million years ago, at the Aptian–Albian boundary, as seafloor spreading began north of the Walvis Ridge and Rio Grande Rise.",
     "sources": ["torsvik2009"],
     "tags": ["tectonics", "ocean"],
+    "importance": 4,
     "verified": true
   },
   {
@@ -2574,7 +3118,7 @@
     "text": "For about 37 million years the magnetic field keeps normal polarity with almost no reversals, a long quiet stretch in the seafloor's magnetic stripes.",
     "sources": ["ogg2020"],
     "tags": ["magnetic"],
-    "importance": 2,
+    "importance": 3,
     "verified": true
   },
   {
@@ -2585,6 +3129,7 @@
     "text": "Ferns were thought to have retreated before the rise of flowering plants. Molecular dating shows the opposite: polypod ferns, more than 80% of fern species alive today, diversify in the Cretaceous after flowering plants, perhaps opportunists in a world that flowering plants were coming to dominate.",
     "sources": ["schneider2004", "ogg2020"],
     "tags": ["plants", "ecosystem"],
+    "importance": 2,
     "verified": true,
     "notes": "schneider2004's abstract says Cretaceous, after angiosperms; t and t_err span 134–66 Ma (post-Archaefructus to end-Cretaceous)."
   },
@@ -2595,6 +3140,7 @@
     "text": "Burmese amber preserves early ants with separate queen and worker castes, groups of workers recruited together, and two species locked in combat: these ants were already eusocial. Their stem-group lineages later died out, perhaps outcompeted by the ancestors of today's ants with their massive colonies.",
     "sources": ["barden2016"],
     "tags": ["insects", "behaviour", "first"],
+    "importance": 3,
     "verified": true
   },
   {
@@ -2605,6 +3151,7 @@
     "text": "A shallow sea floods the middle of North America. Warm Tethyan water has pushed north up the seaway since about 98 million years ago; at peak flooding, 95–94 million years ago, it links up with cold boreal water from the north, mixing and oxygenating the water throughout the seaway and as far south as Suriname.",
     "sources": ["eldrett2017"],
     "tags": ["ocean"],
+    "importance": 3,
     "verified": true
   },
   {
@@ -2636,6 +3183,7 @@
     "text": "Deep under what will become Yosemite, the Tuolumne Intrusive Suite grows over at least 10 million years, from 95 to 85 million years ago; the Half Dome Granodiorite alone takes almost 4 million years. It was never one great liquid magma chamber but built up in many small increments.",
     "sources": ["coleman2004"],
     "tags": ["volcanic", "mountains", "curiosity"],
+    "importance": 3,
     "verified": true
   },
   {
@@ -2645,6 +3193,7 @@
     "text": "A bird from the end of the Cretaceous in Antarctica is a close relative of modern ducks and geese. It shows that lineages of living birds had already split before the asteroid impact, and some survived the mass extinction.",
     "sources": ["clarke2005"],
     "tags": ["birds", "first", "debated"],
+    "importance": 3,
     "verified": true
   },
   {
@@ -2655,6 +3204,7 @@
     "text": "Giant azhdarchid pterosaurs live in latest-Cretaceous Texas, in what is now Big Bend National Park. The giant _Quetzalcoatlus northropi_ is found in river-channel deposits; over 200 specimens of a smaller species, _Q. lawsoni_, come from an old channel lake. One specimen is the youngest pterosaur reported.",
     "sources": ["andres2021", "ogg2020"],
     "tags": ["reptiles", "record", "curiosity"],
+    "importance": 4,
     "verified": true,
     "notes": "Latest Cretaceous per andres2021; t and t_err span the Maastrichtian (ogg2020)."
   },
@@ -2666,6 +3216,7 @@
     "text": "From the Late Cretaceous into the Paleocene, crust is thrust and blocks are pushed up across western North America, building the Rocky Mountain fold-and-thrust belt and Mexico's Sierra Madre Oriental. The deformation lies 700–1500 km inland from the nearest plate boundary, and why remains a puzzle; flat-slab subduction is one proposal.",
     "sources": ["english2004"],
     "tags": ["mountains", "tectonics", "debated"],
+    "importance": 4,
     "verified": true
   },
   {
@@ -2729,6 +3280,7 @@
     "text": "Lava floods Northern Ireland in two main pulses, 62.6 and 59.6 million years ago, part of the volcanism that accompanies the opening of the North Atlantic. In the pause between them, a local flow cools slowly into the famous hexagonal columns of the Giant's Causeway.",
     "sources": ["ganerod2010"],
     "tags": ["volcanic", "curiosity"],
+    "importance": 3,
     "verified": false,
     "notes": "ganerod2010: Lower Basalt 62.6 ± 0.3, Tardree rhyolite 61.3 ± 0.3, Upper Basalt 59.6 ± 0.3 Ma. The Causeway Tholeiite's position (after the Tardree rhyolite, before the Upper Basalt) and 'hexagonal columns' are from a GSA Today 2026 summary and general knowledge; the Causeway itself is undated."
   },
@@ -2739,6 +3291,7 @@
     "text": "A small, primitive mammal from the late Paleocene of Morocco is the oldest known member of the elephant order (Proboscidea), and among the earliest known members of any modern placental order.",
     "sources": ["gheerbrant2009"],
     "tags": ["mammals", "ancestor", "first"],
+    "importance": 2,
     "verified": true
   },
   {
@@ -2774,6 +3327,7 @@
     "text": "Early horses get about 30% smaller over the first 130,000 years of the Paleocene–Eocene heat spike, then grow by about 76% as it eases. Body size tracks temperature, probably driven by heat and high carbon dioxide.",
     "sources": ["secord2012"],
     "tags": ["mammals", "ancestor", "climate"],
+    "importance": 3,
     "verified": true
   },
   {
@@ -2852,6 +3406,7 @@
     "text": "Neodymium isotopes in Southern Ocean sediments record shallow Pacific seawater entering the Atlantic sector about 41 million years ago. With the Tasmanian Gateway, this completes a seaway around Antarctica by the late Eocene. Estimates range from 49 to 17 million years ago.",
     "sources": ["scher2006"],
     "tags": ["ocean", "tectonics", "climate", "debated"],
+    "importance": 4,
     "verified": true
   },
   {
@@ -2877,6 +3432,7 @@
     "text": "In the late Eocene seas of what is now Egypt's Wadi Al Hitan, the whale _Basilosaurus isis_ is the apex predator. Its stomach contents hold young whales of another species, _Dorudon_, and large fishes.",
     "sources": ["voss2019", "ogg2020"],
     "tags": ["mammals", "ancestor", "curiosity"],
+    "importance": 3,
     "verified": true,
     "notes": "Late Eocene per voss2019; t and t_err span the Priabonian (ogg2020). Drawing art/line/basilosaurus.svg (PhyloPic, Tripoli, CC BY) fetched but detached: wide-art layout bug (collision-pages.md)."
   },
@@ -2898,6 +3454,7 @@
     "text": "The Alpine Tethys ocean between Europe and the Adriatic microplate has been consumed by subduction. From about 35 million years ago the sinking slab rolls back while Adria's rigid core drives into Europe like an indenter, building the Western Alps. Old seafloor slabs are still seen by seismic tomography beneath the Alps and Apennines.",
     "sources": ["handy2010"],
     "tags": ["mountains", "tectonics"],
+    "importance": 4,
     "verified": false,
     "notes": "Date from an abstract fragment in web-search results (rollback subduction from 35 Ma coinciding with Western Alpine orogenesis); full abstract not read."
   },
@@ -2908,6 +3465,7 @@
     "text": "Ancient DNA from _Doedicurus_ shows that glyptodonts, the huge armoured herbivores whose fossils Darwin collected in South America, belong inside the armadillo family. They split off no earlier than about 35 million years ago and grew spectacularly in size until they died out at the end of the last ice age.",
     "sources": ["delsuc2016"],
     "tags": ["mammals", "curiosity", "record"],
+    "importance": 2,
     "verified": true
   },
   {
@@ -2939,6 +3497,7 @@
     "text": "Fossil kelp holdfasts, the root-like anchors, from western Washington State show kelp growing in the northeastern Pacific from the earliest Oligocene. This fits a North Pacific origin as the world cooled at the Eocene–Oligocene transition; mammals such as desmostylians may have grazed it.",
     "sources": ["kiel2024"],
     "tags": ["plants", "ecosystem", "first"],
+    "importance": 3,
     "verified": true,
     "notes": "'Earliest Oligocene' per kiel2024; t ≈ 33.9–32 Ma."
   },
@@ -2951,6 +3510,7 @@
     "text": "CO₂ peaks at about 1,500 ppm in the Eocene greenhouse, then falls to about 500 ppm by the Miocene and lower still in the ice-age world. Some two-thirds of the drop comes from oceans holding more alkalinity, probably as weathering outpaced volcanic outgassing. Today's level was last reached about 3 million years ago.",
     "sources": ["rae2021"],
     "tags": ["atmosphere", "climate", "cycles"],
+    "importance": 4,
     "verified": true
   },
   {
@@ -2975,6 +3535,7 @@
     "text": "Fossils of an early ape relative and an early Old World monkey relative lie in the same 25.2-million-year-old layer in the East African Rift of Tanzania. Molecular clocks had put the split between apes and Old World monkeys at 25–30 million years ago, but fossils of either were known only from 20 million years.",
     "sources": ["stevens2013"],
     "tags": ["primates", "first"],
+    "importance": 4,
     "verified": true
   },
   {
@@ -2985,6 +3546,7 @@
     "text": "Phorusrhacids, large flightless birds, are top predators in South America through much of the Cenozoic. Gigantism evolved in one lineage; _Phorusrhacos_, the first of the later giants, was smaller and a better runner than its predecessors, perhaps suited to spreading open country.",
     "sources": ["labarge2024"],
     "tags": ["birds", "curiosity", "record"],
+    "importance": 3,
     "verified": false,
     "notes": "Date: Phorusrhacos longissimus is Santacrucian (Early Miocene, ~18–16 Ma); not stated in labarge2024's abstract."
   },
@@ -3167,6 +3729,7 @@
     "text": "The youngest reliable fossils of _Otodus megalodon_, last of the giant 'megatoothed' shark lineage that began in the Paleocene, are early Pliocene; later teeth are reworked from older rocks. It vanishes about 3.6 million years ago, so it is not still lurking in the deep.",
     "sources": ["boessenecker2019"],
     "tags": ["fish", "extinction", "record", "curiosity"],
+    "importance": 3,
     "verified": true
   },
   {
@@ -3255,6 +3818,7 @@
     "text": "Between 1.25 million and 700,000 years ago, without any change in Earth's orbit, ice ages switch from a 41,000-year rhythm to longer, deeper cycles of about 100,000 years, and ice volume grows by about 50 m of sea level. One idea: glaciers scraped off the soil to bare bedrock, where thicker ice sheets could grip.",
     "sources": ["clark2006"],
     "tags": ["glaciation", "climate", "cycles", "debated"],
+    "importance": 4,
     "verified": true
   },
   {
@@ -3280,7 +3844,7 @@
     "text": "After excursions at 795,000 and 784,000 years ago, the field makes its final flip to today's polarity, the Brunhes–Matuyama reversal, 773,000 years ago.",
     "sources": ["singer2019"],
     "tags": ["magnetic"],
-    "importance": 3,
+    "importance": 4,
     "verified": true
   },
   {
@@ -3306,6 +3870,7 @@
     "text": "Deep cores show that reef growth on Australia's outer barrier began only about 600,000 years ago, after the last full magnetic reversal. It may have been triggered by the large 100,000-year swings of sea level that came with the long ice-age cycles; stacked reef layers separated by old land surfaces record it dying back and regrowing as the sea fell and rose.",
     "sources": ["gbrdrilling2001"],
     "tags": ["ecosystem", "animals", "curiosity"],
+    "importance": 3,
     "verified": true
   },
   {
@@ -3402,6 +3967,7 @@
     "text": "Rising northern summer sunshine starts to melt the Northern Hemisphere ice sheets 19,000–20,000 years ago, and sea level begins an abrupt rise. West Antarctica follows 14,000–15,000 years ago, probably the main source of a sudden jump in sea level about 14,500 years ago.",
     "sources": ["clark2009"],
     "tags": ["glaciation", "climate", "ocean"],
+    "importance": 4,
     "verified": true
   },
   {
@@ -3428,6 +3994,7 @@
     "text": "From about 10,500 to 5,500 years ago the water of the upper Great Lakes bypasses Lake Erie, flowing out through North Bay to the Ottawa River. Starved of flow, Niagara Falls creeps very slowly around the narrow bend at Niagara Glen; it speeds up again once the water returns.",
     "sources": ["tinkler1994"],
     "tags": ["curiosity", "glaciation"],
+    "importance": 2,
     "verified": true,
     "notes": "Ages are radiocarbon years before 1950 (yr B.P.) as given; uncalibrated."
   },

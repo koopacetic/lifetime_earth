@@ -1,0 +1,10 @@
+# rogers2018
+rogers2018 | 2018 | Phosphorus and Potassium Metasomatic Enrichment in the Mantle Source of the c. 1450--1425 {Ma} {Michael--Shabogamo} Gabbro of Eastern {Laurentia}
+
+- DOI: 10.1093/petrology/egy104
+- Link: https://doi.org/10.1093/petrology/egy104
+- Open access: closed
+- Abstract from: OpenAlex
+
+## Abstract
+A c. 1450 Ma, east–west-oriented suite of Proterozoic mafic intrusions in eastern Canada, located between Labrador City and coastal Labrador near Rigolet, has been divided into two groups: the Shabogamo Gabbro, which is exposed west of Churchill Falls, and the Michael Gabbro, which crops out east of Churchill Falls. Both suites of gabbro are within-plate tholeiites that range from sub-alkaline basalt to basaltic andesite in composition and are enriched in P2O5 and K2O. Collectively, the two suites are better interpreted as a single magmatic event, termed the Michael–Shabogamo Gabbro (MSG), with ages ranging from 1425 to 1450 Ma, based on new U–Pb isotope dilution thermal ionization mass spectrometry baddeleyite ages of 1449 ± 3, 1437 ± 4 and 1435 ± 10 Ma, along with previously published ages. Within the MSG, two geochemical groups are evident. Most notably, each is characterized by differing P2O5/Zr (P/Zr) ratios: (1) a high P/Zr group, c. 1425–1437 Ma; (2) a low P/Zr group, c. 1435–1450 Ma. The positive slope of P2O5 versus Zr data arrays for each group indicates that melting of apatite was pivotal in influencing the rare earth element concentrations of the MSG magmas and their secular changes in geochemistry. K2O is enriched in the MSG relative to enriched mid-ocean ridge basalts and is correlated with P2O5, Ba and Rb. Multiple origins for the enrichment of P2O5 and K2O in the MSG are considered and the available evidence is most consistent with melting of a metasomatized subcontinental lithospheric mantle source interpreted to originate by infiltration of partial melts of phosphate-rich sediments. A slab window is proposed to have facilitated lithospheric melting at c. 1425–1450 Ma.

@@ -3,6 +3,104 @@
 Newest first. Each entry: what was done, what was learned, and what's next. Keep entries short; details belong in
 decisions.md and the other docs.
 
+## 2026-11-23 (latest): significance review, pruning, importance pass
+**Done**
+- docs/significance-review.md: 48 weak events reviewed (local specimens, ores, regional dykes and orogenies,
+  duplicates). User approved; applied: 34 removed (16 cut, 18 merged into the event telling the global story),
+  388 → 354 events. Maps from `prinsep-orogeny` and `dominion-group-volcanism` moved to `pilbara-nucleus-rifts`
+  and `kaapvaal-craton-stable`. 25 pages became empty again (pp 89, 122, 123, 141, 143, 160, 165, 189, 263, 300, 303, 370, 399, 409, 453, 455, 464, 530, 566, 578, 584, 620, 668, 738, 740).
+- `importance` set on every event (scale 1–5 in the review doc); decision #41.
+- 14 sources used only by cut events moved to `data/sources-retired.bib` (the bibliography prints all of
+  sources.bib). `brasier1994` and `rooney2015` were already unused; left in place.
+- dig-gap dossiers get an "Imp." column; fill-gaps and add-events ask for `importance`. Gap dossiers, art-candidates,
+  verification-backlog annotated for removed ids. `tumbiana-modern-bacteria` moved to introduction-notes.
+- project-plan.md: session 16a, duplicate review.
+
+- Reframes with new sources: ALH84001 life claim (mckay1996), Homestake neutrino detector (davis1990,
+  cleveland1998), Wiborg rapakivi in St Petersburg (bulakh2020); verified from abstracts.
+
+**Open:** `importance` is not yet used by the layout beyond "who yields".
+
+## 2026-11-23 (later): four parallel gap digs on the longest stretches (736–749, 556–568, 396–408, 142–154)
+**Done**
+- Same setup (one dig-gap subagent per stretch, pre-approved adds, no commits). 19 events, 24 sources.
+- 736–749 (895–825 Ma), 6 verified: Big Cottonwood 18.9 h day (p735), Little Dal sponge reefs (debated, p737), Nchanga granite (p738),
+  Moine metagabbros (p740), Manso dykes (p743), Gairdner dykes + South China plume (debated, p749). Longest empty run now p744–748.
+  Caveat: wingate1998, li1999, armstrong2005 marked verified from abstract copies found via web search, not the publisher page.
+- 556–568 (1.795–1.73 Ga), 6 verified: Avanavero LIP (p556), Xiong'er LIP, Korosten pluton, Big Sky orogeny span (p559→573),
+  McDermott eukaryotes (debated, p564), Homestake gold (p567).
+- 396–408 (2.595–2.53 Ga), 5 events: Marra Mamba BIF (p395), Salobo Cu–Au (p399), Great Dyke (p400, unverified size/PGE claim),
+  Campbellrand platform span (p403→411), Gamohaan sulfur bacteria (p411).
+- 142–154 (3.865–3.80 Ga), 2 verified: Napier Gage Ridge gneiss (p143), Akilia earliest-life claim (debated, p150). Rest honestly empty.
+- 11 art-candidate rows; no art fetched (PhyloPic has no _Thiomargarita_ or acritarchs). Totals: 388 events, 438 sources,
+  25 unverified, 0 errors; pages with entries 245 → 260.
+- OpenAlex daily quota was hit during this run.
+**Next**
+- Longest empty stretches now: 279–290 (12), 772–782, 604–614, 474–484, 346–356 (11 each).
+- Proposed leads: Bi'r Umq ophiolite, Jiangnan arcs, Kivalliq/Nueltin 1.75 Ga, Capricorn orogeny, Slave granite bloom,
+  Bee Gorge tuff, Serenitatis 3.89 Ga (p136, debated); details in each dossier.
+
+## 2026-11-23: four more parallel gap digs (113–130, 452–468, 570–585, 436–450)
+**Done**
+- Same setup as the previous entry (flock, pre-approved adds), plus per-agent scratchpad folders and PNG copies. 20 events, 22 sources.
+- 113–130 (4.01–3.92 Ga), 3 verified: Acasta 3.962 Ga gneiss (p122), Beartooth zircons (p123), Saglek graphite life (debated, p125).
+  Longest empty run now p113–121.
+- 452–468 (2.315–2.23 Ga), 6 events: Gordon Lake ash and Karelian dykes (unverified, p453), Xiong'ershan arc (debated span),
+  oxygen oscillations 2.32–2.22 Ga (debated span, poulton2021), Ippaguda LIP (p464), Malley dykes (p468). Longest empty run now p456–460.
+- 570–585 (1.725–1.645 Ga), 6 verified: Labradorian orogeny (span), Grand Canyon basement metamorphism (p574), Broken Hill ore (p578),
+  Changcheng microfossils (p583), Mount Isa ore (p584), Mazatzal orogeny (p585). Longest empty run now p579–582.
+- 436–450 (2.395–2.32 Ga), 5 verified: Arrowsmith orogeny (p439), Dharwar giant dyke swarm (p441), tectono-magmatic lull span
+  (debated; spencer2018 added as third source), Hotazel manganese and Ongeluk fungus-like fossils (debated, both p435). Longest empty run now p442–448.
+- 9 art-candidate rows; no art fetched. Totals: 369 events, 414 sources, 24 unverified, 0 errors; pages with entries 228 → 245.
+**Next**
+- Longest empty stretches now: 736–749 (14), 556–568, 396–408, 142–154 (13 each), 279–290 (12).
+- Proposed leads: Iizuka 2007 eastern Acasta 3.94 Ga, Timeball Hill tuff 2310 Ma, Scourie dykes ~2375 Ma, Meteorite Bore glaciation,
+  North China anorthosite–rapakivi suite, Yanliao rift ~1680 Ma; Elsevier abstracts unreachable for several.
+
+## 2026-11-22 (latest): four parallel gap digs (616–634, 516–534, 156–174, 76–94)
+**Done**
+- Four subagents ran dig-gap at once on the four 19-page stretches, adding their strongest candidates without
+  waiting for approval. Shared-file writes went through `flock` (lock file in the session scratchpad). 23 events added, 23 sources.
+- 616–634 (1.495–1.40 Ga), 8 events, all verified: Sullivan ore, Pea Ridge iron (p620), Belt basin span, _Horodyskia_
+  (debated, p625), Michael–Shabogamo gabbro span, Tieling oxygenation (debated, p626), Antarctic–Laurentian granite (p627),
+  granite–rhyolite provinces span (prints p615/647). Longest empty run now p616–619.
+- 516–534 (1.995–1.90 Ga), 7 events: Purtuniq ophiolite (p515), Zaonega shungite (unverified) and first phosphorites (p520),
+  Glenburgh orogeny (unverified, p523), Jormua ophiolite (p525), Pechenga nickel (p530), Snowbird eclogites (p534). Longest empty run now 4 pages.
+- 156–174 (3.795–3.70 Ga), 3 events: Anshan oldest China rocks (unverified, p160), Acasta reheated (p165),
+  Isua fore-arc sediments (p174). Longest empty run now p166–173.
+- 76–94 (4.195–4.10 Ga), 5 events, all verified: Mount Narryer zircons (p85), Cathaysia Hadean zircon (p89), Mars magnetization
+  stops (debated, p90), zircon inclusions/subduction (debated, p94), ALH84001 crystallizes (p96). Longest empty run now p76–84.
+- 12 art-candidate rows; no art fetched (PhyloPic has no _Horodyskia_). Dossiers in docs/gaps/ for each stretch.
+- Totals: 349 events, 392 sources, 23 unverified, 0 errors; pages with entries 207 → 228.
+**Learned**
+- Parallel agents share build/png (renders clear each other's PNGs: copy right after rendering) and the scratchpad (use per-agent subdirs).
+**Next**
+- Longest empty stretches now: 113–130 (18), 452–468 (17), 570–585 (16), 436–450 (15), 736–749 (14).
+- Proposed leads in the new dossiers: Velkerri Fm (p631), Hongshuizhuang Fm (p623), Onega plateau lavas, Khondalite Belt,
+  Manfred Complex anorthosite (p169), Apollo 17 basalts, Serenitatis basin (p73).
+
+## 2026-11-22 (later): gap dig, pages 666–694
+**Done**
+- Largest stretch 666–694 (1.245–1.10 Ga, 29 pages): 10 events added, 9 verified from abstracts; 11 sources (all cached).
+  In the stretch: Sudbury dykes (p668), Musgrave and Shawinigan orogenies (spans), Stac Fada impact (p679), Premier
+  kimberlite (p685, unverified: Cullinan-diamond clause), Umkondo LIP (p693), Midcontinent Rift span (p693–698).
+  Just outside: fossil chlorophyll (p695), eukaryote chloroplasts ~1.25 Ga (p665, debated), Argyle diamonds (p658).
+  Dossier docs/gaps/666-694.md; 3 art-candidate rows (Stac Fada map, Midcontinent Rift map, Cullinan diamond).
+- dig-gap skill: candidates are now numbered in the dossier and the presented table.
+**Next**
+- Longest empty stretches now 19 pages each: 616–634, 516–534, 156–174, 76–94.
+
+## 2026-11-22 (later): gap dig, pages 176–202
+**Done**
+- Second-largest stretch 176–202 (3.695–3.56 Ga, 27 pages): 6 events added; dossier docs/gaps/176-202.md.
+  `isua-terranes-collide` (p181, debated), `ancient-gneiss-complex` (p183), `isukasian-orogeny` (span, p183/195),
+  `pilbara-crustal-overturn` (span, p195/232, debated), `mars-deuteronilus-ocean` (p195, unverified),
+  `isua-magnetic-field` (p175). suavet2013 added as a source on `lunar-dynamo-strong`.
+- 6 sources: suavet2013, wiemer2018, nutman2013, ivanov2017, zeh2011, nichols2024 (all but ivanov2017 verified from abstracts).
+- 2 art-candidate rows (SW Greenland locator map, Pilbara dome-and-keel section). Longest empty run inside is now 184–194.
+- Tooling: OpenAlex search from a script got 429; Crossref search + `tools/source_cache.py` worked. Elsevier/core.ac.uk/oro block fetches.
+**Next:** snape2019 full text (Apollo 11 basalts ~3.58 Ga, would fill p196–202); verify ivanov2017; next stretches 666–694 (another session is on it), 616–634.
+
 ## 2026-11-22: "To add" pass through content-categories.md
 Worked down the "To add" column one item at a time. Every research row is now ☑ except the leftovers below.
 **Done**

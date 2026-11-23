@@ -25,6 +25,7 @@ Status key: ✅ in use · 🔎 searched, findings below · ⏳ not yet checked.
 - **Not found (2026-11-21):** *Bangiomorpha*, *Grypania*, *Qingshania*, *Wattieza*, *Eospermatopteris*,
   *Rhyniognatha*, *Montsechia*, *Sahelanthropus*, *Ardipithecus*, Demospongiae, *Acromyrmex*. "Diplopoda" made the
   search error, so try "millipede" or a genus name. "stromatolite" also errors (not a taxon; 2026-11-21).
+  *Thiomargarita* (giant sulfur bacterium) returns 404 (2026-11-23).
 - **Surprises:** the "Cyanobacteriota" image (Sanaa Mughal, CC BY) is a stromatolite block cut open (used for
   Strelley Pool). Modern relatives work for groups that have no fossil drawing (*Tettigonia* for the Jurassic katydid,
   Thysanoptera for amber thrips); the caption must say "modern".

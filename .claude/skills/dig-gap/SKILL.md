@@ -47,15 +47,20 @@ _Dug: YYYY-MM-DD. Status: N candidates, M added._
 ## Context
 Neighbours, threads that pass through, cratons with rock of this age.
 ## Candidates
-| t | ± | Page | Fact | Source (key or DOI) | Status |
-(status: added / proposed / rejected: reason)
+| # | t | ± | Page | Fact | Source (key or DOI) | Imp. | Status |
+(Imp. = proposed `importance` 1–5, scale in docs/significance-review.md; status: added / proposed / rejected: reason)
 ## Searched, nothing usable
 Checklist items with no datable fact, and why (e.g. "no impacts known; spherule record starts 2.63 Ga").
 ## Art ideas
 | Candidate | Resource tried | Result (file, or "none: reason") |
 ```
 
-Compute pages with `./run query --page-of T`. Flag candidates that land outside the stretch but still belong to
+Compute pages with `./run query --page-of T`.
+Score every candidate's importance (docs/significance-review.md): 4–5 global story, 3 regional but illustrates one
+or is widely known, 2 local filler, 1 "this rock here is this old". Don't let an empty stretch inflate the score.
+Prefer one candidate that tells the global story over several local records of it; if a 1–2 fact only supports
+an existing event, propose merging it there instead of a new entry. Title the event by what it shows about the
+Earth, not by the find ("Continents already exist", not "Zircons found at X"). Flag candidates that land outside the stretch but still belong to
 the book (they go in too, just note it).
 
 ## 5. Look for art
@@ -78,8 +83,9 @@ Record results as you go:
 - Put the art ideas and their status in the dossier's "Art ideas" section.
 
 ## 6. Present, then add
-Show the user the candidate table (fact, date ± error, page, source, suggested tags, proposed art), ordered by
-confidence. On approval, follow the `add-events` skill (sources first, `./run add`, `./run check`, `./run png`
+Show the user the candidate table (fact, date ± error, page, source, importance, suggested tags, proposed art),
+ordered by importance, then confidence; flag importance 1 as "suggest skip". Number the candidates (1, 2, 3, …) in both the dossier and the presented table, with the same number
+for the same candidate, so the user can approve or reject by number ("add 1–4 and 7"). On approval, follow the `add-events` skill (set `importance` to the agreed score) (sources first, `./run add`, `./run check`, `./run png`
 for touched pages). Check every page with art in the PNG; the drawing must not crowd the text.
 Events whose claim or date couldn't be checked against the source (no abstract, paywalled) can still go in with
 `"verified": false`, but each one also gets a row in `docs/verification-backlog.md`.
