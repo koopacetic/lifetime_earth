@@ -1,0 +1,10 @@
+# nelsen2016
+nelsen2016 | 2016 | Delayed fungal evolution did not cause the Paleozoic peak in coal production
+
+- DOI: 10.1073/pnas.1517943113
+- Link: https://doi.org/10.1073/pnas.1517943113
+- Open access: green — https://pmc.ncbi.nlm.nih.gov/articles/PMC4780611/
+- Abstract from: OpenAlex
+
+## Abstract
+Organic carbon burial plays a critical role in Earth systems, influencing atmospheric O2 and CO2 concentrations and, thereby, climate. The Carboniferous Period of the Paleozoic is so named for massive, widespread coal deposits. A widely accepted explanation for this peak in coal production is a temporal lag between the evolution of abundant lignin production in woody plants and the subsequent evolution of lignin-degrading Agaricomycetes fungi, resulting in a period when vast amounts of lignin-rich plant material accumulated. Here, we reject this evolutionary lag hypothesis, based on assessment of phylogenomic, geochemical, paleontological, and stratigraphic evidence. Lignin-degrading Agaricomycetes may have been present before the Carboniferous, and lignin degradation was likely never restricted to them and their class II peroxidases, because lignin modification is known to occur via other enzymatic mechanisms in other fungal and bacterial lineages. Furthermore, a large proportion of Carboniferous coal horizons are dominated by unlignified lycopsid periderm with equivalent coal accumulation rates continuing through several transitions between floral dominance by lignin-poor lycopsids and lignin-rich tree ferns and seed plants. Thus, biochemical composition had little relevance to coal accumulation. Throughout the fossil record, evidence of decay is pervasive in all organic matter exposed subaerially during deposition, and high coal accumulation rates have continued to the present wherever environmental conditions permit. Rather than a consequence of a temporal decoupling of evolutionary innovations between fungi and plants, Paleozoic coal abundance was likely the result of a unique combination of everwet tropical conditions and extensive depositional systems during the assembly of Pangea.

@@ -1,0 +1,10 @@
+# reinhard2016
+reinhard2016 | 2016 | Evolution of the global phosphorus cycle
+
+- DOI: 10.1038/nature20772
+- Link: https://doi.org/10.1038/nature20772
+- Open access: closed
+- Abstract from: Europe PMC
+
+## Abstract
+The macronutrient phosphorus is thought to limit primary productivity in the oceans on geological timescales. Although there has been a sustained effort to reconstruct the dynamics of the phosphorus cycle over the past 3.5 billion years, it remains uncertain whether phosphorus limitation persisted throughout Earth's history and therefore whether the phosphorus cycle has consistently modulated biospheric productivity and ocean-atmosphere oxygen levels over time. Here we present a compilation of phosphorus abundances in marine sedimentary rocks spanning the past 3.5 billion years. We find evidence for relatively low authigenic phosphorus burial in shallow marine environments until about 800 to 700 million years ago. Our interpretation of the database leads us to propose that limited marginal phosphorus burial before that time was linked to phosphorus biolimitation, resulting in elemental stoichiometries in primary producers that diverged strongly from the Redfield ratio (the atomic ratio of carbon, nitrogen and phosphorus found in phytoplankton). We place our phosphorus record in a quantitative biogeochemical model framework and find that a combination of enhanced phosphorus scavenging in anoxic, iron-rich oceans and a nutrient-based bistability in atmospheric oxygen levels could have resulted in a stable low-oxygen world. The combination of these factors may explain the protracted oxygenation of Earth's surface over the last 3.5 billion years of Earth history. However, our analysis also suggests that a fundamental shift in the phosphorus cycle may have occurred during the late Proterozoic eon (between 800 and 635 million years ago), coincident with a previously inferred shift in marine redox states, severe perturbations to Earth's climate system, and the emergence of animals.

@@ -1,0 +1,10 @@
+# boyce2008
+boyce2008 | 2008 | How green was Cooksonia? The importance of size in understanding the early evolution of physiology in the vascular plant lineage
+
+- DOI: 10.1666/0094-8373(2008)034[0179:hgwcti]2.0.co;2
+- Link: https://doi.org/10.1666/0094-8373(2008)034[0179:hgwcti]2.0.co;2
+- Open access: closed
+- Abstract from: OpenAlex
+
+## Abstract
+Abstract Because of the fragmentary preservation of the earliest Cooksonia-like terrestrial plant macrofossils, younger Devonian fossils with complete anatomical preservation and documented gametophytes often have received greater attention concerning the early evolution of vascular plants and the alternation of generations. Despite preservational deficits, however, possible physiologies of Cooksonia-like fossils can be constrained by considering the overall axis size in conjunction with the potential range of cell types and sizes, because their lack of organ differentiation requires that all plant functions be performed by the same axis. Once desiccation resistance, support, and transport functions are taken into account, smaller fossils do not have volume enough left over for an extensive aerated photosynthetic tissue, thus arguing for physiological dependence on an unpreserved gametophyte. As in many mosses, axial anatomy is more likely to have ensured continued spore dispersal despite desiccation of the sporophyte than to have provided photosynthetic independence. Suppositions concerning size constraints on physiology are supported by size comparisons with fossils of demonstrable physiological independence, by preserved anatomical detail, and by size correlations between axis, sporangia, and sporangial stalk in Silurian and Early Devonian taxa. Several Cooksonia-like taxa lump fossils with axial widths spanning over an order of magnitude—from necessary physiological dependence to potential photosynthetic competence—informing understanding of the evolution of an independent sporophyte and the phylogenetic relationships of early vascular plants.

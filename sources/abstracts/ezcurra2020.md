@@ -1,0 +1,10 @@
+# ezcurra2020
+ezcurra2020 | 2020 | Enigmatic dinosaur precursors bridge the gap to the origin of Pterosauria
+
+- DOI: 10.1038/s41586-020-3011-4
+- Link: https://doi.org/10.1038/s41586-020-3011-4
+- Open access: green — http://hdl.handle.net/11336/134853
+- Abstract from: publisher page
+
+## Abstract
+Pterosaurs were the first vertebrates to evolve powered flight1 and comprised one of the main evolutionary radiations in terrestrial ecosystems of the Mesozoic era (approximately 252–66&nbsp;million years ago), but their origin has remained an unresolved enigma in palaeontology since the nineteenth century2–4. These flying reptiles have been hypothesized to be the close relatives of a wide variety of reptilian clades, including dinosaur relatives2–8, and there is still a major morphological gap between those forms and the oldest, unambiguous pterosaurs from the Upper Triassic series. Here, using recent discoveries of well-preserved cranial remains, microcomputed tomography scans of fragile skull bones (jaws, skull roofs and braincases) and reliably associated postcrania, we demonstrate that lagerpetids—a group of cursorial, non-volant dinosaur precursors—are the sister group of pterosaurs, sharing numerous synapomorphies across the entire skeleton. This finding substantially shortens the temporal and morphological gap between the oldest pterosaurs and their closest relatives and simultaneously strengthens the evidence that pterosaurs belong to the avian line of archosaurs. Neuroanatomical features related to the enhanced sensory abilities of pterosaurs9 are already present in lagerpetids, which indicates that these features evolved before flight. Our evidence illuminates the first steps of the assembly of the pterosaur body plan, whose conquest of aerial space represents a remarkable morphofunctional innovation in vertebrate evolution. Lagerpetids, bipedal archosaurs that are thought to be related to dinosaurs, are instead a sister group to pterosaurs, and although they have no obvious flight adaptations they share numerous synapomorphies with pterosaurs across the entire skeleton.

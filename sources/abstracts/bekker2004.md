@@ -1,0 +1,10 @@
+# bekker2004
+bekker2004 | 2004 | Dating the Rise of Atmospheric Oxygen
+
+- DOI: 10.1038/nature02260
+- Link: https://doi.org/10.1038/nature02260
+- Open access: closed
+- Abstract from: Europe PMC
+
+## Abstract
+Several lines of geological and geochemical evidence indicate that the level of atmospheric oxygen was extremely low before 2.45 billion years (Gyr) ago, and that it had reached considerable levels by 2.22 Gyr ago. Here we present evidence that the rise of atmospheric oxygen had occurred by 2.32 Gyr ago. We found that syngenetic pyrite is present in organic-rich shales of the 2.32-Gyr-old Rooihoogte and Timeball Hill formations, South Africa. The range of the isotopic composition of sulphur in this pyrite is large and shows no evidence of mass-independent fractionation, indicating that atmospheric oxygen was present at significant levels (that is, greater than 10(-5) times that of the present atmospheric level) during the deposition of these units. The presence of rounded pebbles of sideritic iron formation at the base of the Rooihoogte Formation and an extensive and thick ironstone layer consisting of haematitic pisolites and oölites in the upper Timeball Hill Formation indicate that atmospheric oxygen rose significantly, perhaps for the first time, during the deposition of the Rooihoogte and Timeball Hill formations. These units were deposited between what are probably the second and third of the three Palaeoproterozoic glacial events.

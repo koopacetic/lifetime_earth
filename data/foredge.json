@@ -1,0 +1,11 @@
+{
+  "_note": "Foredge bands (thumb-index style). Each band is printed in the bleed at the outer edge of every page in its range, in its own vertical slot (slot 0 = top). After binding, the foredge is trimmed through the bands. Demo set = the four eons; a life-based set (single-celled / multicellular / animals / land life) needs research + citations.",
+  "slots": 4,
+  "sources": ["cohen2013"],
+  "bands": [
+    {"name": "Hadean",      "start": -4570000000, "end": -4031000000, "slot": 0},
+    {"name": "Archean",     "start": -4031000000, "end": -2500000000, "slot": 1},
+    {"name": "Proterozoic", "start": -2500000000, "end": -538800000,  "slot": 2},
+    {"name": "Phanerozoic", "start": -538800000,  "end": 0,           "slot": 3}
+  ]
+}

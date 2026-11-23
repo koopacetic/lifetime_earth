@@ -1,0 +1,10 @@
+# barden2016
+barden2016 | 2016 | Adaptive Radiation in Socially Advanced Stem-Group Ants from the Cretaceous
+
+- DOI: 10.1016/j.cub.2015.12.060
+- Link: https://doi.org/10.1016/j.cub.2015.12.060
+- Open access: bronze — http://www.cell.com/article/S0960982216000415/pdf
+- Abstract from: Europe PMC
+
+## Abstract
+Across terrestrial ecosystems, modern ants are ubiquitous. As many as 94 out of every 100 individual arthropods in rainforests are ants, and they constitute up to 15% of animal biomass in the Amazon. Moreover, ants are pervasive agents of natural selection as over 10,000 arthropod species are specialized inquilines or myrmecomorphs living among ants or defending themselves through mimicry. Such impact is traditionally explained by sociality: ants are the first major group of ground-dwelling predatory insects to become eusocial, increasing efficiency of tasks and establishing competitive superiority over solitary species. A wealth of specimens from rich deposits of 99 million-year-old Burmese amber resolves ambiguity regarding sociality and diversity in the earliest ants. The stem-group genus Gerontoformica maintained distinct reproductive castes including morphotypes unknown in solitary aculeate (stinging) wasps, providing insight into early behavior. We present rare aggregations of workers, indicating group recruitment as well as an instance of interspecific combat; such aggression is a social feature of modern ants. Two species and an unusual new genus are described, further expanding the remarkable diversity of early ants. Stem-group ants are recovered as a paraphyletic assemblage at the base of modern lineages varying greatly in size, form, and mouthpart structure, interpreted here as an adaptive radiation. Though Cretaceous stem-group ants were eusocial and adaptively diverse, we hypothesize that their extinction resulted from the rise of competitively superior crown-group taxa that today form massive colonies, consistent with Wilson and Hölldobler's concept of "dynastic succession."

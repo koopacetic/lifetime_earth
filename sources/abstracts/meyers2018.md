@@ -1,0 +1,10 @@
+# meyers2018
+meyers2018 | 2018 | Proterozoic Milankovitch cycles and the history of the solar system
+
+- DOI: 10.1073/pnas.1717689115
+- Link: https://doi.org/10.1073/pnas.1717689115
+- Open access: green — http://europepmc.org/pmc/articles/PMC6016783
+- Abstract from: OpenAlex
+
+## Abstract
+The geologic record of Milankovitch climate cycles provides a rich conceptual and temporal framework for evaluating Earth system evolution, bestowing a sharp lens through which to view our planet's history. However, the utility of these cycles for constraining the early Earth system is hindered by seemingly insurmountable uncertainties in our knowledge of solar system behavior (including Earth-Moon history), and poor temporal control for validation of cycle periods (e.g., from radioisotopic dates). Here we address these problems using a Bayesian inversion approach to quantitatively link astronomical theory with geologic observation, allowing a reconstruction of Proterozoic astronomical cycles, fundamental frequencies of the solar system, the precession constant, and the underlying geologic timescale, directly from stratigraphic data. Application of the approach to 1.4-billion-year-old rhythmites indicates a precession constant of 85.79 ± 2.72 arcsec/year (2σ), an Earth-Moon distance of 340,900 ± 2,600 km (2σ), and length of day of 18.68 ± 0.25 hours (2σ), with dominant climatic precession cycles of ∼14 ky and eccentricity cycles of ∼131 ky. The results confirm reduced tidal dissipation in the Proterozoic. A complementary analysis of Eocene rhythmites (∼55 Ma) illustrates how the approach offers a means to map out ancient solar system behavior and Earth-Moon history using the geologic archive. The method also provides robust quantitative uncertainties on the eccentricity and climatic precession periods, and derived astronomical timescales. As a consequence, the temporal resolution of ancient Earth system processes is enhanced, and our knowledge of early solar system dynamics is greatly improved.

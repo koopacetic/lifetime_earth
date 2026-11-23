@@ -1,0 +1,12 @@
+{
+  "id": "days_per_year",
+  "label": "Year",
+  "unit": "days",
+  "decimals": 0,
+  "order": 3,
+  "_note": "Solar days per year. Linear between cited points (Elatina Formation tidal rhythmites, ~620 Ma). Demo data.",
+  "points": [
+    {"t": -620000000, "v": 400,    "sources": ["williams2000"]},
+    {"t": 0,          "v": 365.24, "sources": ["williams2000"]}
+  ]
+}

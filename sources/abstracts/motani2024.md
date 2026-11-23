@@ -1,0 +1,10 @@
+# motani2024
+motani2024 | 2024 | Downsizing a heavyweight: factors and methods that revise weight estimates of the giant fossil whale Perucetus colossus
+
+- DOI: 10.7717/peerj.16978
+- Link: https://doi.org/10.7717/peerj.16978
+- Open access: gold — https://doi.org/10.7717/peerj.16978
+- Abstract from: OpenAlex
+
+## Abstract
+Extremes in organismal size have broad interest in ecology and evolution because organismal size dictates many traits of an organism’s biology. There is particular fascination with identifying upper size extremes in the largest vertebrates, given the challenges and difficulties of measuring extant and extinct candidates for the largest animal of all time, such as whales, terrestrial non-avian dinosaurs, and extinct marine reptiles. The discovery of Perucetus colossus, a giant basilosaurid whale from the Eocene of Peru, challenged many assumptions about organismal extremes based on reconstructions of its body weight that exceeded reported values for blue whales (Balaenoptera musculus). Here we present an examination of a series of factors and methodological approaches to assess reconstructing body weight in Perucetus, including: data sources from large extant cetaceans; fitting published body mass estimates to body outlines; testing the assumption of isometry between skeletal and body masses, even with extrapolation; examining the role of pachyostosis in body mass reconstructions; addressing method-dependent error rates; and comparing Perucetus with known physiological and ecological limits for living whales, and Eocene oceanic productivity. We conclude that Perucetus did not exceed the body mass of today’s blue whales. Depending on assumptions and methods, we estimate that Perucetus weighed 60–70 tons assuming a length 17 m. We calculated larger estimates potentially as much as 98–114 tons at 20 m in length, which is far less than the direct records of blue whale weights, or the 270 ton estimates that we calculated for body weights of the largest blue whales measured by length.

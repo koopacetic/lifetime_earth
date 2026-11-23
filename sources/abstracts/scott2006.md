@@ -1,0 +1,10 @@
+# scott2006
+scott2006 | 2006 | The diversification of Paleozoic fire systems and fluctuations in atmospheric oxygen concentration
+
+- DOI: 10.1073/pnas.0604090103
+- Link: https://doi.org/10.1073/pnas.0604090103
+- Open access: green — http://europepmc.org/pmc/articles/PMC1544139
+- Abstract from: OpenAlex
+
+## Abstract
+By comparing Silurian through end Permian [approximately 250 million years (Myr)] charcoal abundance with contemporaneous macroecological changes in vegetation and climate we aim to demonstrate that long-term variations in fire occurrence and fire system diversification are related to fluctuations in Late Paleozoic atmospheric oxygen concentration. Charcoal, a proxy for fire, occurs in the fossil record from the Late Silurian (approximately 420 Myr) to the present. Its presence at any interval in the fossil record is already taken to constrain atmospheric oxygen within the range of 13% to 35% (the "fire window"). Herein, we observe that, as predicted, atmospheric oxygen levels rise from approximately 13% in the Late Devonian to approximately 30% in the Late Permian so, too, fires progressively occur in an increasing diversity of ecosystems. Sequentially, data of note include: the occurrence of charcoal in the Late Silurian/Early Devonian, indicating the burning of a diminutive, dominantly rhyniophytoid vegetation; an apparent paucity of charcoal in the Middle to Late Devonian that coincides with a predicted atmospheric oxygen low; and the subsequent diversification of fire systems throughout the remainder of the Late Paleozoic. First, fires become widespread during the Early Mississippian, they then become commonplace in mire systems in the Middle Mississippian; in the Pennsylvanian they are first recorded in upland settings and finally, based on coal petrology, become extremely important in many Permian mire settings. These trends conform well to changes in atmospheric oxygen concentration, as predicted by modeling, and indicate oxygen levels are a significant control on long-term fire occurrence.

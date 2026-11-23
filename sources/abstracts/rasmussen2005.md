@@ -1,0 +1,10 @@
+# rasmussen2005
+rasmussen2005 | 2005 | U-Pb zircon age constraints on the Hamersley spherule beds: Evidence for a single 2.63 Ga Jeerinah-Carawine impact ejecta layer
+
+- DOI: 10.1130/g21616.1
+- Link: https://doi.org/10.1130/g21616.1
+- Open access: closed
+- Abstract from: OpenAlex
+
+## Abstract
+Seven spherule beds interpreted to be distal impact ejecta were recently found in late Neoarchean and early Palleoproterozoic successions of northwestern Australia and South Africa. Inadequate age constraints have led to uncertainty about the number of impacts they represent and their correlation. Here we report two new isotopic ages from the Pilbara region of Western Australia. Zircons from a tuff in the Carawine Dolomite, similar to 30 In below the Carawine spherule layer, give a Pb-207/Pb-206 age of 2630 +/- 6 Ma, suggesting that the Carawine and ca. 2.63 Ga Jeerinah spherule layers formed during a single impact, significantly increasing the known area of the strewn field to > 17,000 km(2). This date also requires that the Carawine Dolomite was probably time equivalent to the uppermost Jeerinah Formation and lowermost Marra Mamba Iron Formation, negating previous lithostratigraphic correlations and suggesting that the deposition of banded iron formation was synchronous with carbonate precipitation in a shallow-water platform. A tuff in the Mount McRae Shale yielded a zircon Pb-207/Pb-206 age of 2504 +/- 5 Ma, providing new age constraints on the overlying Wittenoom and Dales Gorge spherulle layers. The new dates show that the Hamersley spherule layers represent three impacts that occurred ca. 2.63 Ga, 2.56-2.50 Ga, and 2.50-2.48 Ga. The three Hamersley spherulle beds broadly correlate with three beds in South Africa, highlighting the possible global extent of the impact ejecta fallout. The layers potentially provide three geologically instantaneous markers spanning 150 m.y. across the Archean-Proterozoic boundary, possibly underpinning a chronostratigraphic framework across two continents and constraining late Neoarchean paleogeography.

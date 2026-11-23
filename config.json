@@ -1,0 +1,49 @@
+{
+  "title": "The Lifetime of the Earth",
+  "subtitle": "4,570,000,000 years, five million to a page",
+  "time": {
+    "start_year": -4570000000,
+    "end_year": 0,
+    "years_per_page": 5000000
+  },
+  "page": {
+    "_note": "Untrimmed page = half of a US Letter sheet folded (5.5 x 8.5 in). Outside margin includes the foredge trim. Tune after printed tests.",
+    "width_mm": 139.7,
+    "height_mm": 215.9,
+    "margin_inside_mm": 20,
+    "margin_outside_mm": 17,
+    "margin_top_mm": 16,
+    "margin_bottom_mm": 22
+  },
+  "foredge": {
+    "_note": "Bands start at the untrimmed outer edge and run inward band_width_mm; trim_mm is cut off by the plough, leaving (band_width - trim) visible on the page.",
+    "enabled": true,
+    "trim_mm": 6,
+    "band_width_mm": 12,
+    "inset_top_mm": 12,
+    "inset_bottom_mm": 12,
+    "grey": 45
+  },
+  "type": {
+    "font": "Libertinus Serif",
+    "size_pt": 9,
+    "leading_factor": 1.35
+  },
+  "layout": {
+    "ruler_width_mm": 8,
+    "event_gap_mm": 2,
+    "avg_char_width_em": 0.48,
+    "art_height_mm": 24
+  },
+  "footer": {
+    "_note": "mode 'every' (chosen 2026-11-20): terse metrics line on every page. 'checkin' (boxed, every checkin_every_years) kept as an option but not used.",
+    "mode": "every",
+    "checkin_every_years": 100000000
+  },
+  "bibliography": {
+    "style": "nature",
+    "columns": 2,
+    "size_pt": 6.5
+  },
+  "demo_pages": "1-4,13,34,451,864,900-902,914"
+}

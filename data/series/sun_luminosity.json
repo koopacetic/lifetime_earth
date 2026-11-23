@@ -1,0 +1,13 @@
+{
+  "id": "sun_luminosity",
+  "label": "Sun",
+  "unit": "% of today",
+  "decimals": 0,
+  "order": 1,
+  "model": "gough1981",
+  "_note": "Computed per page by tools/models.py: L/L_now = 1 / (1 + 0.4 (1 - age/4.57 Gyr)). Valid across the whole book.",
+  "sources": [
+    "gough1981"
+  ],
+  "points": []
+}

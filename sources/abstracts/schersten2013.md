@@ -1,0 +1,10 @@
+# schersten2013
+schersten2013 | 2013 | Complete hydrothermal re‐equilibration of zircon in the {Maniitsoq} structure, {West} {Greenland}: {A} 3001 Ma minimum age of impact?
+
+- DOI: 10.1111/maps.12169
+- Link: https://doi.org/10.1111/maps.12169
+- Open access: bronze — https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/maps.12169
+- Abstract from: OpenAlex
+
+## Abstract
+Zircon in five samples of variably comminuted, melted, and hydrothermally altered orthogneiss from the Maniitsoq structure of southern West Greenland yield a weighted mean 207Pb/206Pb age of 3000.9 ± 1.9 Ma (ion probe data, n = 37). The age data constitute a rare example of pervasive and nearly complete isotopic resetting of zircon during a regional hydrothermal event. Many zircon grains are homogeneous or display weak flame‐like patterns in backscattered electron images. Other grains show complex internal textures, where homogeneous, high‐U fronts commonly cut across relict igneous‐type oscillatory zonation. Inclusions of quartz, plagioclase, mica, and other Al ± Na ± Ca ± Fe‐bearing silicates are very common. In two samples, selective replacement of zircon with baddeleyite occurs along concentric zones with relict igneous zonation, and as specks a few microns large within recrystallized, high‐U areas. We interpret the 3000.9 ± 1.9 Ma date as the minimum age of the recently proposed impact structure at Maniitsoq. The great geographical extent and intensity of the hydrothermal event suggest massive invasion of water into the currently exposed crust, implying that the age of the hydrothermal alteration would closely approximate the age of the proposed impact at Maniitsoq. At the western margin of the Taserssuaq tonalite complex, which postdates the Maniitsoq event, a 207Pb/206Pb mean age of 2994.6 ± 3.4 Ma obtained from zircon has mostly retained igneous‐type oscillatory zonation. A subsequent thermal event at approximately 2975 Ma is recorded in several samples by zircon with baddeleyite replacement textures.

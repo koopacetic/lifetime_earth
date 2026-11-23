@@ -1,0 +1,388 @@
+{
+  "_note": "Image bibliography. 'images': one record per file in art/ (matched to events by file basename = slug); 'credits' lists the ids it is credited to: its own slug (default, for third-party images) and/or ids in 'shared'. Credits print as lettered superscripts and in the Image credits list (decision #40), not in sources.bib.",
+  "shared": [
+    {
+      "id": "claude-drawings",
+      "attribution": "Claude (Anthropic)",
+      "title": "Line drawings, diagrams and maps drawn for this book",
+      "note": "Hand-coded SVG from the data cited beside each drawing",
+      "license": "",
+      "url": ""
+    },
+    {
+      "id": "naturalearth",
+      "attribution": "Natural Earth",
+      "title": "Land outlines, 1:110m and 1:50m",
+      "note": "",
+      "license": "public domain",
+      "url": "https://www.naturalearthdata.com/"
+    }
+  ],
+  "images": [
+    {
+      "slug": "tyrannosaurus",
+      "file": "phylopic/tyrannosaurus.svg",
+      "taxon": "Tyrannosaurus",
+      "attribution": "Fred Wierum",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "url": "https://www.phylopic.org/images/832a47bd-0cd4-4b0e-af7b-db9d7ff81867"
+    },
+    {
+      "slug": "tiktaalik",
+      "file": "phylopic/tiktaalik.svg",
+      "taxon": "Tiktaalik roseae",
+      "attribution": "Unknown",
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://www.phylopic.org/images/10a9bdee-2c86-4f13-a8ae-5ff92dbed2a9"
+    },
+    {
+      "slug": "archaeopteryx",
+      "file": "phylopic/archaeopteryx.svg",
+      "taxon": "Archaeopteryx lithographica",
+      "attribution": "Scott Hartman",
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://www.phylopic.org/images/5b18bbbd-516e-40ba-8f2a-3e77aad72230"
+    },
+    {
+      "slug": "dickinsonia",
+      "file": "phylopic/dickinsonia.svg",
+      "taxon": "Dickinsonia",
+      "attribution": "Caleb M. Gordon",
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://www.phylopic.org/images/089629b8-c5a3-4214-8ee7-3160a6341628"
+    },
+    {
+      "slug": "meganeura",
+      "file": "phylopic/meganeura.svg",
+      "taxon": "Meganeura",
+      "attribution": "Unknown",
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://www.phylopic.org/images/b7b2895c-f9c3-436a-8efa-d80b14fe0918"
+    },
+    {
+      "slug": "pakicetus",
+      "file": "phylopic/pakicetus.svg",
+      "taxon": "Pakicetus attocki",
+      "attribution": "Michael Tripoli",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "url": "https://www.phylopic.org/images/2a24db93-00dc-4dfb-b338-35c66154b6bf"
+    },
+    {
+      "slug": "anomalocaris",
+      "file": "phylopic/anomalocaris.svg",
+      "taxon": "Anomalocaris canadensis",
+      "attribution": "Amy Beauvois",
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://www.phylopic.org/images/c3b75f48-d943-422b-9234-dc56b39ae01a"
+    },
+    {
+      "slug": "haikouichthys",
+      "file": "phylopic/haikouichthys.svg",
+      "taxon": "Haikouichthys ercaicunensis",
+      "attribution": "Nobu Tamura",
+      "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "url": "https://www.phylopic.org/images/2cf72aa7-f948-48db-a1f7-514b6695053b"
+    },
+    {
+      "slug": "eoraptor",
+      "file": "phylopic/eoraptor.svg",
+      "taxon": "Eoraptor lunensis",
+      "attribution": "Marmelad",
+      "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "url": "https://www.phylopic.org/images/8f3e5723-986f-4f1d-9292-ff041ce176ca"
+    },
+    {
+      "slug": "odontochelys",
+      "file": "phylopic/odontochelys.svg",
+      "taxon": "Odontochelys semitestacea",
+      "attribution": "T. Michael Keesey",
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://www.phylopic.org/images/07a03993-7f17-463e-a37b-6485a2ed923f"
+    },
+    {
+      "slug": "limulus",
+      "file": "phylopic/limulus.svg",
+      "taxon": "Limulus polyphemus",
+      "attribution": "Andy Wilson",
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://www.phylopic.org/images/9a9a0cd0-2fb0-4ab7-b0bc-5984d11e5c13"
+    },
+    {
+      "slug": "latimeria",
+      "file": "phylopic/latimeria.svg",
+      "taxon": "Latimeria chalumnae",
+      "attribution": "Unknown",
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://www.phylopic.org/images/9785c4ca-e881-4e42-b359-212dd9c38aee"
+    },
+    {
+      "slug": "cooksonia",
+      "file": "phylopic/cooksonia.svg",
+      "taxon": "Cooksonia",
+      "attribution": "Unknown",
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://www.phylopic.org/images/c09ae2aa-8487-44fc-be16-fc834f10a618"
+    },
+    {
+      "slug": "hallucigenia",
+      "file": "phylopic/hallucigenia.svg",
+      "taxon": "Hallucigenia sparsa",
+      "attribution": "Caleb M. Brown",
+      "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "url": "https://www.phylopic.org/images/d22339f4-2d2e-42ca-9bec-4c9dfdac2a23"
+    },
+    {
+      "slug": "tullimonstrum",
+      "file": "phylopic/tullimonstrum.svg",
+      "taxon": "Tullimonstrum gregarium",
+      "attribution": "Zimices",
+      "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "url": "https://www.phylopic.org/images/99409c9f-4be0-4c84-bf4d-7e0bf565298c"
+    },
+    {
+      "slug": "helicoprion",
+      "file": "phylopic/helicoprion.svg",
+      "taxon": "Helicoprion davisii",
+      "attribution": "Olof Moleman",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "url": "https://www.phylopic.org/images/2dc67937-9756-4639-91d1-77f5d748fe9e"
+    },
+    {
+      "slug": "arthropleura",
+      "file": "phylopic/arthropleura.svg",
+      "taxon": "Arthropleura armata",
+      "attribution": "Jun",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "url": "https://www.phylopic.org/images/7fd55470-802d-4a0a-9bdd-73e2f828c5a6"
+    },
+    {
+      "slug": "titanoboa",
+      "file": "phylopic/titanoboa.svg",
+      "taxon": "Titanoboa cerrejonensis",
+      "attribution": "Nobu Tamura (modified by T. Michael Keesey)",
+      "license": "https://creativecommons.org/licenses/by/3.0/",
+      "url": "https://www.phylopic.org/images/beca4a24-33ef-4659-a20f-7d6835703c1c"
+    },
+    {
+      "slug": "paraceratherium",
+      "file": "phylopic/paraceratherium.svg",
+      "taxon": "Paraceratherium orgosense",
+      "attribution": "Michael Tripoli",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "url": "https://www.phylopic.org/images/0255043a-468a-48e2-8dd6-9bc0d3d668b4"
+    },
+    {
+      "slug": "perucetus",
+      "file": "phylopic/perucetus.svg",
+      "taxon": "Perucetus colossus",
+      "attribution": "Ivan Iofrida",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "url": "https://www.phylopic.org/images/8d3c4d69-4077-495a-9eda-dab43b9556fe"
+    },
+    {
+      "slug": "mammuthus",
+      "file": "phylopic/mammuthus.svg",
+      "taxon": "Mammuthus primigenius",
+      "attribution": "Amy Beauvois",
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://www.phylopic.org/images/6f0acd79-1f7d-402f-8679-dc3036b1a504"
+    },
+    {
+      "slug": "massospondylus",
+      "file": "phylopic/massospondylus.svg",
+      "taxon": "Massospondylus carinatus",
+      "attribution": "Scott Hartman",
+      "license": "https://creativecommons.org/licenses/by/3.0/",
+      "url": "https://www.phylopic.org/images/2da08fc6-7dc0-4d20-813c-58069902a96b"
+    },
+    {
+      "slug": "borealopelta",
+      "file": "phylopic/borealopelta.svg",
+      "taxon": "Borealopelta markmitchelli",
+      "attribution": "Marie Aimée ALLARD",
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://www.phylopic.org/images/80592c68-b4ff-4909-b1b4-a9831303232b"
+    },
+    {
+      "slug": "australopithecus-afarensis",
+      "file": "phylopic/australopithecus-afarensis.svg",
+      "taxon": "Praeanthropus afarensis",
+      "attribution": "T. Michael Keesey",
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://www.phylopic.org/images/6fcfb4dd-14de-4449-8f99-c84d910dcc20"
+    },
+    {
+      "slug": "homo-floresiensis",
+      "file": "phylopic/homo-floresiensis.svg",
+      "taxon": "Homo floresiensis",
+      "attribution": "T. Michael Keesey",
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://www.phylopic.org/images/326df5d1-6f2a-49cb-8156-0c9c5a2284f2"
+    },
+    {
+      "slug": "globigerina",
+      "file": "phylopic/globigerina.svg",
+      "taxon": "Globigerina bulloides",
+      "attribution": "Unknown",
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://www.phylopic.org/images/238493d5-cdb6-43c9-a573-a415b8e64127"
+    },
+    {
+      "slug": "triceratium",
+      "file": "phylopic/triceratium.svg",
+      "taxon": "Triceratium morlandii",
+      "attribution": "Sarah Frail",
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://www.phylopic.org/images/e27ca2ef-8067-459d-9ead-67bd1dc75438"
+    },
+    {
+      "slug": "ginkgo",
+      "file": "phylopic/ginkgo.svg",
+      "taxon": "Ginkgo biloba",
+      "attribution": "Unknown",
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://www.phylopic.org/images/798f147f-fe2a-4227-8805-228f5aea9bb6"
+    },
+    {
+      "slug": "cichlid",
+      "file": "phylopic/cichlid.svg",
+      "taxon": "Cichlidae",
+      "attribution": "Cee Nell",
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://www.phylopic.org/images/e7e9a112-9daa-4d72-be90-bc0bdd5473f6"
+    },
+    {
+      "slug": "juramaia",
+      "file": "phylopic/juramaia.svg",
+      "taxon": "Juramaia sinensis",
+      "attribution": "Nobu Tamura (vectorized by T. Michael Keesey)",
+      "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "url": "https://www.phylopic.org/images/7f0d46e9-45a0-4728-a9c6-2c0505de2059"
+    },
+    {
+      "slug": "purgatorius",
+      "file": "phylopic/purgatorius.svg",
+      "taxon": "Purgatorius",
+      "attribution": "Nobu Tamura",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "url": "https://www.phylopic.org/images/25689083-598c-430e-8c1f-4c3fcd779607"
+    },
+    {
+      "slug": "entelognathus",
+      "file": "phylopic/entelognathus.svg",
+      "taxon": "Entelognathus primordialis",
+      "attribution": "Unknown",
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "url": "https://www.phylopic.org/images/6d1e7c49-964c-4a06-99bb-88954ee0b419"
+    },
+    {
+      "slug": "archaefructus",
+      "file": "phylopic/archaefructus.svg",
+      "taxon": "Archaefructus liaoningensis",
+      "attribution": "Unknown",
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://www.phylopic.org/images/c4c072af-b02a-4074-a867-6c00675650e8"
+    },
+    {
+      "slug": "thrips",
+      "file": "phylopic/thrips.svg",
+      "taxon": "Thysanoptera",
+      "attribution": "Unknown",
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://www.phylopic.org/images/10742785-cc4f-4a08-bd7d-b62d1959f554"
+    },
+    {
+      "slug": "tettigonia",
+      "file": "phylopic/tettigonia.svg",
+      "taxon": "Tettigonia viridissima",
+      "attribution": "Joadl",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "url": "https://www.phylopic.org/images/4e8b3091-959c-40c3-9666-2d4939e7f390"
+    },
+    {
+      "slug": "cyanobacteria",
+      "file": "phylopic/cyanobacteria.svg",
+      "taxon": "Cyanobacteriota",
+      "attribution": "Sanaa Mughal",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "url": "https://www.phylopic.org/images/c0145098-66bd-4ab8-bb5d-2cac58e6f21b"
+    },
+    {
+      "slug": "vaalbara-map",
+      "file": "line/vaalbara-map.svg",
+      "taxon": "Kaapvaal and Pilbara cratons today (map)",
+      "credits": [
+        "claude-drawings",
+        "naturalearth"
+      ]
+    },
+    {
+      "slug": "mediterranean-map",
+      "file": "line/mediterranean-map.svg",
+      "taxon": "Mediterranean Sea today (map)",
+      "credits": [
+        "claude-drawings",
+        "naturalearth"
+      ]
+    },
+    {
+      "slug": "komatiite-spinifex",
+      "file": "line/komatiite-spinifex.svg",
+      "taxon": "Komatiite flow cross-section (schematic)",
+      "credits": [
+        "claude-drawings"
+      ]
+    },
+    {
+      "slug": "bottleneck-930ka",
+      "file": "line/bottleneck-930ka.svg",
+      "taxon": "Human population bottleneck (mini-graph)",
+      "credits": [
+        "claude-drawings"
+      ]
+    },
+    {
+      "slug": "pilbara-map",
+      "file": "line/pilbara-map.svg",
+      "taxon": "Pilbara craton today (map)",
+      "credits": [
+        "claude-drawings",
+        "naturalearth"
+      ]
+    },
+    {
+      "slug": "kaapvaal-dominion-map",
+      "file": "line/kaapvaal-dominion-map.svg",
+      "taxon": "Dominion Group and Barberton, South Africa, today (map)",
+      "credits": [
+        "claude-drawings",
+        "naturalearth"
+      ]
+    },
+    {
+      "slug": "maniitsoq-map",
+      "file": "line/maniitsoq-map.svg",
+      "taxon": "Maniitsoq, West Greenland, today (map)",
+      "credits": [
+        "claude-drawings",
+        "naturalearth"
+      ]
+    },
+    {
+      "slug": "basilosaurus",
+      "file": "phylopic/basilosaurus.svg",
+      "taxon": "Basilosaurus isis",
+      "attribution": "Michael Tripoli",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "url": "https://www.phylopic.org/images/aeffb6cf-825a-4c12-9801-a4a46226add5"
+    },
+    {
+      "slug": "acanthostega",
+      "file": "phylopic/acanthostega.svg",
+      "taxon": "Acanthostega gunnari",
+      "attribution": "Scott Hartman",
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://www.phylopic.org/images/1385fa01-2360-4643-901c-cf29ec9ed884"
+    }
+  ]
+}

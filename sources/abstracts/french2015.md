@@ -1,0 +1,10 @@
+# french2015
+french2015 | 2015 | Reappraisal of hydrocarbon biomarkers in Archean rocks
+
+- DOI: 10.1073/pnas.1419563112
+- Link: https://doi.org/10.1073/pnas.1419563112
+- Open access: bronze — https://www.pnas.org/content/pnas/112/19/5915.full.pdf
+- Abstract from: OpenAlex
+
+## Abstract
+Hopanes and steranes found in Archean rocks have been presented as key evidence supporting the early rise of oxygenic photosynthesis and eukaryotes, but the syngeneity of these hydrocarbon biomarkers is controversial. To resolve this debate, we performed a multilaboratory study of new cores from the Pilbara Craton, Australia, that were drilled and sampled using unprecedented hydrocarbon-clean protocols. Hopanes and steranes in rock extracts and hydropyrolysates from these new cores were typically at or below our femtogram detection limit, but when they were detectable, they had total hopane (<37.9 pg per gram of rock) and total sterane (<32.9 pg per gram of rock) concentrations comparable to those measured in blanks and negative control samples. In contrast, hopanes and steranes measured in the exteriors of conventionally drilled and curated rocks of stratigraphic equivalence reach concentrations of 389.5 pg per gram of rock and 1,039 pg per gram of rock, respectively. Polycyclic aromatic hydrocarbons and diamondoids, which exceed blank concentrations, exhibit individual concentrations up to 80 ng per gram of rock in rock extracts and up to 1,000 ng per gram of rock in hydropyrolysates from the ultraclean cores. These results demonstrate that previously studied Archean samples host mixtures of biomarker contaminants and indigenous overmature hydrocarbons. Therefore, existing lipid biomarker evidence cannot be invoked to support the emergence of oxygenic photosynthesis and eukaryotes by ∼ 2.7 billion years ago. Although suitable Proterozoic rocks exist, no currently known Archean strata lie within the appropriate thermal maturity window for syngenetic hydrocarbon biomarker preservation, so future exploration for Archean biomarkers should screen for rocks with milder thermal histories.

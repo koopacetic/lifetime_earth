@@ -1,0 +1,4 @@
+typst>=0.15
+jsonschema>=4.20
+matplotlib>=3.8
+pypdf>=5.0

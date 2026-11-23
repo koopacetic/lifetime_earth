@@ -1,0 +1,10 @@
+# evans2022
+evans2022 | 2022 | Environmental drivers of the first major animal extinction across the Ediacaran White Sea-Nama transition
+
+- DOI: 10.1073/pnas.2207475119
+- Link: https://doi.org/10.1073/pnas.2207475119
+- Open access: hybrid — https://doi.org/10.1073/pnas.2207475119
+- Abstract from: OpenAlex
+
+## Abstract
+The Ediacara Biota-the oldest communities of complex, macroscopic fossils-consists of three temporally distinct assemblages: the Avalon (ca. 575-560 Ma), White Sea (ca. 560-550 Ma), and Nama (ca. 550-539 Ma). Generic diversity varies among assemblages, with a notable decline at the transition from White Sea to Nama. Preservation and sampling biases, biotic replacement, and environmental perturbation have been proposed as potential mechanisms for this drop in diversity. Here, we compile a global database of the Ediacara Biota, specifically targeting taphonomic and paleoecological characters, to test these hypotheses. Major ecological shifts in feeding mode, life habit, and tiering level accompany an increase in generic richness between the Avalon and White Sea assemblages. We find that ∼80% of White Sea taxa are absent from the Nama interval, comparable to loss during Phanerozoic mass extinctions. The paleolatitudes, depositional environments, and preservational modes that characterize the White Sea assemblage are well represented in the Nama, indicating that this decline is not the result of sampling bias. Counter to expectations of the biotic replacement model, there are minimal ecological differences between these two assemblages. However, taxa that disappear exhibit a variety of morphological and behavioral characters consistent with an environmentally driven extinction event. The preferential survival of taxa with high surface area relative to volume may suggest that this was related to reduced global oceanic oxygen availability. Thus, our data support a link between Ediacaran biotic turnover and environmental change, similar to other major mass extinctions in the geologic record.

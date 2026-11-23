@@ -1,0 +1,10 @@
+# turgeon2008
+turgeon2008 | 2008 | Cretaceous oceanic anoxic event 2 triggered by a massive magmatic episode
+
+- DOI: 10.1038/nature07076
+- Link: https://doi.org/10.1038/nature07076
+- Open access: closed
+- Abstract from: Europe PMC
+
+## Abstract
+Oceanic anoxic events (OAEs) were episodes of widespread marine anoxia during which large amounts of organic carbon were buried on the ocean floor under oxygen-deficient bottom waters. OAE2, occurring at the Cenomanian/Turonian boundary (about 93.5 Myr ago), is the most widespread and best defined OAE of the mid-Cretaceous. Although the enhanced burial of organic matter can be explained either through increased primary productivity or enhanced preservation scenarios, the actual trigger mechanism, corresponding closely to the onset of these episodes of increased carbon sequestration, has not been clearly identified. It has been postulated that large-scale magmatic activity initially triggered OAE2 (refs 4, 5), but a direct proxy of magmatism preserved in the sedimentary record coinciding closely with the onset of OAE2 has not yet been found. Here we report seawater osmium isotope ratios in organic-rich sediments from two distant sites. We find that at both study sites the marine osmium isotope record changes abruptly just at or before the onset of OAE2. Using a simple two-component mixing equation, we calculate that over 97 per cent of the total osmium content in contemporaneous seawater at both sites is magmatic in origin, a approximately 30-50-fold increase relative to pre-OAE conditions. Furthermore, the magmatic osmium isotope signal appears slightly before the OAE2-as indicated by carbon isotope ratios-suggesting a time-lag of up to approximately 23 kyr between magmatism and the onset of significant organic carbon burial, which may reflect the reaction time of the global ocean system. Our marine osmium isotope data are indicative of a widespread magmatic pulse at the onset of OAE2, which may have triggered the subsequent deposition of large amounts of organic matter.

@@ -1,0 +1,10 @@
+# marchi2013
+marchi2013 | 2013 | Global resurfacing of Mercury 4.0–4.1 billion years ago by heavy bombardment and volcanism
+
+- DOI: 10.1038/nature12280
+- Link: https://doi.org/10.1038/nature12280
+- Open access: closed
+- Abstract from: Europe PMC
+
+## Abstract
+The most heavily cratered terrains on Mercury have been estimated to be about 4 billion years (Gyr) old, but this was based on images of only about 45 per cent of the surface; even older regions could have existed in the unobserved portion. These terrains have a lower density of craters less than 100 km in diameter than does the Moon, an observation attributed to preferential resurfacing on Mercury. Here we report global crater statistics of Mercury's most heavily cratered terrains on the entire surface. Applying a recent model for early lunar crater chronology and an updated dynamical extrapolation to Mercury, we find that the oldest surfaces were emplaced just after the start of the Late Heavy Bombardment (LHB) about 4.0-4.1 Gyr ago. Mercury's global record of large impact basins, which has hitherto not been dated, yields a similar surface age. This agreement implies that resurfacing was global and was due to volcanism, as previously suggested. This activity ended during the tail of the LHB, within about 300-400 million years after the emplacement of the oldest terrains on Mercury. These findings suggest that persistent volcanism could have been aided by the surge of basin-scale impacts during this bombardment.

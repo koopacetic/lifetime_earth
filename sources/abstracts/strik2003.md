@@ -1,0 +1,10 @@
+# strik2003
+strik2003 | 2003 | Palaeomagnetism of flood basalts in the {Pilbara} {Craton}, {Western} {Australia}: late {Archaean} continental drift and the oldest known reversal of the geomagnetic field
+
+- DOI: 10.1029/2003jb002475
+- Link: https://doi.org/10.1029/2003jb002475
+- Open access: bronze — https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2003JB002475
+- Abstract from: OpenAlex
+
+## Abstract
+A late Archaean (circa 2775–2715 Ma) succession of terrestrial continental flood basalts, mafic tuffs, felsic volcanic rocks, and clastic sedimentary rocks in the Nullagine Synclinorium (and Meentheena Centrocline) of the East Pilbara Basin, Western Australia, has been sampled for a palaeomagnetic study. Over 500 oriented, mostly basalt, drill cores were collected from the supracrustal succession and associated dykes. Thermal and alternating field demagnetization revealed two distinct components. Positive fold, conglomerate, and reversal tests confirm that the primary natural remanent magnetization (NRM) is still preserved. The secondary component is interpreted as the record of remagnetization during a major thermal event, possibly in the Early Proterozoic. Analysis of the primary NRM directions results in a magnetostratigraphy and an apparent polar wander path (APWP) for the 60 Myr interval covered by the sampled succession. Assuming a geocentric axial dipole during this time interval, the APWP shows that the Pilbara Craton was drifting during the late Archaean and that drift rates probably varied significantly. In particular, a mean 27.2° shift in palaeolatitude is recorded across an unconformity that represents a relatively short time period and that marks a significant change in basalt geochemistry. This study suggests that continents moved horizontally during the late Archaean and that the rates of movement were significantly faster than in the Phanerozoic. In addition, a reversed polarity interval, with a positive reversal test, is recorded. We argue that it documents the oldest known geomagnetic reversals of the geomagnetic field.

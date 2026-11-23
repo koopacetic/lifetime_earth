@@ -1,0 +1,10 @@
+# zhang2014
+zhang2014 | 2014 | Aridification of the Sahara desert caused by Tethys Sea shrinkage during the Late Miocene
+
+- DOI: 10.1038/nature13705
+- Link: https://doi.org/10.1038/nature13705
+- Open access: closed
+- Abstract from: Europe PMC
+
+## Abstract
+It is widely believed that the Sahara desert is no more than ∼2-3 million years (Myr) old, with geological evidence showing a remarkable aridification of north Africa at the onset of the Quaternary ice ages. Before that time, north African aridity was mainly controlled by the African summer monsoon (ASM), which oscillated with Earth's orbital precession cycles. Afterwards, the Northern Hemisphere glaciation added an ice volume forcing on the ASM, which additionally oscillated with glacial-interglacial cycles. These findings led to the idea that the Sahara desert came into existence when the Northern Hemisphere glaciated ∼2-3 Myr ago. The later discovery, however, of aeolian dune deposits ∼7 Myr old suggested a much older age, although this interpretation is hotly challenged and there is no clear mechanism for aridification around this time. Here we use climate model simulations to identify the Tortonian stage (∼7-11 Myr ago) of the Late Miocene epoch as the pivotal period for triggering north African aridity and creating the Sahara desert. Through a set of experiments with the Norwegian Earth System Model and the Community Atmosphere Model, we demonstrate that the African summer monsoon was drastically weakened by the Tethys Sea shrinkage during the Tortonian, allowing arid, desert conditions to expand across north Africa. Not only did the Tethys shrinkage alter the mean climate of the region, it also enhanced the sensitivity of the African monsoon to orbital forcing, which subsequently became the major driver of Sahara extent fluctuations. These important climatic changes probably caused the shifts in Asian and African flora and fauna observed during the same period, with possible links to the emergence of early hominins in north Africa.

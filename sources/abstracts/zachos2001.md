@@ -1,0 +1,10 @@
+# zachos2001
+zachos2001 | 2001 | Trends, Rhythms, and Aberrations in Global Climate 65 Ma to Present
+
+- DOI: 10.1126/science.1059412
+- Link: https://doi.org/10.1126/science.1059412
+- Open access: closed
+- Abstract from: OpenAlex
+
+## Abstract
+Since 65 million years ago (Ma), Earth's climate has undergone a significant and complex evolution, the finer details of which are now coming to light through investigations of deep-sea sediment cores. This evolution includes gradual trends of warming and cooling driven by tectonic processes on time scales of 10(5) to 10(7) years, rhythmic or periodic cycles driven by orbital processes with 10(4)- to 10(6)-year cyclicity, and rare rapid aberrant shifts and extreme climate transients with durations of 10(3) to 10(5) years. Here, recent progress in defining the evolution of global climate over the Cenozoic Era is reviewed. We focus primarily on the periodic and anomalous components of variability over the early portion of this era, as constrained by the latest generation of deep-sea isotope records. We also consider how this improved perspective has led to the recognition of previously unforeseen mechanisms for altering climate.

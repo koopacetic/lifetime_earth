@@ -1,0 +1,10 @@
+# andres2021
+andres2021 | 2021 | Morphology and taxonomy of Quetzalcoatlus Lawson 1975 (Pterodactyloidea: Azhdarchoidea)
+
+- DOI: 10.1080/02724634.2021.1907587
+- Link: https://doi.org/10.1080/02724634.2021.1907587
+- Open access: hybrid — https://doi.org/10.1080/02724634.2021.1907587
+- Abstract from: OpenAlex
+
+## Abstract
+Quetzalcoatlus is the largest flying organism ever known and one of the most familiar pterosaurs to the public. Despite a half century of interest, it remains very incompletely described. This shortfall is addressed here through a full morphological description of Quetzalcoatlus and the other pterosaur material of Big Bend National Park, Texas. The first reported material was described and named Quetzalcoatlus northropi by Douglas Lawson in 1975, but in two separate publications. A ruling by the International Commission of Zoological Nomenclature was required for the name to be made available. Review of the pterosaur fauna of the Park recovers three valid species of azhdarchid pterosaurs in the latest Cretaceous Period Javelina and Black Peaks formations. The size and occurrence of these species are correlated with depositional environment. The holotype of the giant Quetzalcoatlus northropi and six other giant specimens referred to it occur in stream-channel deposits, including the youngest reported pterosaur. The vast majority of specimens (200+) are from large pterosaurs found in the abandoned channel-lake deposits at Pterodactyl Ridge; they form a diagnosable natural group erected as the new species Quetzalcoatlus lawsoni. A moderate-sized partial skull and cervical series also found in the abandoned channel-lake deposits at Pterodactyl Ridge, but lower in the section, is distinct from both species and is erected as Wellnhopterus brevirostris, gen. et sp. nov. Overbank flood-plain facies preserve another eleven specimens of extreme size variation, including small azhdarchids. The Big Bend pterosaur fauna provides the greatest known sample of azhdarchid pterosaurs and three-dimensional pterosaur morphology.

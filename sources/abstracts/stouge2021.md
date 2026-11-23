@@ -1,0 +1,10 @@
+# stouge2021
+stouge2021 | 2021 | Middle Ordovician (Darriwilian) conodonts from southern Tibet, the Indian passive margin: implications for the age and correlation of the roof of the world
+
+- DOI: 10.1017/s0016756820001077
+- Link: https://doi.org/10.1017/s0016756820001077
+- Open access: green — https://durham-repository.worktribe.com/output/1257672
+- Abstract from: publisher page
+
+## Abstract
+AbstractNew occurrences of middle–late Darriwilian (Middle Ordovician) conodonts are reported from the Nyalam region, southern Tibet. The conodont-yielding strata, referred to the Chiatsun Group, accumulated on the north Indian continental margin of northern Gondwana. These Middle Ordovician conodonts include the informal species Histiodella sp. A in the middle part of the Lower Formation of the Chiatsun Group succeeded by a fauna of the Pygodus serra Zone in the upper part of that formation. Pygodus anserinus is recorded from the base of the Upper Formation of the Chiatsun Group. The Nyalam succession and its conodont taxa allow for precise correlation of the strata preserved on top of Mount Qomolangma (Mount Everest), eastern Tibet and the Peri-Gondwana Lhasa (north central Tibet), South China, North China, Tarim Basin and Thailand-Malaysia (Sibumasu Terrane) terranes and/or microcontinents. The middle Darriwilian positive increase in δ13Ccarb values (carbon isotope excursion, or MDICE) is recorded from most terranes, and can be related to a late middle Darriwilian global short-term cooling and sea-level drop. The cooling event prompted temperate- to warm-water taxa to migrate towards the palaeoequator and constrained the Australasian Province to locations near and at the palaeoequator. The intensified oceanic circulation and upwelling on continental margins probably caused some characteristic taxa to become extinct. The incoming fauna was mainly of cool-water taxa. The conodont specimens from southern Tibet are black to pale grey, corresponding to conodont colour index (CAI) values of 5 to 6, which demonstrates that the host sedimentary rocks were once heated to more than 360°C.

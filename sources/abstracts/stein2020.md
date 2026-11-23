@@ -1,0 +1,10 @@
+# stein2020
+stein2020 | 2020 | Mid-Devonian Archaeopteris Roots Signal Revolutionary Change in Earliest Fossil Forests
+
+- DOI: 10.1016/j.cub.2019.11.067
+- Link: https://doi.org/10.1016/j.cub.2019.11.067
+- Open access: bronze — https://doi.org/10.1016/j.cub.2019.11.067
+- Abstract from: Europe PMC
+
+## Abstract
+The origin of trees and forests in the Mid Devonian (393-383 Ma) was a turning point in Earth history, marking permanent changes to terrestrial ecology, geochemical cycles, atmospheric CO2 levels, and climate. However, how all these factors interrelate remains largely unknown. From a fossil soil (palaeosol) in the Catskill region near Cairo NY, USA, we report evidence of the oldest forest (mid Givetian) yet identified worldwide. Similar to the famous site at Gilboa, NY, we find treefern-like Eospermatopteris (Cladoxylopsida). However, the environment at Cairo appears to have been periodically drier. Along with a single enigmatic root system potentially belonging to a very early rhizomorphic lycopsid, we see spectacularly extensive root systems here assigned to the lignophyte group containing the genus Archaeopteris. This group appears pivotal to the subsequent evolutionary history of forests due to possession of multiple advanced features and likely relationship to subsequently dominant seed plants. Here we show that Archaeopteris had a highly advanced root system essentially comparable to modern seed plants. This suggests a unique ecological role for the group involving greatly expanded energy and resource utilization, with consequent influence on global processes much greater than expected from tree size or rooting depth alone.

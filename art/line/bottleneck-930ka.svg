@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 150" width="420" height="150" font-family="serif" font-size="13">
+  <!-- Schematic mini-graph for event bottleneck-930ka (Hu et al. 2023). Only the bottleneck size and timing are data. -->
+  <line x1="40" y1="120" x2="410" y2="120" stroke="black" stroke-width="1.2"/>
+  <line x1="40" y1="15" x2="40" y2="120" stroke="black" stroke-width="1.2"/>
+  <text x="2" y="20" font-size="11">many</text>
+  <text x="8" y="112" font-size="11">few</text>
+  <!-- time axis: x = 40 + (1200 - ka) * 370/600 ; 1200 ka .. 600 ka -->
+  <line x1="40" y1="120" x2="40" y2="124" stroke="black"/><text x="28" y="138" font-size="11">1.2 Ma</text>
+  <line x1="225" y1="120" x2="225" y2="124" stroke="black"/><text x="210" y="138" font-size="11">0.9 Ma</text>
+  <line x1="410" y1="120" x2="410" y2="124" stroke="black"/><text x="388" y="138" font-size="11">0.6 Ma</text>
+  <polyline fill="none" stroke="black" stroke-width="2.4" points="40,30 206,30 210,100 281,100 285,45 410,40"/>
+  <line x1="206" y1="20" x2="206" y2="120" stroke="black" stroke-width="0.6" stroke-dasharray="3,3"/>
+  <line x1="285" y1="20" x2="285" y2="120" stroke="black" stroke-width="0.6" stroke-dasharray="3,3"/>
+  <text x="196" y="94" font-size="11">~1,280 breeders</text>
+  <text x="196" y="15" font-size="10">930 ka</text><text x="275" y="15" font-size="10">813 ka</text>
+</svg>

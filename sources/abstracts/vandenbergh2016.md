@@ -1,0 +1,10 @@
+# vandenbergh2016
+vandenbergh2016 | 2016 | Homo floresiensis-like fossils from the early Middle Pleistocene of Flores
+
+- DOI: 10.1038/nature17999
+- Link: https://doi.org/10.1038/nature17999
+- Open access: closed
+- Abstract from: Europe PMC
+
+## Abstract
+The evolutionary origin of Homo floresiensis, a diminutive hominin species previously known only by skeletal remains from Liang Bua in western Flores, Indonesia, has been intensively debated. It is a matter of controversy whether this primitive form, dated to the Late Pleistocene, evolved from early Asian Homo erectus and represents a unique and striking case of evolutionary reversal in hominin body and brain size within an insular environment. The alternative hypothesis is that H. floresiensis derived from an older, smaller-brained member of our genus, such as Homo habilis, or perhaps even late Australopithecus, signalling a hitherto undocumented dispersal of hominins from Africa into eastern Asia by two million years ago (2 Ma). Here we describe hominin fossils excavated in 2014 from an early Middle Pleistocene site (Mata Menge) in the So'a Basin of central Flores. These specimens comprise a mandible fragment and six isolated teeth belonging to at least three small-jawed and small-toothed individuals. Dating to ~0.7 Ma, these fossils now constitute the oldest hominin remains from Flores. The Mata Menge mandible and teeth are similar in dimensions and morphological characteristics to those of H. floresiensis from Liang Bua. The exception is the mandibular first molar, which retains a more primitive condition. Notably, the Mata Menge mandible and molar are even smaller in size than those of the two existing H. floresiensis individuals from Liang Bua. The Mata Menge fossils are derived compared with Australopithecus and H. habilis, and so tend to support the view that H. floresiensis is a dwarfed descendent of early Asian H. erectus. Our findings suggest that hominins on Flores had acquired extremely small body size and other morphological traits specific to H. floresiensis at an unexpectedly early time.

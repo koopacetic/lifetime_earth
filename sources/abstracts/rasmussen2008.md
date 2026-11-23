@@ -1,0 +1,10 @@
+# rasmussen2008
+rasmussen2008 | 2008 | Reassessing the first appearance of eukaryotes and cyanobacteria
+
+- DOI: 10.1038/nature07381
+- Link: https://doi.org/10.1038/nature07381
+- Open access: closed
+- Abstract from: Europe PMC
+
+## Abstract
+The evolution of oxygenic photosynthesis had a profound impact on the Earth's surface chemistry, leading to a sharp rise in atmospheric oxygen between 2.45 and 2.32 billion years (Gyr) ago and the onset of extreme ice ages. The oldest widely accepted evidence for oxygenic photosynthesis has come from hydrocarbons extracted from approximately 2.7-Gyr-old shales in the Pilbara Craton, Australia, which contain traces of biomarkers (molecular fossils) indicative of eukaryotes and suggestive of oxygen-producing cyanobacteria. The soluble hydrocarbons were interpreted to be indigenous and syngenetic despite metamorphic alteration and extreme enrichment (10-20 per thousand) of (13)C relative to bulk sedimentary organic matter. Here we present micrometre-scale, in situ (13)C/(12)C measurements of pyrobitumen (thermally altered petroleum) and kerogen from these metamorphosed shales, including samples that originally yielded biomarkers. Our results show that both kerogen and pyrobitumen are strongly depleted in (13)C, indicating that indigenous petroleum is 10-20 per thousand lighter than the extracted hydrocarbons. These results are inconsistent with an indigenous origin for the biomarkers. Whatever their origin, the biomarkers must have entered the rock after peak metamorphism approximately 2.2 Gyr ago and thus do not provide evidence for the existence of eukaryotes and cyanobacteria in the Archaean eon. The oldest fossil evidence for eukaryotes and cyanobacteria therefore reverts to 1.78-1.68 Gyr ago and approximately 2.15 Gyr ago, respectively. Our results eliminate the evidence for oxygenic photosynthesis approximately 2.7 Gyr ago and exclude previous biomarker evidence for a long delay (approximately 300 million years) between the appearance of oxygen-producing cyanobacteria and the rise in atmospheric oxygen 2.45-2.32 Gyr ago.

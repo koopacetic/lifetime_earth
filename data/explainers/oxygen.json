@@ -1,0 +1,22 @@
+{
+  "_doc": "DRAFT data for the oxygen explainer page (typeset/explainers/oxygen.typ). Values are % O2 by volume in dry air. PAL (present atmospheric level) converted with 1 PAL = 20.946% (machta1970). Every item is cited; 'kind' says how it is drawn: 'ceiling' = upper limit (bar with a down arrow), 'floor' = lower limit, 'range' = band between lo and hi, 'point' = value, 'mark' = labelled vertical line.",
+  "title": "Oxygen in the air",
+  "unit": "% of the atmosphere (log scale)",
+  "today": {"v": 20.946, "sources": ["machta1970"]},
+  "items": [
+    {"kind": "ceiling", "from": -4000000000, "to": -2430000000, "hi": 0.0002, "label": "below 10⁻⁵ of today", "sources": ["crowe2013", "gumsley2017"]},
+    {"kind": "floor", "t": -3000000000, "lo": 0.0063, "label": "≥3 × 10⁻⁴ of today, 3.0 Ga", "sources": ["crowe2013"]},
+    {"kind": "mark", "t": -2501000000, "label": "whiff, 2.50 Ga", "sources": ["anbar2007"]},
+    {"kind": "mark", "t": -2320000000, "label": "Great Oxidation Event", "sources": ["gumsley2017", "bekker2004"]},
+    {"kind": "ceiling", "from": -1800000000, "to": -800000000, "hi": 0.021, "label": "≤0.1% of today", "sources": ["planavsky2014b"]},
+    {"kind": "mark", "t": -800000000, "label": "Neoproterozoic rise begins", "sources": ["och2012"]},
+    {"kind": "range", "from": -420000000, "to": 0, "lo": 13, "hi": 35, "label": "charcoal 'fire window' 13–35%", "sources": ["scott2006"]},
+    {"kind": "point", "t": -372000000, "v": 13, "label": "≈13%, Late Devonian", "sources": ["scott2006"]},
+    {"kind": "point", "t": -255000000, "v": 30, "label": "≈30%, Late Permian", "sources": ["scott2006"]}
+  ],
+  "sections": [
+    {"head": "What the graph shows", "text": "For half of Earth's history there was almost no free oxygen: less than a hundred-thousandth of today's level. It rose in two great steps, the Great Oxidation Event about 2.3 billion years ago and a second rise near the end of the Proterozoic, with a long low plateau between. Only in the last 420 million years, since plants spread onto land, has the air held enough oxygen to burn.", "sources": ["lyons2014", "planavsky2014b", "scott2006"]},
+    {"head": "How it is known", "text": "No ancient air survives, so oxygen is inferred from rocks. Sulfur isotopes stop showing an oxygen-free signature at the Great Oxidation Event. Chromium and molybdenum dissolve only when oxygen weathers rocks on land, so their isotopes in sediments record oxygen levels. Fossil charcoal shows wildfires burned, which needs at least about 13% oxygen. Models of carbon and sulfur burial fill in between.", "sources": ["farquhar2000", "crowe2013", "anbar2007", "scott2006", "berner2006"]},
+    {"head": "How sure", "text": "Before land plants, most estimates are only upper or lower limits, not values. Phanerozoic estimates agree that oxygen was well above today's around 300 million years ago, but disagree on how high and on earlier levels.", "sources": ["planavsky2014b", "krause2018", "berner2006"]}
+  ]
+}

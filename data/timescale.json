@@ -1,0 +1,236 @@
+{
+ "_note": "Geologic time units; start/end are years relative to present. ICS chart v2023/09. Hadean base informal (~Solar System age). Epochs: Cenozoic only so far (Paleozoic/Mesozoic epochs to add). Optional 'description' is printed under mid-page boundary ticks; keep it to facts supported by the ICS chart or add sources.",
+ "sources": [
+  "cohen2013"
+ ],
+ "eons": [
+  {
+   "name": "Hadean",
+   "start": -4567000000,
+   "end": -4031000000,
+   "description": "First eon of Earth's history, from the formation of the Solar System to the base of the Archean. Its start is informal and it has no formal subdivisions."
+  },
+  {
+   "name": "Archean",
+   "start": -4031000000,
+   "end": -2500000000,
+   "description": "Second eon, divided into four eras: Eoarchean, Paleoarchean, Mesoarchean and Neoarchean."
+  },
+  {
+   "name": "Proterozoic",
+   "start": -2500000000,
+   "end": -538800000,
+   "description": "Third eon, divided into the Paleoproterozoic, Mesoproterozoic and Neoproterozoic eras."
+  },
+  {
+   "name": "Phanerozoic",
+   "start": -538800000,
+   "end": 0,
+   "description": "The current eon, divided into the Paleozoic, Mesozoic and Cenozoic eras."
+  }
+ ],
+ "eras": [
+  {
+   "name": "Eoarchean",
+   "start": -4031000000,
+   "end": -3600000000
+  },
+  {
+   "name": "Paleoarchean",
+   "start": -3600000000,
+   "end": -3200000000
+  },
+  {
+   "name": "Mesoarchean",
+   "start": -3200000000,
+   "end": -2800000000
+  },
+  {
+   "name": "Neoarchean",
+   "start": -2800000000,
+   "end": -2500000000
+  },
+  {
+   "name": "Paleoproterozoic",
+   "start": -2500000000,
+   "end": -1600000000
+  },
+  {
+   "name": "Mesoproterozoic",
+   "start": -1600000000,
+   "end": -1000000000
+  },
+  {
+   "name": "Neoproterozoic",
+   "start": -1000000000,
+   "end": -538800000
+  },
+  {
+   "name": "Paleozoic",
+   "start": -538800000,
+   "end": -251902000,
+   "description": "First era of the Phanerozoic: Cambrian, Ordovician, Silurian, Devonian, Carboniferous and Permian periods."
+  },
+  {
+   "name": "Mesozoic",
+   "start": -251902000,
+   "end": -66000000,
+   "description": "Second era of the Phanerozoic, beginning at the end-Permian boundary: Triassic, Jurassic and Cretaceous periods."
+  },
+  {
+   "name": "Cenozoic",
+   "start": -66000000,
+   "end": 0,
+   "description": "Third and current era of the Phanerozoic, beginning at the Cretaceous–Paleogene boundary: Paleogene, Neogene and Quaternary periods."
+  }
+ ],
+ "periods": [
+  {
+   "name": "Siderian",
+   "start": -2500000000,
+   "end": -2300000000
+  },
+  {
+   "name": "Rhyacian",
+   "start": -2300000000,
+   "end": -2050000000
+  },
+  {
+   "name": "Orosirian",
+   "start": -2050000000,
+   "end": -1800000000
+  },
+  {
+   "name": "Statherian",
+   "start": -1800000000,
+   "end": -1600000000
+  },
+  {
+   "name": "Calymmian",
+   "start": -1600000000,
+   "end": -1400000000
+  },
+  {
+   "name": "Ectasian",
+   "start": -1400000000,
+   "end": -1200000000
+  },
+  {
+   "name": "Stenian",
+   "start": -1200000000,
+   "end": -1000000000
+  },
+  {
+   "name": "Tonian",
+   "start": -1000000000,
+   "end": -720000000
+  },
+  {
+   "name": "Cryogenian",
+   "start": -720000000,
+   "end": -635000000
+  },
+  {
+   "name": "Ediacaran",
+   "start": -635000000,
+   "end": -538800000
+  },
+  {
+   "name": "Cambrian",
+   "start": -538800000,
+   "end": -485400000
+  },
+  {
+   "name": "Ordovician",
+   "start": -485400000,
+   "end": -443800000
+  },
+  {
+   "name": "Silurian",
+   "start": -443800000,
+   "end": -419200000
+  },
+  {
+   "name": "Devonian",
+   "start": -419200000,
+   "end": -358900000
+  },
+  {
+   "name": "Carboniferous",
+   "start": -358900000,
+   "end": -298900000
+  },
+  {
+   "name": "Permian",
+   "start": -298900000,
+   "end": -251902000
+  },
+  {
+   "name": "Triassic",
+   "start": -251902000,
+   "end": -201400000
+  },
+  {
+   "name": "Jurassic",
+   "start": -201400000,
+   "end": -145000000
+  },
+  {
+   "name": "Cretaceous",
+   "start": -145000000,
+   "end": -66000000
+  },
+  {
+   "name": "Paleogene",
+   "start": -66000000,
+   "end": -23030000
+  },
+  {
+   "name": "Neogene",
+   "start": -23030000,
+   "end": -2580000
+  },
+  {
+   "name": "Quaternary",
+   "start": -2580000,
+   "end": 0
+  }
+ ],
+ "epochs": [
+  {
+   "name": "Paleocene",
+   "start": -66000000,
+   "end": -56000000
+  },
+  {
+   "name": "Eocene",
+   "start": -56000000,
+   "end": -33900000
+  },
+  {
+   "name": "Oligocene",
+   "start": -33900000,
+   "end": -23030000
+  },
+  {
+   "name": "Miocene",
+   "start": -23030000,
+   "end": -5333000
+  },
+  {
+   "name": "Pliocene",
+   "start": -5333000,
+   "end": -2580000
+  },
+  {
+   "name": "Pleistocene",
+   "start": -2580000,
+   "end": -11700
+  },
+  {
+   "name": "Holocene",
+   "start": -11700,
+   "end": 0
+  }
+ ]
+}
