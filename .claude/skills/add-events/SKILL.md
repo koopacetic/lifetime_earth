@@ -26,6 +26,6 @@ Input: a topic ("Snowball Earth") or a range (years or content pages).
    `docs/image-resources.md`). Don't make drawings, maps or diagrams here; add picture-worthy events to
    `docs/art-candidates.md` (what to show, likely resource, approach) for a separate art pass.
 7. **Add**: `./run add data/events/<file>.json < /path/to/new.json` (rejects duplicates; use the existing file
-   for that era, or demo.json until sharding is decided).
+   for that era, or events.json until sharding is decided).
 8. **Look**: `./run png <page>` for affected pages and view the PNGs; fix overlaps or overlong text.
 9. **Report** to the user: events added (id, page, tags), art candidates listed, any new tags, sources added, `./run fullness --text` before → after.

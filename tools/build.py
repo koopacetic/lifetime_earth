@@ -6,7 +6,6 @@
     tools/build.py --pages 1-15          # content pages 1..15 (+ front/back matter) -> build/partial.pdf
     tools/build.py --at -66043000        # just the page holding that year
     tools/build.py --pages 901 --content-only -o build/single.pdf   # exactly those pages, nothing else
-    tools/build.py --pages 871-880 --footer checkin                 # override footer mode
     tools/build.py --pages 901 --png     # PNG per page in build/png/ (visual checks)
 
 "Content page" n covers years [start + (n-1)*5e6, start + n*5e6); see tools/query.py --page-of YEAR.
@@ -43,7 +42,7 @@ def foredge_slot(t: int, fe: dict):
     return None
 
 
-def build_data(pages: list[int], cfg: dict, front: bool, back: bool, footer_mode: str) -> dict:
+def build_data(pages: list[int], cfg: dict, front: bool, back: bool) -> dict:
     events = C.load_events()
     ts = C.load_timescale()
     series = C.load_series()
@@ -54,18 +53,13 @@ def build_data(pages: list[int], cfg: dict, front: bool, back: bool, footer_mode
             ev["art"] = {**ev["art"], "letters": credit_letters.get(C.art_slug(ev["art"]["file"]), [])}
     by_page = C.page_entries(events, cfg)
     _, H = C.body_geometry(cfg)
-    every = cfg["footer"]["checkin_every_years"]
     out_pages = []
     for n in pages:
         top, bot = C.page_bounds(n, cfg)
         mid = (top + bot) // 2
         bounds = [C.boundary_entry(b, ts) for b in C.boundaries_in(top, bot, ts)]
         placed, used = C.layout_page(by_page.get(n, []) + bounds, cfg)
-        checkin = top % every == 0
-        if footer_mode == "every":
-            metrics = metrics_at(mid, series)
-        else:
-            metrics = metrics_at(top, series) if checkin else []
+        metrics = metrics_at(mid, series)
         out_pages.append({
             "n": n,
             "top": top, "bottom": bot,
@@ -75,8 +69,6 @@ def build_data(pages: list[int], cfg: dict, front: bool, back: bool, footer_mode
                             if top <= u["start"] < bot],
             "events": [{"kind": e.get("kind", "event"), **{k: e[k] for k in ("id", "title", "when", "text", "sources", "importance",
                                           "art", "y_mm", "anchor_mm", "h_mm")}} for e in placed],
-            "footer_mode": footer_mode,
-            "checkin": checkin,
             "metrics": metrics,
             "foredge_slot": foredge_slot(mid, fe) if cfg["foredge"]["enabled"] else None,
             "fullness": round(used, 3),
@@ -96,7 +88,6 @@ def main() -> int:
     ap.add_argument("--no-back", action="store_true", help="skip back matter other than the bibliography")
     ap.add_argument("--content-only", action="store_true",
                     help="output only the selected content pages (drops front matter and bibliography)")
-    ap.add_argument("--footer", choices=["every", "checkin"], help="override config footer.mode")
     ap.add_argument("--png", action="store_true", help="render PNGs to build/png/ instead of a PDF")
     ap.add_argument("--ppi", type=int, default=110)
     ap.add_argument("-o", "--out", help="output PDF path")
@@ -119,7 +110,7 @@ def main() -> int:
 
     front = not (a.no_front or a.content_only)
     C.BUILD.mkdir(exist_ok=True)
-    data = build_data(pages, cfg, front, not a.no_back, a.footer or cfg["footer"]["mode"])
+    data = build_data(pages, cfg, front, not a.no_back)
     (C.BUILD / "book.json").write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
 
     import typst

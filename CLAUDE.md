@@ -2,7 +2,7 @@
 
 Book: 914 content pages, 5 Myr each, from −4,570,000,000 (page 1) to 0 (page 914), plus front and back matter.
 Pipeline: `data/*.json` → `tools/build.py` (validate, lay out) → `build/book.json` → `typeset/book.typ` (Typst) → PDF.
-Overview, features and status: PROJECT.md. Settled decisions: docs/decisions.md (don't relitigate; append new ones).
+Overview, features and status: README.md. Settled decisions: docs/decisions.md (don't relitigate; append new ones).
 Also in docs/: session-log.md (read the latest entry first), project-plan.md, verification-backlog.md (unchecked citations),
 reference-numbers.md (key pages and physical sizes), art-candidates.md (events needing hand drawing or image research), dev-notes.md (Typst/tooling gotchas; read before editing code).
 
@@ -11,7 +11,7 @@ reference-numbers.md (key pages and physical sizes), art-candidates.md (events n
 - `./run query --page 901` | `--from T --to T` | `--grep word` | `--page-of T` | `--id X --full` | `--sources` | `--tags` | `--tag impact`
 - `./run add data/events/<file>.json < new.json`: add, sort, format, dedupe, validate
 - `./run png 901`, then view build/png/*.png to check a page visually
-- `./run demo` | `./run pages 1-15` | `./run single 901` | `./run footers` | `./run book`
+- `./run demo` | `./run pages 1-15` | `./run book`
 - `./run art search NAME` / `fetch UUID SLUG` / `outline art/phylopic/SLUG.svg`: fetch adds the image credit to art/credits.json
 - `./run fullness --text`: emptiest stretches (cheap to read)
 

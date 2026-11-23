@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Add events from JSON (stdin or file) into an event file, then sort, format and validate.
 
-    tools/add.py data/events/demo.json < new_events.json   # a JSON object or array of objects
-    tools/add.py data/events/demo.json --from new.json
+    tools/add.py data/events/events.json < new_events.json   # a JSON object or array of objects
+    tools/add.py data/events/events.json --from new.json
     tools/add.py --fmt                                      # just re-sort/format all event files
 
 Refuses: duplicate ids (anywhere), and near-duplicates (close in time and sharing title words)

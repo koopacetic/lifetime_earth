@@ -3,7 +3,14 @@
 Newest first. Each entry: what was done, what was learned, and what's next. Keep entries short; details belong in
 decisions.md and the other docs.
 
-## 2026-11-23 (latest): significance review, pruning, importance pass
+## 2026-11-23 (latest): repo cleanup
+**Done**
+- Removed: typst_primer/, data/sources-retired.bib and its 14 abstracts, docs/typesetting-questions.md (open items moved to
+  project-plan.md), `./run single`, `./run footers`, and the check-in footer mode (build.py `--footer`, book.typ, config). Decision #42.
+- Renamed data/events/demo.json → events.json. CLAUDE.md and project-plan.md now point to README.md (PROJECT.md never existed).
+- Parked and kept: front-diagram sketches, oxygen explainer draft, mediterranean map, detached basilosaurus/acanthostega drawings.
+
+## 2026-11-23: significance review, pruning, importance pass
 **Done**
 - docs/significance-review.md: 48 weak events reviewed (local specimens, ores, regional dykes and orogenies,
   duplicates). User approved; applied: 34 removed (16 cut, 18 merged into the event telling the global story),

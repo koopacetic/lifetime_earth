@@ -12,9 +12,6 @@ case "$cmd" in
   pages)    $PY tools/build.py --pages "${1:-1-15}" "${@:2}" ;;
   png)      $PY tools/build.py --pages "${1:-1-15}" --png "${@:2}" ;;
   book)     $PY tools/build.py "$@" ;;
-  single)   $PY tools/build.py --pages "${1:-901}" --content-only -o build/single-page-demo.pdf "${@:2}" ;;
-  footers)  $PY tools/build.py --pages 871-880 --content-only --footer every   -o build/footer-demo-every.pdf
-            $PY tools/build.py --pages 871-880 --content-only --footer checkin -o build/footer-demo-checkin.pdf ;;
   art)      $PY tools/art.py "$@" ;;
   sketches) $PY docs/sketches/front_diagrams.py ;;
   fullness) $PY tools/fullness.py "$@" ;;
@@ -29,8 +26,6 @@ case "$cmd" in
 ./run pages 1-15         content page range           -> build/partial.pdf
 ./run png 901            render pages to build/png/   (visual check)
 ./run book               full book                    -> build/book.pdf
-./run single 901         one content page only        -> build/single-page-demo.pdf
-./run footers            10-page footer demos (every page vs 100 Myr check-ins)
 ./run art search NAME | fetch UUID SLUG | outline FILE   (PhyloPic pipeline)
 ./run sketches           front-of-book diagram ideas  -> docs/sketches/
 ./run fullness           fullness report              -> build/fullness.{md,png}

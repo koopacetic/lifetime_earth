@@ -14,7 +14,7 @@ The book is generated from data (`data/`) by a Python + Typst pipeline, so it ca
   sewn signatures, one volume of about 2.5–3 in; foredge trimmed with a plough. Book 1 of a planned trilogy (~1000 pages each).
 
 See also: [docs/project-plan.md](docs/project-plan.md) · [docs/decisions.md](docs/decisions.md) ·
-[docs/typesetting-questions.md](docs/typesetting-questions.md) · [tools/README.md](tools/README.md) · [CLAUDE.md](CLAUDE.md)
+[docs/dev-notes.md](docs/dev-notes.md) · [tools/README.md](tools/README.md) · [CLAUDE.md](CLAUDE.md)
 
 ## Feature list
 
@@ -36,7 +36,7 @@ Status: ✅ working (basic) · 🔧 planned · 💬 tabled for discussion · ❓
 ### Footer metrics (terse generated metadata)
 - ✅ Machinery: `data/series/*.json`, cited point data (never extrapolated) or cited models (`tools/models.py`)
 - ✅ Demo series: Sun brightness (Gough 1981 model, every page), length of day, days per year (Williams 2000, last 620 Myr)
-- ✅ Footer modes demoed (`./run footers`); every-page chosen
+- ✅ Footer modes compared; every-page chosen (decision #23)
 - 🔧 More series: length of day, O₂, CO₂, mean temperature, land area %, sea level, solar luminosity,
   Moon distance, days per year, approximate number of land animal species / genera
 - ✅ Decided: terse metrics line on **every** page
@@ -61,7 +61,7 @@ Status: ✅ working (basic) · 🔧 planned · 💬 tabled for discussion · ❓
 - 🔧 Appendices for any full-page images
 
 ### Art
-- ✅ Line drawing on an event (demo: Tyrannosaurus on the Chicxulub page; `./run single`) with a full cited caption beside it
+- ✅ Line drawing on an event (demo: Tyrannosaurus on the Chicxulub page; `./run png 901`) with a full cited caption beside it
 - ✅ `tools/art.py`: PhyloPic search, fetch (with credits and bib entry), outline → uniform-stroke line art
 - 💬 **PhyloPic** as the main source: free silhouettes of organisms, mostly CC0 / CC BY, with an API
   (https://www.phylopic.org/; e.g. search "Dimetrodon" or "Anomalocaris" there). License and attribution go in `art/credits.json`.

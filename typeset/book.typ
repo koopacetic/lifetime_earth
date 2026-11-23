@@ -87,20 +87,10 @@
 
 #let metric-line(p) = p.metrics.map(m => [#m.label #m.value#m.unit#cites(m.sources)]).join[ · ]
 
-#let checkin-box(p) = block(stroke: 0.5pt + grey, inset: (x: 1.6mm, y: 1.2mm), radius: 0.8mm, {
-  set text(size: small)
-  text(weight: "bold")[Check-in: #p.top_label]
-  v(0.6mm)
-  grid(columns: (auto, auto), column-gutter: 2.5mm, row-gutter: 0.9mm, align: left,
-    ..p.metrics.map(m => (text(fill: grey)[#m.label], [#m.value#m.unit#cites(m.sources)])).flatten())
-})
-
 #let page-footer(p, recto) = {
   set text(size: 7.5pt)
   let label = text(weight: "bold", size: 9pt)[#p.bottom_label]
-  let extra = if p.footer_mode == "every" {
-    text(size: small, fill: grey)[#metric-line(p)]
-  } else if p.checkin and p.metrics.len() > 0 { checkin-box(p) } else { [] }
+  let extra = text(size: small, fill: grey)[#metric-line(p)]
   sides(recto, label, [])
   v(1mm)
   if recto { grid(columns: (auto, 1fr), align: (left, right), physical-folio, extra) }

@@ -1,6 +1,6 @@
 # Project plan: upcoming sessions
 
-Each session ends with: `./run check` clean, decisions appended to docs/decisions.md, PROJECT.md statuses updated,
+Each session ends with: `./run check` clean, decisions appended to docs/decisions.md, README.md statuses updated,
 a short entry at the top of docs/session-log.md, and verification-backlog.md updated for any unverified facts.
 
 ## Phase 1: Foundations
@@ -52,3 +52,13 @@ Started early (2026-11-20). Worklist by theme: docs/content-categories.md. Sessi
 | 22a2 | **Glossary appendix** (to circle back): dictionary of science terms used across all events (e.g. orogeny, rapakivi, euxinic, acritarch, stem/crown group). Could be generated from a `data/glossary.json` plus a check that flags undefined jargon in event text; needs a schema decision. **Rule:** a term used in only one event gets a short definition in-line (or right after the event text); a term used in a handful (≈5) or more events gets a fuller definition and explanation in the glossary. A usage count per term decides which | appendix pages |
 | 22b | **Cover & spine**: discuss and draft printable designs for test prints | cover/spine PDFs |
 | 23 | Final print, bind | the book |
+
+## Open physical-book items (carried over from the retired typesetting Q&A, 2026-11-20)
+Settled answers are in docs/decisions.md. Still open, for the print-test sessions (2b, 3, 4, 22):
+- Printer: measure the non-printable margin and front/back registration.
+- Show-through: check back-to-back registration of ruler and labels on 24 lb paper.
+- Gutter loss and creep: tune the 20 mm inside margin; optional per-sheet creep shift in `impose.py`.
+- Signature size (4 sheets = 16 pages) and the page-count padding: revisit after printing.
+- Spreads as 10 Myr views: continuation marks at the bottom of left pages and the top of right pages?
+- Head-edge bands: a second band set on the head, if the head is trimmed too.
+- Imposition marks: fold, sewing-station and collation-ladder marks on the spine fold of each signature.
