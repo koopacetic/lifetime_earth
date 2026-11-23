@@ -22,24 +22,37 @@ sys.path.insert(0, os.path.dirname(__file__))
 import common as C  # noqa: E402
 
 
-def metrics_at(t: int, series: list[dict]) -> list[dict]:
+def metrics_at(t: int, series: list[dict], checkin: bool = False) -> list[dict]:
+    """Footer values at year t; check-in series only when checkin is True."""
     out = []
     for s in series:
+        slot = s.get("slot", "sky")
+        if slot == "checkin" and not checkin:
+            continue
         r = C.series_value(s, t)
         if r is None:
             continue
         v, srcs = r
         unit = s["unit"]
         value = f"{v:,.{s.get('decimals', 1)}f}" + ("" if unit.startswith("%") else "\u2009")
-        out.append({"label": s["label"], "value": value, "unit": unit, "sources": srcs})
+        out.append({"label": s["label"], "value": value, "unit": unit, "sources": srcs, "slot": slot})
     return out
 
 
-def foredge_slot(t: int, fe: dict):
+def foredge_band(t: int, fe: dict) -> dict | None:
     for b in fe["bands"]:
         if b["start"] <= t < b["end"]:
-            return b["slot"]
+            return b
     return None
+
+
+def timescale_names(ts: dict) -> dict:
+    """Back-matter explainer of eon/era names, with each unit's start year filled in from timescale.json."""
+    ex = C.load_timescale_names()
+    units = {u["name"]: (lvl, u) for lvl in ("eons", "eras") for u in ts[lvl]}
+    rows = [{**r, "rank": units[r["unit"]][0][:-1], "start_label": C.fmt_year(units[r["unit"]][1]["start"])}
+            for r in ex["rows"]]
+    return {**ex, "rows": rows}
 
 
 def build_data(pages: list[int], cfg: dict, front: bool, back: bool) -> dict:
@@ -59,7 +72,9 @@ def build_data(pages: list[int], cfg: dict, front: bool, back: bool) -> dict:
         mid = (top + bot) // 2
         bounds = [C.boundary_entry(b, ts) for b in C.boundaries_in(top, bot, ts)]
         placed, used = C.layout_page(by_page.get(n, []) + bounds, cfg)
-        metrics = metrics_at(mid, series)
+        checkin = bot % C.CHECKIN_EVERY == 0
+        metrics = metrics_at(mid, series, checkin)
+        band = foredge_band(mid, fe) if cfg["foredge"]["enabled"] else None
         out_pages.append({
             "n": n,
             "top": top, "bottom": bot,
@@ -70,12 +85,15 @@ def build_data(pages: list[int], cfg: dict, front: bool, back: bool) -> dict:
             "events": [{"kind": e.get("kind", "event"), **{k: e[k] for k in ("id", "title", "when", "text", "sources", "importance",
                                           "art", "y_mm", "anchor_mm", "h_mm")}} for e in placed],
             "metrics": metrics,
-            "foredge_slot": foredge_slot(mid, fe) if cfg["foredge"]["enabled"] else None,
+            "checkin": checkin,
+            "foredge_slot": band["slot"] if band else None,
+            "foredge_label": band.get("label", [band["name"]]) if band else [],
             "fullness": round(used, 3),
         })
     return {"config": cfg, "body_height_mm": H, "front": front, "back": back,
             "total_content_pages": C.n_pages(cfg), "pages": out_pages,
-            "foredge_slots": fe["slots"], "image_credits": credit_list, "built": time.strftime("%Y-%m-%d %H:%M")}
+            "foredge_slots": fe["slots"], "foredge_bands": [b["name"] for b in fe["bands"]], "image_credits": credit_list,
+            "timescale_names": timescale_names(ts) if back else None, "built": time.strftime("%Y-%m-%d %H:%M")}
 
 
 def main() -> int:

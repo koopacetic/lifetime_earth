@@ -3,7 +3,19 @@
 Newest first. Each entry: what was done, what was learned, and what's next. Keep entries short; details belong in
 decisions.md and the other docs.
 
-## 2026-11-23 (latest): repo cleanup
+## 2026-11-23 (latest): era-level foredge tabs + names explainer
+**Done**
+- data/foredge.json: 11 bands (Hadean + 10 eras), each with a `label` (two lines: eon, era). book.typ draws it in white,
+  vertically, inside the visible 6 mm of the band, shrunk to fit (`foredge.label_size_pt`, config). Decision #44.
+- Back matter: one-page “Names of geological time” explainer before the bibliography (data/explainers/timescale-names.json;
+  build.py fills start years from timescale.json; check.py validates units and sources). Gated by `--no-back`.
+- check.py: foredge labels, unique slots, contiguous bands.
+- New sources: vankranendonk2012 (GTS2012 Precambrian chapter; read via a public proof copy), cloud1972, plumb1991, morrell2001.
+- Uncited glosses (visible life, old/middle/new life, prefixes) listed in verification-backlog.md.
+
+**Next:** source for the Greek glosses; print test of white 6 pt reverse type on the grey band (laser toner may fill in).
+
+## 2026-11-23: repo cleanup
 **Done**
 - Removed: typst_primer/, data/sources-retired.bib and its 14 abstracts, docs/typesetting-questions.md (open items moved to
   project-plan.md), `./run single`, `./run footers`, and the check-in footer mode (build.py `--footer`, book.typ, config). Decision #42.

@@ -125,6 +125,11 @@ def load_timescale() -> dict:
     return load_json(DATA / "timescale.json")
 
 
+# Footer slots (decision #45): two every-page lines (sky + air; life) and a 100 Myr check-in box.
+FOOTER_SLOTS = ("sky", "air", "life", "checkin")
+CHECKIN_EVERY = 100_000_000  # years; check-in box on pages whose bottom year is a multiple of this
+
+
 def load_series() -> list[dict]:
     """Footer series, in print order ("order" field)."""
     ss = [load_json(p) for p in sorted((DATA / "series").glob("*.json"))]
@@ -134,6 +139,11 @@ def load_series() -> list[dict]:
 def load_foredge() -> dict:
     p = DATA / "foredge.json"
     return load_json(p) if p.exists() else {"slots": 1, "bands": [], "sources": []}
+
+
+def load_timescale_names() -> dict:
+    """Back-matter explainer of eon/era names (data/explainers/timescale-names.json)."""
+    return load_json(DATA / "explainers" / "timescale-names.json")
 
 
 def bib_keys() -> set[str]:

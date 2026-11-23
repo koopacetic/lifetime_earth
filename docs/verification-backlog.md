@@ -248,7 +248,7 @@ source before use.
 | Base of the Cambrian GSSP is at Fortune Head, Newfoundland | chat (golden spikes) | boundary label |
 | Base of the Paleogene (K–Pg) GSSP is at El Kef, Tunisia | chat | boundary label |
 | Ediacaran GSSP at Enorama Creek, South Australia, ratified 2004; first new period in over a century | chat | boundary label |
-| Boundaries older than the Ediacaran are defined by numeric ages (GSSAs), not spikes | chat | introduction |
+| ~~Boundaries older than the Ediacaran are defined by numeric ages (GSSAs), not spikes~~ (vankranendonk2012 Fig. 16.1 caption; plumb1991; 2026-11-23) | chat | introduction |
 | The Anthropocene proposal (Crawford Lake) was rejected in 2024 | chat | page 914 / back matter |
 | James Hutton recognized deep time at Siccar Point (1788) | chat (famous rocks) | history note |
 | Gubbio (Bottaccione Gorge) K–Pg clay is where the iridium anomaly was found (Alvarez et al. 1980) | chat | Chicxulub entry |
@@ -256,6 +256,16 @@ source before use.
 | Year length in hours stays constant while day length changes | footer-candidates.md | days-per-year footer |
 | Lead ages in the open-stretch table: ~~Pongola glaciation ~2.9 Ga~~ (young1998 abstract, 2026-11-21); Moodies tidal deposits ~3.2 Ga; ~~spherule layers ~2.63/2.56/2.49 Ga~~ (rasmussen2005, 2026-11-22); Midcontinent Rift ~1.1 Ga; Bushveld ~2.05 Ga; ~1.56 Ga multicellular fossils in China; ~~Columbia breakup 1.5–1.3 Ga~~ (zhao2004: 1.6–1.2 Ga); ~~Kenorland 2.7–2.5 Ga~~ (bleeker2003: supercratons ~2.6 Ga); Northern Hemisphere glaciation ~2.7 Ma; deglaciation onset 19–20 ka (this one is in clark2009's abstract) | content-categories.md | new events |
 | Footer leads: Foster et al. 2017 (CO₂), Scotese et al. 2021 (temperature), Miller et al. 2005 (sea level), Bar-On et al. 2018 (biomass ~550 Gt C), Alroy et al. 2008 (diversity) | footer-candidates.md | footer series |
+
+## Names explainer (2026-11-23): uncited glosses
+Printed on the back-matter page “Names of geological time” (data/explainers/timescale-names.json) with empty `sources`.
+Standard Greek glosses, but no source checked yet. Find one (a time-scale handbook or dictionary with an etymology) and add it.
+
+| Statement | Where |
+|---|---|
+| Phanerozoic = Greek “visible life” (coined by G. H. Chadwick, 1930, per secondary sources; not printed) | Phanerozoic row |
+| Paleozoic / Mesozoic / Cenozoic = “old / middle / new life” (morrell2001 confirms only that Phillips named them in 1841) | era rows |
+| Prefixes Eo- dawn, Paleo- old, Meso- middle, Neo- new; era glosses “Dawn of the Archean” etc. | Precambrian era rows, footnote |
 
 ## 1.64–1.50 Ga batch (2026-11-21)
 DOIs and titles came from web search summaries (publisher, PMC, Crossref mirrors). Dates came from abstracts or search summaries, not the full papers.

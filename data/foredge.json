@@ -1,11 +1,18 @@
 {
-  "_note": "Foredge bands (thumb-index style). Each band is printed in the bleed at the outer edge of every page in its range, in its own vertical slot (slot 0 = top). After binding, the foredge is trimmed through the bands. Demo set = the four eons; a life-based set (single-celled / multicellular / animals / land life) needs research + citations.",
-  "slots": 4,
+  "_note": "Foredge bands (thumb-index style), one per era (the Hadean, which has no eras, gets one band for the eon). Each band is printed in the bleed at the outer edge of every page in its range, in its own vertical slot (slot 0 = top), with its label set vertically in white inside the part that survives the trim. 'label' = printed lines (eon, then era). After binding, the foredge is trimmed through the bands. Hadean starts at the book's first year so page 1 is banded. Boundaries: ICS chart (cohen2013), as in timescale.json.",
+  "slots": 11,
   "sources": ["cohen2013"],
   "bands": [
-    {"name": "Hadean",      "start": -4570000000, "end": -4031000000, "slot": 0},
-    {"name": "Archean",     "start": -4031000000, "end": -2500000000, "slot": 1},
-    {"name": "Proterozoic", "start": -2500000000, "end": -538800000,  "slot": 2},
-    {"name": "Phanerozoic", "start": -538800000,  "end": 0,           "slot": 3}
+    {"name": "Hadean",           "start": -4570000000, "end": -4031000000, "slot": 0,  "label": ["Hadean Eon"]},
+    {"name": "Eoarchean",        "start": -4031000000, "end": -3600000000, "slot": 1,  "label": ["Archean Eon,", "Eoarchean Era"]},
+    {"name": "Paleoarchean",     "start": -3600000000, "end": -3200000000, "slot": 2,  "label": ["Archean Eon,", "Paleoarchean Era"]},
+    {"name": "Mesoarchean",      "start": -3200000000, "end": -2800000000, "slot": 3,  "label": ["Archean Eon,", "Mesoarchean Era"]},
+    {"name": "Neoarchean",       "start": -2800000000, "end": -2500000000, "slot": 4,  "label": ["Archean Eon,", "Neoarchean Era"]},
+    {"name": "Paleoproterozoic", "start": -2500000000, "end": -1600000000, "slot": 5,  "label": ["Proterozoic Eon,", "Paleoproterozoic Era"]},
+    {"name": "Mesoproterozoic",  "start": -1600000000, "end": -1000000000, "slot": 6,  "label": ["Proterozoic Eon,", "Mesoproterozoic Era"]},
+    {"name": "Neoproterozoic",   "start": -1000000000, "end": -538800000,  "slot": 7,  "label": ["Proterozoic Eon,", "Neoproterozoic Era"]},
+    {"name": "Paleozoic",        "start": -538800000,  "end": -251902000,  "slot": 8,  "label": ["Phanerozoic Eon,", "Paleozoic Era"]},
+    {"name": "Mesozoic",         "start": -251902000,  "end": -66000000,   "slot": 9,  "label": ["Phanerozoic Eon,", "Mesozoic Era"]},
+    {"name": "Cenozoic",         "start": -66000000,   "end": 0,           "slot": 10, "label": ["Phanerozoic Eon,", "Cenozoic Era"]}
   ]
 }

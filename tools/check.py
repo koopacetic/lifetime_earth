@@ -76,6 +76,8 @@ def main() -> int:
         srcs = list(ser.get("sources", [])) + [s for p in ser["points"] for s in p["sources"]]
         if not srcs:
             errors.append(f"series {ser['id']}: no sources")
+        if ser.get("slot", "sky") not in C.FOOTER_SLOTS:
+            errors.append(f"series {ser['id']}: slot must be one of {', '.join(C.FOOTER_SLOTS)}")
         if ser.get("model"):
             from models import MODELS
             if ser["model"] not in MODELS:
@@ -93,6 +95,26 @@ def main() -> int:
     for b in fe["bands"]:
         if not 0 <= b["slot"] < fe["slots"]:
             errors.append(f"foredge band {b['name']}: slot out of range")
+        lab = b.get("label", [])
+        if not isinstance(lab, list) or not all(isinstance(x, str) and x for x in lab):
+            errors.append(f"foredge band {b['name']}: label must be a list of non-empty strings")
+    if len({b["slot"] for b in fe["bands"]}) != len(fe["bands"]):
+        errors.append("foredge.json: two bands share a slot")
+    for b0, b1 in zip(fe["bands"], fe["bands"][1:]):
+        if b0["end"] != b1["start"]:
+            errors.append(f"foredge.json: gap or overlap between {b0['name']} and {b1['name']}")
+    # Back-matter explainer of unit names: every row names a timescale unit; every cited key exists.
+    tsn_path = C.DATA / "explainers" / "timescale-names.json"
+    if tsn_path.exists():
+        tsn = C.load_timescale_names()
+        ts = C.load_timescale()
+        unit_names = {u["name"] for lvl in ("eons", "eras") for u in ts[lvl]}
+        for part in tsn.get("paragraphs", []) + tsn.get("rows", []):
+            if "unit" in part and part["unit"] not in unit_names:
+                errors.append(f"timescale-names.json: unknown unit '{part['unit']}'")
+            for s in part.get("sources", []):
+                if s not in keys:
+                    errors.append(f"timescale-names.json: source '{s}' not in sources.bib")
     # Image credits (decision #40): every art file needs a credits.json record whose credit ids resolve.
     credits = C.load_credits()
     for ev in C.load_events():

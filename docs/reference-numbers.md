@@ -25,5 +25,8 @@ Quick facts about the book's geometry. Regenerate the page numbers with `./run q
 - 24 lb bond ≈ 0.11 mm per leaf, so the timeline is about 50 mm of book block and the whole book (~1000 pp) about 55 mm before covers and sewing swell.
 - Foredge: about 0.055 mm per page. The Phanerozoic is ~6 mm of foredge, the Cenozoic ~0.7 mm, and human history is invisible.
 - Foredge bands printed 12 mm from the untrimmed edge; 6 mm assumed plough trim, leaving about 6 mm visible.
+- Foredge tabs (decision #44): 11 slots of 17.4 mm along the edge (191.9 mm between 12 mm insets). Band thickness on the closed
+  book: Hadean 5.9 mm, Eoarchean 4.7, Paleoarchean 4.4, Mesoarchean 4.4, Neoarchean 3.3, Paleoproterozoic 9.9, Mesoproterozoic 6.6,
+  Neoproterozoic 5.1, Paleozoic 3.2, Mesozoic 2.0, Cenozoic 0.7. The smallest unit is one leaf (2 pages, 0.11 mm).
 - Bibliography: about 64 entries per page (2 columns, 6.5 pt, Nature style), so 1000 sources ≈ 16 pages.
 - Full build: 914 pages in about 1.7 s.

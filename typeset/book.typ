@@ -85,16 +85,45 @@
   )
 }
 
-#let metric-line(p) = p.metrics.map(m => [#m.label #m.value#m.unit#cites(m.sources)]).join[ · ]
+#let metric(m) = [#m.label #m.value#m.unit#cites(m.sources)]
+#let in-slot(p, k) = p.metrics.filter(m => m.at("slot", default: "sky") == k)
+#let rule-bar = box(height: 0.7em, inset: (x: 1.2mm), line(angle: 90deg, length: 0.7em, stroke: 0.3pt + luma(150)))
 
-#let page-footer(p, recto) = {
-  set text(size: 7.5pt)
-  let label = text(weight: "bold", size: 9pt)[#p.bottom_label]
-  let extra = text(size: small, fill: grey)[#metric-line(p)]
-  sides(recto, label, [])
+// Footer (decision #45): fixed height and top-aligned, so the bottom time label always sits right under the ruler.
+// Line 1 = sky · air, line 2 = life (each only where values exist); on pages ending on a round 100 Myr,
+// a boxed check-in strip below.
+#let page-footer(p, recto) = block(height: (P.margin_bottom_mm - 2) * 1mm, {
+  sides(recto, text(weight: "bold", size: 9pt)[#p.bottom_label], physical-folio)
   v(1mm)
-  if recto { grid(columns: (auto, 1fr), align: (left, right), physical-folio, extra) }
-  else { grid(columns: (1fr, auto), align: (left, right), extra, physical-folio) }
+  {
+    set text(size: small, fill: grey)
+    set par(leading: 0.4em)
+    let groups = ("sky", "air").map(k => in-slot(p, k)).filter(ms => ms.len() > 0)
+    let life = in-slot(p, "life")
+    if groups.len() > 0 { groups.map(ms => ms.map(metric).join[ · ]).join(rule-bar) }
+    if life.len() > 0 { linebreak(); life.map(metric).join[ · ] }
+  }
+  let ck = in-slot(p, "checkin")
+  if p.at("checkin", default: false) and ck.len() > 0 {
+    v(1mm)
+    set text(size: 6.2pt, fill: luma(40))
+    block(width: 100%, stroke: 0.4pt + luma(120), inset: (x: 1.6mm, y: 1.1mm), radius: 0.6mm,
+      grid(columns: 9, column-gutter: (2.5mm, 1mm, 3.5mm, 1mm, 3.5mm, 1mm, 3.5mm, 1mm), row-gutter: 0.9mm,
+        grid.cell(rowspan: calc.max(1, calc.ceil(ck.len() / 4)), align: horizon,
+          text(size: 5pt, fill: luma(110), tracking: 0.08em, upper[100 Myr\ check-in])),
+        ..ck.map(m => (text(fill: luma(110))[#m.label], [#m.value#m.unit#cites(m.sources)])).flatten()))
+  }
+})
+
+// Foredge band label: lines stacked and centred, scaled down (never up) so the rotated block is at most
+// `len` long (along the edge) and `across` deep (into the page), then rotated by `angle`.
+#let fe-label(lines, len, across, angle) = context {
+  let body(sz) = grid(align: center, row-gutter: 0.18em,
+    ..lines.map(l => text(size: sz, fill: white, weight: "bold", l)))
+  let base = FE.label_size_pt * 1pt
+  let m = measure(body(base))
+  let s = calc.min(1.0, len / m.width, across / m.height)
+  rotate(angle, reflow: true, body(base * s))
 }
 
 // Foredge band + trim ticks, drawn on the full page (background layer, outside the margins).
@@ -107,6 +136,12 @@
     let y = FE.inset_top_mm * 1mm + sh * p.foredge_slot
     let x = if recto { PW - bw } else { -3mm }   // bleed off the page edge
     place(top + left, dx: x, dy: y, rect(width: bw + 3mm, height: sh, fill: luma(FE.grey), stroke: none))
+    // Label: white, set vertically in the part of the band that survives the trim. Tops of the letters
+    // face the foredge on both sides (recto reads downward, verso upward). Shrunk to fit the slot.
+    let vis = bw - trim
+    let lx = if recto { PW - bw } else { trim }
+    place(top + left, dx: lx, dy: y, box(width: vis, height: sh, align(center + horizon,
+      fe-label(p.foredge_label, sh * 0.9, vis * 0.8, if recto { 90deg } else { -90deg }))))
   }
   // trim ticks (top & bottom) where the plough will cut
   let tx = if recto { PW - trim } else { trim }
@@ -181,6 +216,44 @@
 // The bibliography is always typeset (Typst requires it whenever anything is cited). full: true lists every
 // source, so partial builds still show the whole list. Dense: two columns, small type.
 #set page(footer: align(center, physical-folio), margin: (inside: 16mm, outside: 12mm, top: 14mm, bottom: 14mm))
+
+// One-page explainer of the eon and era names (data/explainers/timescale-names.json), in foredge-tab order.
+#if D.at("timescale_names", default: none) != none {
+  let X = D.timescale_names
+  set text(size: 8pt)
+  set par(leading: 0.5em, spacing: 0.8em)
+  text(size: 14pt, weight: "bold")[#X.title]
+  v(1mm)
+  line(length: 100%, stroke: 0.5pt)
+  v(1mm)
+  for para in X.paragraphs { par[#rich(para.text)#cites(para.sources)] }
+  v(2mm)
+  let tab = box(width: 4mm, height: 2.6mm, baseline: 0.3mm, fill: luma(FE.grey))
+  let cells = ()
+  for r in X.rows {
+    let eon = r.rank == "eon"
+    let has-tab = D.at("foredge_bands", default: ()).contains(r.unit)
+    cells += (
+      if has-tab { tab } else [],
+      if eon { text(weight: "bold")[#r.unit Eon] } else { h(3mm) + [#r.unit Era] },
+      text(fill: grey, size: 0.9em)[#r.start_label],
+      [#rich(r.meaning)#cites(r.sources)],
+    )
+  }
+  table(columns: (auto, auto, auto, 1fr), stroke: none, inset: (x: 1.2mm, y: 1.1mm),
+    align: (left + top, left + top, right + top, left + top),
+    table.header(
+      [], text(size: 0.9em, style: "italic")[Unit], text(size: 0.9em, style: "italic")[Began (years)],
+      text(size: 0.9em, style: "italic")[Meaning]),
+    table.hline(stroke: 0.4pt),
+    ..cells)
+  v(1mm)
+  text(size: 0.9em, fill: grey)[Grey marks show which units have a foredge tab; the rows run in the same order as the
+    tabs, top to bottom. The Precambrian era names add a prefix to their eon: _Eo-_ dawn, _Paleo-_ old, _Meso-_ middle,
+    _Neo-_ new.]
+  pagebreak()
+}
+
 #{
   set text(size: cfg.bibliography.size_pt * 1pt)
   set par(leading: 0.4em, spacing: 0.45em)

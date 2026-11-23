@@ -22,7 +22,8 @@
     "band_width_mm": 12,
     "inset_top_mm": 12,
     "inset_bottom_mm": 12,
-    "grey": 45
+    "grey": 45,
+    "label_size_pt": 6
   },
   "type": {
     "font": "Libertinus Serif",

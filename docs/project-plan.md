@@ -62,3 +62,24 @@ Settled answers are in docs/decisions.md. Still open, for the print-test session
 - Spreads as 10 Myr views: continuation marks at the bottom of left pages and the top of right pages?
 - Head-edge bands: a second band set on the head, if the head is trimmed too.
 - Imposition marks: fold, sewing-station and collation-ladder marks on the spine fold of each signature.
+- Foredge tab labels (decision #44): print-test the white bold reverse type (6 pt, shrinking to ~5 pt for "Paleoproterozoic Era")
+  on the luma-45 grey band; if toner fills in, raise `foredge.label_size_pt` or lighten `foredge.grey`.
+- Foredge tabs: check that the 0.7 mm Cenozoic band and the 2.0 mm Mesozoic band read on the closed edge, and that labels clear
+  the trim (plough cut may vary from the assumed 6 mm). If the head and tail are trimmed too, shorten the slots by the trim.
+- Foredge tabs: consider alternating two greys so neighbouring thin bands (Mesozoic/Cenozoic) stand apart.
+
+## Open engine items: page overflow (2026-11-23)
+Planned as one full session on same-page overflows.
+- [ ] Pages 913 and 914 overflow: the last events (Giordano Bruno crater on p913; Yellowstone Huckleberry Ridge on p914) are
+      placed below the ruler's end and run into the footer. The same happens with the old footer, so the cause is in the layout, not the footer.
+- [ ] Find every overfull page (the layout estimate in `tools/common.py` reports `used` > 1?) and choose a strategy:
+      tighter spacing, shorter text, moving art, or letting low-`importance` events yield. Check against measured heights (session 5).
+- [ ] The footer is now a fixed height (decision #45), so the body must never extend into the bottom margin.
+
+## Open content items: back-matter explainer "Names of geological time" (2026-11-23)
+- [ ] Find a citable source for the uncited glosses (Phanerozoic "visible life"; Paleozoic/Mesozoic/Cenozoic "old/middle/new life";
+      prefixes Eo- dawn, Paleo- old, Meso- middle, Neo- new); add it to sources.bib and the rows' `sources`
+      (list in verification-backlog.md). Otherwise drop the uncited glosses.
+- [ ] Read Plumb 1991 (Episodes 14: 139–140) directly; at present it is verified only through vankranendonk2012's quote. Find its DOI if one exists.
+- [ ] Read Cloud 1972 directly to confirm the Hadean definition (currently via vankranendonk2012).
+- [ ] Decide whether the explainer also covers periods and epochs (they appear in the running heads), or stays at eons and eras.

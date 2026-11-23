@@ -24,11 +24,9 @@ key without an abstract. Evidence found beyond the abstract (full text, search s
 | [anbar2007](abstracts/anbar2007.md) | 2007 | A Whiff of Oxygen Before the Great Oxidation Event? | closed | yes | [doi](https://doi.org/10.1126/science.1140325) |
 | [andres2021](abstracts/andres2021.md) | 2021 | Morphology and taxonomy of Quetzalcoatlus Lawson 1975 (Pterodactyloidea: Azhdarchoidea) | hybrid | yes | [doi](https://doi.org/10.1080/02724634.2021.1907587) |
 | [antonio2021](abstracts/antonio2021.md) | 2021 | West {Africa} in {Rodinia}: High quality paleomagnetic pole from the ~860 {Ma} {Manso} dyk | green | yes | [doi](https://doi.org/10.1016/j.gr.2021.02.010) |
-| [armstrong2005](abstracts/armstrong2005.md) | 2005 | Geochronology of the {Nchanga} Granite, and constraints on the maximum age of the {Katanga | closed | no | [doi](https://doi.org/10.1016/j.jafrearsci.2005.08.012) |
 | [arndt2008](abstracts/arndt2008.md) | 2008 | Komatiite | closed | yes | [doi](https://doi.org/10.1017/CBO9780511535550) |
 | [ascarrunz2016](abstracts/ascarrunz2016.md) | 2016 | Triadobatrachus massinoti, the earliest known lissamphibian (Vertebrata: Tetrapoda) re-exa | diamond | yes | [doi](https://doi.org/10.1163/18759866-08502004) |
 | [assisfernandes2019](abstracts/assisfernandes2019.md) | 2019 | 40Ar-39Ar step heating ages of North American tektites and of impact melt rock samples fro | green | yes | [doi](https://doi.org/10.1016/j.gca.2019.03.004) |
-| [ayuso2016](abstracts/ayuso2016.md) | 2016 | Geochemistry, {Nd-Pb} Isotopes, and {Pb-Pb} Ages of the {Mesoproterozoic} {Pea Ridge} Iron | closed | yes | [doi](https://doi.org/10.2113/econgeo.111.8.1935) |
 | [baldwin2004](abstracts/baldwin2004.md) | 2004 | Eclogites of the {Snowbird} tectonic zone: petrological and {U-Pb} geochronological eviden | closed | yes | [doi](https://doi.org/10.1007/s00410-004-0572-4) |
 | [barboni2017](abstracts/barboni2017.md) | 2017 | Early Formation of the Moon 4.51 Billion Years Ago | gold | yes | [doi](https://doi.org/10.1126/sciadv.1602365) |
 | [barden2016](abstracts/barden2016.md) | 2016 | Adaptive Radiation in Socially Advanced Stem-Group Ants from the Cretaceous | bronze | yes | [doi](https://doi.org/10.1016/j.cub.2015.12.060) |
@@ -83,6 +81,7 @@ key without an abstract. Evidence found beyond the abstract (full text, search s
 | [clark2009](abstracts/clark2009.md) | 2009 | The Last Glacial Maximum | closed | yes | [doi](https://doi.org/10.1126/science.1172873) |
 | [clarke2005](abstracts/clarke2005.md) | 2005 | Definitive fossil evidence for the extant avian radiation in the Cretaceous | green | yes | [doi](https://doi.org/10.1038/nature03150) |
 | [cleveland1998](abstracts/cleveland1998.md) | 1998 | Measurement of the solar electron neutrino flux with the {Homestake} chlorine detector | bronze | yes | [doi](https://doi.org/10.1086/305343) |
+| [cloud1972](abstracts/cloud1972.md) | 1972 | A working model of the primitive {Earth} | closed | yes | [doi](https://doi.org/10.2475/ajs.272.6.537) |
 | [coates1990](abstracts/coates1990.md) | 1990 | Polydactyly in the earliest known tetrapod limbs | closed | yes | [doi](https://doi.org/10.1038/347066a0) |
 | [cohen2013](abstracts/cohen2013.md) | 2013 | The {ICS} International Chronostratigraphic Chart | hybrid | yes | [doi](https://doi.org/10.18814/epiiugs/2013/v36i3/002) |
 | [coleman2004](abstracts/coleman2004.md) | 2004 | Rethinking the emplacement and evolution of zoned plutons: Geochronologic evidence for inc | closed | yes | [doi](https://doi.org/10.1130/g20220.1) |
@@ -104,7 +103,6 @@ key without an abstract. Evidence found beyond the abstract (full text, search s
 | [dhuime2012](abstracts/dhuime2012.md) | 2012 | A {Change} in the {Geodynamics} of {Continental} {Growth} 3 {Billion} {Years} {Ago} | closed | yes | [doi](https://doi.org/10.1126/science.1216066) |
 | [dodd2017](abstracts/dodd2017.md) | 2017 | Evidence for early life in Earth’s oldest hydrothermal vent precipitates | green | yes | [doi](https://doi.org/10.1038/nature21377) |
 | [drabon2024](abstracts/drabon2024.md) | 2024 | Effect of a giant meteorite impact on Paleoarchean surface environments and life | hybrid | yes | [doi](https://doi.org/10.1073/pnas.2408721121) |
-| [dudas1994](abstracts/dudas1994.md) | 1994 | Age of the Sudbury diabase dykes and their metamorphism in the Grenville Province, Ontario | gold | yes | [doi](https://doi.org/10.4095/195175) |
 | [edwards1992](abstracts/edwards1992.md) | 1992 | A vascular conducting strand in the early land plant Cooksonia | closed | yes | [doi](https://doi.org/10.1038/357683a0) |
 | [elalbani2010](abstracts/elalbani2010.md) | 2010 | Large colonial organisms with coordinated growth in oxygenated environments 2.1 Gyr ago | closed | yes | [doi](https://doi.org/10.1038/nature09166) |
 | [eldrett2017](abstracts/eldrett2017.md) | 2017 | Water-mass evolution in the Cretaceous Western Interior Seaway of North America and equato | gold | yes | [doi](https://doi.org/10.5194/cp-13-855-2017) |
@@ -141,12 +139,10 @@ key without an abstract. Evidence found beyond the abstract (full text, search s
 | [gomez2015](abstracts/gomez2015.md) | 2015 | Montsechia , an ancient aquatic angiosperm | green | yes | [doi](https://doi.org/10.1073/pnas.1509241112) |
 | [goodge2008](abstracts/goodge2008.md) | 2008 | A Positive Test of {East Antarctica}--{Laurentia} Juxtaposition Within the {Rodinia} Super | closed | yes | [doi](https://doi.org/10.1126/science.1159189) |
 | [gough1981](abstracts/gough1981.md) | 1981 | Solar Interior Structure and Luminosity Variations | closed | yes | [doi](https://doi.org/10.1007/BF00151270) |
-| [gower2002](abstracts/gower2002.md) | 2002 | A {U-Pb} geochronological review of the {Proterozoic} history of the eastern {Grenville Pr | closed | yes | [doi](https://doi.org/10.1139/e01-090) |
 | [granot2016](abstracts/granot2016.md) | 2016 | Palaeozoic oceanic crust preserved beneath the eastern Mediterranean | closed | yes | [doi](https://doi.org/10.1038/ngeo2784) |
 | [grotzinger2015](abstracts/grotzinger2015.md) | 2015 | Deposition, exhumation, and paleoclimate of an ancient lake deposit, Gale crater, Mars | closed | yes | [doi](https://doi.org/10.1126/science.aac7575) |
 | [gu2012](abstracts/gu2012.md) | 2012 | Wing stridulation in a Jurassic katydid (Insecta, Orthoptera) produced low-pitched musical | green | yes | [doi](https://doi.org/10.1073/pnas.1118372109) |
 | [gueneli2018](abstracts/gueneli2018.md) | 2018 | 1.1-billion-year-old porphyrins establish a marine ecosystem dominated by bacterial primar | green | yes | [doi](https://doi.org/10.1073/pnas.1803866115) |
-| [guitreau2019](abstracts/guitreau2019.md) | 2019 | Hadean protocrust reworking at the origin of the {Archean} {Napier} {Complex} ({Antarctica | diamond | yes | [doi](https://doi.org/10.7185/geochemlet.1927) |
 | [gumsley2017](abstracts/gumsley2017.md) | 2017 | Timing and tempo of the Great Oxidation Event | bronze | yes | [doi](https://doi.org/10.1073/pnas.1608824114) |
 | [gumsley2020](abstracts/gumsley2020.md) | 2020 | Neoarchean large igneous provinces on the {Kaapvaal} {Craton} in southern {Africa} re-defi | hybrid | yes | [doi](https://doi.org/10.1130/b35237.1) |
 | [haileselassie2001](abstracts/haileselassie2001.md) | 2001 | Late Miocene hominids from the Middle Awash, Ethiopia | closed | yes | [doi](https://doi.org/10.1038/35084063) |
@@ -158,7 +154,6 @@ key without an abstract. Evidence found beyond the abstract (full text, search s
 | [haq2014](abstracts/haq2014.md) | 2014 | Cretaceous eustasy revisited | closed | no | [doi](https://doi.org/10.1016/j.gloplacha.2013.12.007) |
 | [haridy2025](abstracts/haridy2025.md) | 2025 | The origin of vertebrate teeth and evolution of sensory exoskeletons | hybrid | yes | [doi](https://doi.org/10.1038/s41586-025-08944-w) |
 | [harmand2015](abstracts/harmand2015.md) | 2015 | 3.3-million-year-old stone tools from Lomekwi 3, West Turkana, Kenya | green | yes | [doi](https://doi.org/10.1038/nature14464) |
-| [harms2004](abstracts/harms2004.md) | 2004 | Advances in the geology of the {Tobacco Root Mountains}, {Montana}, and their implications | bronze | yes | [doi](https://doi.org/10.1130/0-8137-2377-9.227) |
 | [hatcher2010](abstracts/hatcher2010.md) | 2010 | The Appalachian orogen: A brief summary | closed | yes | [doi](https://doi.org/10.1130/2010.1206(01)) |
 | [haug2005](abstracts/haug2005.md) | 2005 | North Pacific seasonality and the glaciation of North America 2.7 million years ago | green | yes | [doi](https://doi.org/10.1038/nature03332) |
 | [hawkins1996](abstracts/hawkins1996.md) | 1996 | {U-Pb} geochronologic constraints on the {Paleoproterozoic} crustal evolution of the {Uppe | closed | yes | [doi](https://doi.org/10.1130/0016-7606(1996)108<1167:UPGCOT>2.3.CO;2) |
@@ -249,7 +244,6 @@ key without an abstract. Evidence found beyond the abstract (full text, search s
 | [miao2019](abstracts/miao2019.md) | 2019 | New record of organic-walled, morphologically distinct microfossils from the late {Paleopr | closed | yes | [doi](https://doi.org/10.1016/j.precamres.2018.11.019) |
 | [miao2024](abstracts/miao2024.md) | 2024 | 1.63-billion-year-old multicellular eukaryotes from the Chuanlinggou Formation in North Ch | gold | yes | [doi](https://doi.org/10.1126/sciadv.adk3208) |
 | [mighani2020](abstracts/mighani2020.md) | 2020 | The end of the lunar dynamo | gold | yes | [doi](https://doi.org/10.1126/sciadv.aax0883) |
-| [millar1999](abstracts/millar1999.md) | 1999 | {Neoproterozoic} extensional basic magmatism associated with the {West Highland} granite g | closed | yes | [doi](https://doi.org/10.1144/gsjgs.156.6.1153) |
 | [miller2003](abstracts/miller2003.md) | 2003 | The oldest articulated chondrichthyan from the Early Devonian period | closed | yes | [doi](https://doi.org/10.1038/nature02001) |
 | [minter2006](abstracts/minter2006.md) | 2006 | The sedimentary setting of {Witwatersrand} placer mineral deposits in an {Archean} atmosph | closed | yes | [doi](https://doi.org/10.1130/2006.1198(06)) |
 | [mitchell2023](abstracts/mitchell2023.md) | 2023 | Mid-Proterozoic day length stalled by tidal resonance | hybrid | yes | [doi](https://doi.org/10.1038/s41561-023-01202-6) |
@@ -263,6 +257,7 @@ key without an abstract. Evidence found beyond the abstract (full text, search s
 | [moody2024](abstracts/moody2024.md) | 2024 | The nature of the last universal common ancestor and its impact on the early Earth system | hybrid | yes | [doi](https://doi.org/10.1038/s41559-024-02461-1) |
 | [morelli2010](abstracts/morelli2010.md) | 2010 | Constraints on the genesis of gold mineralization at the {Homestake Gold Deposit}, {Black  | closed | yes | [doi](https://doi.org/10.1007/s00126-010-0284-9) |
 | [morota2009](abstracts/morota2009.md) | 2009 | Formation age of the lunar crater Giordano Bruno | green | yes | [doi](https://doi.org/10.1111/j.1945-5100.2009.tb01211.x) |
+| [morrell2001](abstracts/morrell2001.md) | 2001 | Genesis and geochronology: the case of {John Phillips} (1800--1874) | closed | yes | [doi](https://doi.org/10.1144/GSL.SP.2001.190.01.07) |
 | [motani2024](abstracts/motani2024.md) | 2024 | Downsizing a heavyweight: factors and methods that revise weight estimates of the giant fo | gold | yes | [doi](https://doi.org/10.7717/peerj.16978) |
 | [moyen2024](abstracts/moyen2024.md) | 2024 | Felsic crust development in the {Kaapvaal} {Craton}, {South} {Africa}: {A} reference sampl | hybrid | yes | [doi](https://doi.org/10.1016/j.earscirev.2024.104680) |
 | [mueller1992](abstracts/mueller1992.md) | 1992 | 3.96 Ga zircons from an Archean quartzite, Beartooth Mountains, Montana | closed | yes | [doi](https://doi.org/10.1130/0091-7613(1992)020<0327:GZFAAQ>2.3.CO;2) |
@@ -306,6 +301,7 @@ key without an abstract. Evidence found beyond the abstract (full text, search s
 | [phillips2000](abstracts/phillips2000.md) | 2000 | {Witwatersrand} gold fields: geology, genesis, and exploration | closed | yes | [doi](https://doi.org/10.5382/rev.13.14) |
 | [planavsky2014](abstracts/planavsky2014.md) | 2014 | Evidence for oxygenic photosynthesis half a billion years before the Great Oxidation Event | green | yes | [doi](https://doi.org/10.1038/ngeo2122) |
 | [planavsky2014b](abstracts/planavsky2014b.md) | 2014 | Low Mid-Proterozoic atmospheric oxygen levels and the delayed rise of animals | green | yes | [doi](https://doi.org/10.1126/science.1258410) |
+| [plumb1991](abstracts/plumb1991.md) | 1991 | New {Precambrian} time scale | unknown | no | — |
 | [pol2021](abstracts/pol2021.md) | 2021 | Earliest evidence of herd-living and age segregation amongst dinosaurs | gold | yes | [doi](https://doi.org/10.1038/s41598-021-99176-1) |
 | [popova2013](abstracts/popova2013.md) | 2013 | Chelyabinsk Airburst, Damage Assessment, Meteorite Recovery, and Characterization | green | yes | [doi](https://doi.org/10.1126/science.1242642) |
 | [portegieszwart2021](abstracts/portegieszwart2021.md) | 2021 | Oort cloud Ecology: II. the chronology of the formation of the Oort cloud | bronze | yes | [doi](https://doi.org/10.1051/0004-6361/202040096) |
@@ -326,11 +322,9 @@ key without an abstract. Evidence found beyond the abstract (full text, search s
 | [reis2013](abstracts/reis2013.md) | 2013 | {Avanavero} mafic magmatism, a late {Paleoproterozoic} {LIP} in the {Guiana Shield}, {Amaz | closed | no | [doi](https://doi.org/10.1016/j.lithos.2012.10.014) |
 | [reisz2005](abstracts/reisz2005.md) | 2005 | Embryos of an Early Jurassic Prosauropod Dinosaur and Their Evolutionary Significance | closed | yes | [doi](https://doi.org/10.1126/science.1114942) |
 | [renne2013](abstracts/renne2013.md) | 2013 | Time Scales of Critical Events Around the {Cretaceous-Paleogene} Boundary | closed | yes | [doi](https://doi.org/10.1126/science.1230492) |
-| [requia2003](abstracts/requia2003.md) | 2003 | {Re}--{Os} and {Pb}--{Pb} geochronology of the {Archean} {Salobo} iron oxide copper--gold  | green | yes | [doi](https://doi.org/10.1007/s00126-003-0364-1) |
 | [richter2017](abstracts/richter2017.md) | 2017 | The age of the hominin fossils from Jebel Irhoud, Morocco, and the origins of the Middle S | closed | yes | [doi](https://doi.org/10.1038/nature22335) |
 | [rivera2014](abstracts/rivera2014.md) | 2014 | Rapid magma evolution constrained by zircon petrochronology and 40Ar/39Ar sanidine ages fo | closed | yes | [doi](https://doi.org/10.1130/g35808.1) |
 | [robert2006](abstracts/robert2006.md) | 2006 | A palaeotemperature curve for the Precambrian oceans based on silicon isotopes in cherts | closed | yes | [doi](https://doi.org/10.1038/nature05239) |
-| [rogers2018](abstracts/rogers2018.md) | 2018 | Phosphorus and Potassium Metasomatic Enrichment in the Mantle Source of the c. 1450--1425  | closed | yes | [doi](https://doi.org/10.1093/petrology/egy104) |
 | [rooney2013](abstracts/rooney2013.md) | 2013 | Re-Os geochronology and coupled Os-Sr isotope constraints on the Sturtian snowball Earth | green | yes | [doi](https://doi.org/10.1073/pnas.1317266110) |
 | [rooney2015](abstracts/rooney2015.md) | 2015 | A Cryogenian chronology: Two long-lasting synchronous Neoproterozoic glaciations | closed | yes | [doi](https://doi.org/10.1130/g36511.1) |
 | [rooney2020](abstracts/rooney2020.md) | 2020 | Calibrating the coevolution of Ediacaran life and environment | bronze | yes | [doi](https://doi.org/10.1073/pnas.2002918117) |
@@ -361,7 +355,6 @@ key without an abstract. Evidence found beyond the abstract (full text, search s
 | [servais2018](abstracts/servais2018.md) | 2018 | The Great Ordovician Biodiversification Event (GOBE): definition, concept and duration | bronze | yes | [doi](https://doi.org/10.1111/let.12259) |
 | [shirey2011](abstracts/shirey2011.md) | 2011 | Start of the {Wilson} {Cycle} at 3 {Ga} {Shown} by {Diamonds} from {Subcontinental} {Mantl | closed | yes | [doi](https://doi.org/10.1126/science.1206275) |
 | [shu1999](abstracts/shu1999.md) | 1999 | Lower Cambrian vertebrates from south China | closed | yes | [doi](https://doi.org/10.1038/46965) |
-| [shumlyanskyy2017](abstracts/shumlyanskyy2017.md) | 2017 | The origin of the {Palaeoproterozoic} {AMCG} complexes in the {Ukrainian} shield: New {U-P | green | yes | [doi](https://doi.org/10.1016/j.precamres.2017.02.009) |
 | [simonson2015](abstracts/simonson2015.md) | 2015 | First detection of extraterrestrial material in ca. 2.49 Ga impact spherule layer in Kurum | closed | yes | [doi](https://doi.org/10.1130/g36225.1) |
 | [sims2006](abstracts/sims2006.md) | 2006 | Evolution of the diatoms: insights from fossil, biological and molecular data | green | yes | [doi](https://doi.org/10.2216/05-22.1) |
 | [singer2019](abstracts/singer2019.md) | 2019 | Synchronizing volcanic, sedimentary, and ice core records of Earth’s last magnetic polarit | gold | yes | [doi](https://doi.org/10.1126/sciadv.aaw4621) |
@@ -378,11 +371,9 @@ key without an abstract. Evidence found beyond the abstract (full text, search s
 | [som2016](abstracts/som2016.md) | 2016 | Earth’s air pressure 2.7 billion years ago constrained to less than half of modern levels | closed | yes | [doi](https://doi.org/10.1038/ngeo2713) |
 | [sonett1998](abstracts/sonett1998.md) | 1998 | {Neoproterozoic} {Earth-Moon} dynamics: Rework of the 900 {Ma} {Big Cottonwood Canyon} tid | closed | yes | [doi](https://doi.org/10.1029/98GL00048) |
 | [spencer2018](abstracts/spencer2018.md) | 2018 | A {Palaeoproterozoic} tectono-magmatic lull as a potential trigger for the supercontinent  | closed | yes | [doi](https://doi.org/10.1038/s41561-017-0051-y) |
-| [srivastava2021](abstracts/srivastava2021.md) | 2021 | A ca. 2.25 {Ga} mafic dyke swarm discovered in the {Bastar} craton, {Central} {India}: Imp | closed | yes | [doi](https://doi.org/10.1016/j.precamres.2021.106232) |
 | [stein2007](abstracts/stein2007.md) | 2007 | Giant cladoxylopsid trees resolve the enigma of the Earth’s earliest forest stumps at Gilb | closed | yes | [doi](https://doi.org/10.1038/nature05705) |
 | [stein2020](abstracts/stein2020.md) | 2020 | Mid-Devonian Archaeopteris Roots Signal Revolutionary Change in Earliest Fossil Forests | bronze | yes | [doi](https://doi.org/10.1016/j.cub.2019.11.067) |
 | [steinthorsdottir2021](abstracts/steinthorsdottir2021.md) | 2021 | The Miocene: The Future of the Past | hybrid | yes | [doi](https://doi.org/10.1029/2020pa004037) |
-| [stepanova2015](abstracts/stepanova2015.md) | 2015 | The 2.31 {Ga} mafic dykes in the {Karelian} {Craton}, eastern {Fennoscandian} shield: {U-- | closed | no | [doi](https://doi.org/10.1016/j.precamres.2014.10.002) |
 | [stevens2013](abstracts/stevens2013.md) | 2013 | Palaeontological evidence for an Oligocene divergence between Old World monkeys and apes | green | yes | [doi](https://doi.org/10.1038/nature12161) |
 | [stoffler2001](abstracts/stoffler2001.md) | 2001 | Stratigraphy and Isotope Ages of Lunar Geologic Units: Chronological Standard for the Inne | closed | yes | [doi](https://doi.org/10.1023/a:1011937020193) |
 | [storey2012](abstracts/storey2012.md) | 2012 | Astronomically calibrated 40 Ar/ 39 Ar age for the Toba supereruption and global synchroni | green | yes | [doi](https://doi.org/10.1073/pnas.1208178109) |
@@ -418,11 +409,11 @@ key without an abstract. Evidence found beyond the abstract (full text, search s
 | [vandenbergh2016](abstracts/vandenbergh2016.md) | 2016 | Homo floresiensis-like fossils from the early Middle Pleistocene of Flores | closed | yes | [doi](https://doi.org/10.1038/nature17999) |
 | [vandenburg2026](abstracts/vandenburg2026.md) | 2026 | Modern arc-like water content in the source of 3.1-billion-year-old volcanic rocks | gold | yes | [doi](https://doi.org/10.1038/s41467-026-74653-1) |
 | [vankranendonk2007](abstracts/vankranendonk2007.md) | 2007 | Review: secular tectonic evolution of {Archean} continental crust: interplay between horiz | bronze | yes | [doi](https://doi.org/10.1111/j.1365-3121.2006.00723.x) |
+| [vankranendonk2012](abstracts/vankranendonk2012.md) | 2012 | A Chronostratigraphic Division of the {Precambrian}: Possibilities and Challenges | closed | no | [doi](https://doi.org/10.1016/B978-0-444-59425-9.00016-0) |
 | [vartanyan1993](abstracts/vartanyan1993.md) | 1993 | Holocene dwarf mammoths from Wrangel Island in the Siberian Arctic | closed | yes | [doi](https://doi.org/10.1038/362337a0) |
 | [voss2019](abstracts/voss2019.md) | 2019 | Stomach contents of the archaeocete Basilosaurus isis: Apex predator in oceans of the late | gold | yes | [doi](https://doi.org/10.1371/journal.pone.0209021) |
 | [wallner2016](abstracts/wallner2016.md) | 2016 | Recent near-Earth supernovae probed by global deposition of interstellar radioactive 60Fe | green | yes | [doi](https://doi.org/10.1038/nature17196) |
 | [walter1994](abstracts/walter1994.md) | 1994 | Age of Lucy and the First Family: Single-crystal 40Ar/39Ar dating of the Denen Dora and lo | closed | yes | [doi](https://doi.org/10.1130/0091-7613(1994)022<0006:aolatf>2.3.co;2) |
-| [wan2012](abstracts/wan2012.md) | 2012 | Multiple 3.8--3.1 Ga tectono-magmatic events in a newly discovered area of ancient rocks ( | closed | no | [doi](https://doi.org/10.1016/j.jseaes.2012.03.007) |
 | [wang2017](abstracts/wang2017.md) | 2017 | Lifetime of the solar nebula constrained by meteorite paleomagnetism | hybrid | yes | [doi](https://doi.org/10.1126/science.aaf5043) |
 | [waterton2020](abstracts/waterton2020.md) | 2020 | Geodynamic {Implications} of {Synchronous} {Norite} and {TTG} {Formation} in the 3 Ga {Man | gold | yes | [doi](https://doi.org/10.3389/feart.2020.562062) |
 | [wellman2003](abstracts/wellman2003.md) | 2003 | Fragments of the earliest land plants | green | yes | [doi](https://doi.org/10.1038/nature01884) |
@@ -450,7 +441,6 @@ key without an abstract. Evidence found beyond the abstract (full text, search s
 | [zerkle2012](abstracts/zerkle2012.md) | 2012 | A bistable organic-rich atmosphere on the Neoarchaean Earth | green | yes | [doi](https://doi.org/10.1038/ngeo1425) |
 | [zhang2014](abstracts/zhang2014.md) | 2014 | Aridification of the Sahara desert caused by Tethys Sea shrinkage during the Late Miocene | closed | yes | [doi](https://doi.org/10.1038/nature13705) |
 | [zhang2018](abstracts/zhang2018.md) | 2018 | Oxygenation of the {Mesoproterozoic} ocean and the evolution of complex eukaryotes | green | yes | [doi](https://doi.org/10.1038/s41561-018-0111-y) |
-| [zhang2023](abstracts/zhang2023.md) | 2023 | Reworking of Eoarchean to Mesoarchean Continental Crust in the Anshan--Benxi Area, North C | gold | yes | [doi](https://doi.org/10.3390/min14010005) |
 | [zhao2002](abstracts/zhao2002.md) | 2002 | Review of global 2.1–1.8 Ga orogens: implications for a pre-Rodinia supercontinent | closed | no | [doi](https://doi.org/10.1016/s0012-8252(02)00073-9) |
 | [zhao2004](abstracts/zhao2004.md) | 2004 | A Paleo-Mesoproterozoic supercontinent: assembly, growth and breakup | closed | no | [doi](https://doi.org/10.1016/j.earscirev.2004.02.003) |
 | [zhou2003](abstracts/zhou2003.md) | 2003 | The missing link in Ginkgo evolution | closed | yes | [doi](https://doi.org/10.1038/423821a) |

@@ -4,6 +4,7 @@
   "unit": "h",
   "decimals": 1,
   "order": 2,
+  "slot": "sky",
   "_note": "Linear between cited points; printed only inside the data range. Demo: needs a fuller tidal-history curve.",
   "points": [
     {"t": -620000000, "v": 21.9, "sources": ["williams2000"]},
