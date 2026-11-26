@@ -78,6 +78,13 @@ def main() -> int:
             errors.append(f"series {ser['id']}: no sources")
         if ser.get("slot", "sky") not in C.FOOTER_SLOTS:
             errors.append(f"series {ser['id']}: slot must be one of {', '.join(C.FOOTER_SLOTS)}")
+        disp = ser.get("display")
+        if disp:
+            if disp.get("mode") not in ("offset", "ratio", "share"):
+                errors.append(f"series {ser['id']}: display.mode must be offset, ratio or share")
+            elif C.series_now(ser) is None:
+                errors.append(f"series {ser['id']}: display needs a present-day value (a point in the Holocene, "
+                              "within 11,700 years of now) to compare with")
         if ser.get("model"):
             from models import MODELS
             if ser["model"] not in MODELS:

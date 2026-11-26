@@ -1,30 +1,30 @@
 # Footer metric candidates
 
-The footer prints a terse line of metrics on every page (decision #23). The metrics in use now are Sun, Day and Year
+The footer prints a terse line of metrics on every page (decision #23). The metrics in use now are Sun, Day, Year and Moon (sky) and CO₂ and Temp (air)
 (`data/series/`). This file lists candidates. Each needs cited values or a cited model, and prints only where one
 exists (decision #20). Each metric may also get a **one-page explainer** in an appendix: one graph of the
-whole history, what it shows, how it is known and how sure. A draft for oxygen is in `typeset/explainers/oxygen.typ`
-with data in `data/explainers/oxygen.json`.
+whole history, what it shows, how it is known and how sure. Drafts in `typeset/explainers/` (data in `data/explainers/`):
+oxygen, diversity (marine genera), climate (temperature + CO₂), day-length (with Moon distance), largest-life. Status in project-plan.md, "Explainer appendix".
 
 Status: ☑ in use · ◐ sources in hand · ☐ idea only
 
 | ☐ | Metric | Footer form | Sources in hand / leads | Notes |
 |---|---|---|---|---|
-| ☑ | Sun brightness | `Sun 94% of today` | gough1981 (model) | Whole book. Explainer: luminosity milestones (e.g. when the Sun passed 80%, 90%). |
-| ☑ | Day length | `Day 21.9 h` | williams2000; **add** lantink2022 (≈17 h at 2.46 Ga), meyers2018 (18.68 h at 1.4 Ga), mitchell2023 (≈19 h stalled 2–1 Ga) | Replace the linear demo with these points. The stall makes the curve flat for 1 Gyr. |
-| ☑ | Days per year | `Year 400 days` | williams2000; derive from day length (year length in hours is constant) | Could be computed from day length instead of separate points; decide. |
-| ◐ | Moon distance | `Moon 341,000 km` | lantink2022 (321,800 km at 2.46 Ga), meyers2018 (340,900 ± 2,600 km at 1.4 Ga), williams2000 (0.906 of today's distance at 2.45 Ga, 0.965 at 620 Ma); present ~384,300 km (lantink2022 text) | Only three points before the Phanerozoic; prints blank before 2.46 Ga unless a model is cited. |
+| ☑ | Sun brightness | `Sun 94% of today` | gough1981 (model) | Whole book. Explainer drafted (typeset/explainers/sun.typ): milestones 75/80/90%, faint-young-Sun zone (feulner2012). |
+| ☑ | Day length | `Day 21.9 h` | farhat2022 Table D.1 (cyclostratigraphy, recomputed with one tidal model): 0, 55, 270, 445, 493, 500 Ma, 1.4 Ga (meyers2018), 2.46 Ga (lantink2022) | Done 2026-11-25. Blank before 2.46 Ga. **Open:** mitchell2023's ~19 h plateau (2–1 Ga) is not shown by linear interpolation; add plateau points? Rhythmite values left out (they cross the curve). |
+| ☑ | Days per year | `Year 393 days` | computed: 8,765.81 h ÷ day length (`year_from_day_length` in tools/models.py; orbit fixed as in farhat2022) | Done 2026-11-25: derived, so it always agrees with Day. |
+| ☑ | Moon distance | `Moon 97%` | farhat2022 Table D.1, same points as Day; stored in km, today = 383,598 km (long-term mean, Laskar 2004) | Done 2026-11-25 (sky slot, every page from 2.46 Ga). Prints the share of today's distance only, so line 1 fits (decision #48). |
 | ◐ | Oxygen | `O₂ ≤0.02%` or `O₂ ~21%` | crowe2013, gumsley2017, planavsky2014b, scott2006, berner2006, krause2018, machta1970 | Mostly limits, not values: needs a format for "below" and "range" (e.g. `O₂ <0.0002%`). Draft explainer done. |
-| ☐ | CO₂ | `CO₂ ~1,000 ppm` | leads: Foster et al. 2017 compilation; Cenozoic CO₂ proxy consortium | Phanerozoic only. |
-| ☐ | Global temperature | `Temp ~+10 °C` | leads: westerhold2020 (Cenozoic, deep sea); Scotese et al. 2021 (Phanerozoic) | Relative to today. |
+| ☑ | CO₂ | `CO₂ 8.1×` | judd2024 (PhanDA stage medians, 5–95% in `lo`/`hi`), 0–482 Ma | Done 2026-11-25 (air slot). Multiple of the Holocene median, 276 ppm (≈ pre-industrial). Cross-check: Foster et al. 2017 LOESS fit (0–420 Ma, Nat. Commun. 8:14845, Supp. Data 2). |
+| ☑ | Global temperature | `Temp +16 °C` | judd2024 (PhanDA GMST stage medians), 0–482 Ma | Done 2026-11-25 (air slot). Difference from the Holocene median, 14.0 °C. Scotese 2021 tables are images only. |
 | ◐ | Sea level | `Sea +240 m` | haq2008 (Paleozoic), haq2014 (Cretaceous); leads: Miller et al. 2005 (last 100 Myr) | Phanerozoic only. |
 | ☐ | Air pressure | `Air <0.5 bar` | som2016 (<0.5 bar at 2.7 Ga), som2012 (< 2× density) | Only limits at 2.7 Ga; probably explainer only. |
-| ☐ | Marine families | `Families: sea 450 (40%)` | raup1982; leads: Sepkoski family compilation, Alroy et al. 2008 | Marine animals, Phanerozoic only. Strong explainer: the mass extinctions are the dips. |
+| ☐ | Marine families | `Families: sea 450 (40%)` | raup1982; leads: Sepkoski family compilation, Alroy et al. 2008 | Marine animals, Phanerozoic only. Explainer drafted (genera, from sepkoski2002 via jones2022). No open family data (Sepkoski 1992 compendium is print-only); consider printing genera instead: e.g. `Genera: sea 3,398 (64%)` on a Maastrichtian page (from data/explainers/diversity.json; 100% = 5,339 genera in the latest bin). |
 | ☐ | Biomass | `Life ~550 Gt C` | leads: Bar-On, Phillips & Milo 2018 (present only) | No history curve exists; explainer or back-matter fact only. |
 | ☐ | Continents | `Supercontinent: Pangaea` | zhao2002, li2008, nance2014 | Text, not a number; perhaps in the running head instead. |
 | ☐ | Tetrapod (land animal) families | `land 50 (10%)` | sahney2010; leads: Benton 1995 (Science) | From ~370 Ma. Shares the Life slot with marine families. |
 | ☐ | Land plants: share of spore / seed / flowering plants | `Plants: flowering 75%` | leads: Niklas, Tiffney & Knoll 1983 (Nature); Lidgard & Crane 1988 (Nature) | From ~430 Ma. One series combining vascular-plant groups and the flowering-plant takeover. |
-| ☐ | Largest living thing | `Largest: seaweeds ~1 cm` | leads: Payne et al. 2009 (PNAS) | Life slot before animals (3.5 Ga – ~540 Ma); after that, the check-in giants take over. |
+| ☐ | Largest living thing | `Largest: seaweeds ~1 cm` | payne2009 (Table S1 on Dryad not yet downloaded) | Life slot before animals (3.5 Ga – ~540 Ma); after that, the check-in giants take over. Explainer drafted with a placeholder curve. |
 | ☐ | Insect families | `Insects ~600 families` | leads: Labandeira & Sepkoski 1993 (Science) | From ~410 Ma. Not yet placed in a slot. |
 
 ### 100 Myr check-in candidates (only if the check-in box is brought back; see demo)

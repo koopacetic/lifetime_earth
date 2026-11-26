@@ -5,9 +5,8 @@
   "decimals": 0,
   "order": 3,
   "slot": "sky",
-  "_note": "Solar days per year. Linear between cited points (Elatina Formation tidal rhythmites, ~620 Ma). Demo data.",
-  "points": [
-    {"t": -620000000, "v": 400,    "sources": ["williams2000"]},
-    {"t": 0,          "v": 365.24, "sources": ["williams2000"]}
-  ]
+  "model": "year_from_day_length",
+  "_note": "Computed per page by tools/models.py: 8,765.81 h (365.2422 × 24) divided by the day length in day_length.json. The year in hours is taken as constant (Earth's orbit fixed in farhat2022, Table D.3); cites the day-length sources.",
+  "sources": ["farhat2022", "meyers2018", "lantink2022"],
+  "points": []
 }

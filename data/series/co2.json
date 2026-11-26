@@ -1,0 +1,855 @@
+{
+  "id": "co2",
+  "label": "CO₂",
+  "unit": "ppm",
+  "decimals": 0,
+  "order": 10,
+  "slot": "air",
+  "display": {
+    "mode": "ratio",
+    "decimals": 1
+  },
+  "_note": "Atmospheric CO2, PhanDA (judd2024) stage medians, same stages as temperature.json; lo/hi = 5th/95th percentiles. Printed as a multiple of the Holocene median 276 ppm, i.e. pre-industrial air (display.mode ratio): 'CO₂ 8.1×'. Source file: https://github.com/EJJudd/PhanDA/blob/main/5_Outputs/PhanDA_GMSTandCO2_percentiles.csv",
+  "points": [
+    {
+      "t": -481965000,
+      "v": 3261,
+      "lo": 2286,
+      "hi": 4665,
+      "stage": "Tremadocian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -474170000,
+      "v": 3326,
+      "lo": 2330,
+      "hi": 4785,
+      "stage": "Floian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -470340000,
+      "v": 3243,
+      "lo": 2287,
+      "hi": 4674,
+      "stage": "Dapingian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -463800000,
+      "v": 2553,
+      "lo": 1242,
+      "hi": 4313,
+      "stage": "Darriwilian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -455465000,
+      "v": 482,
+      "lo": 329,
+      "hi": 685,
+      "stage": "Sandbian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -448980000,
+      "v": 483,
+      "lo": 341,
+      "hi": 690,
+      "stage": "Katian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -444140000,
+      "v": 624,
+      "lo": 345,
+      "hi": 1156,
+      "stage": "Hirnantian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -440830000,
+      "v": 620,
+      "lo": 349,
+      "hi": 1069,
+      "stage": "Aeronian/Rhuddanian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -435760000,
+      "v": 631,
+      "lo": 370,
+      "hi": 1062,
+      "stage": "Telychian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -431775000,
+      "v": 505,
+      "lo": 279,
+      "hi": 912,
+      "stage": "Sheinwoodian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -428680000,
+      "v": 524,
+      "lo": 288,
+      "hi": 903,
+      "stage": "Homerian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -425875000,
+      "v": 1187,
+      "lo": 369,
+      "hi": 4613,
+      "stage": "Gorstian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -423870000,
+      "v": 1245,
+      "lo": 398,
+      "hi": 4506,
+      "stage": "Ludfordian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -420865000,
+      "v": 1282,
+      "lo": 430,
+      "hi": 4031,
+      "stage": "Pridoli",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -414750000,
+      "v": 2018,
+      "lo": 606,
+      "hi": 3888,
+      "stage": "Pragian/Lochkovian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -402400000,
+      "v": 2035,
+      "lo": 1228,
+      "hi": 3434,
+      "stage": "Emsian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -389800000,
+      "v": 708,
+      "lo": 353,
+      "hi": 1329,
+      "stage": "Eifelian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -382100000,
+      "v": 1004,
+      "lo": 667,
+      "hi": 1575,
+      "stage": "Givetian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -375000000,
+      "v": 982,
+      "lo": 693,
+      "hi": 1394,
+      "stage": "Frasnian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -365200000,
+      "v": 807,
+      "lo": 382,
+      "hi": 1400,
+      "stage": "Famennian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -353015000,
+      "v": 396,
+      "lo": 193,
+      "hi": 781,
+      "stage": "Tournaisian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -338535000,
+      "v": 460,
+      "lo": 255,
+      "hi": 819,
+      "stage": "Visean",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -326870000,
+      "v": 350,
+      "lo": 175,
+      "hi": 623,
+      "stage": "Serpukhovian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -319275000,
+      "v": 326,
+      "lo": 245,
+      "hi": 435,
+      "stage": "Bashkirian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -311085000,
+      "v": 337,
+      "lo": 183,
+      "hi": 663,
+      "stage": "Moscovian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -305350000,
+      "v": 426,
+      "lo": 158,
+      "hi": 1239,
+      "stage": "Kasimovian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -301285000,
+      "v": 458,
+      "lo": 207,
+      "hi": 1149,
+      "stage": "Gzhelian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -296205000,
+      "v": 517,
+      "lo": 82,
+      "hi": 1864,
+      "stage": "Asselian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -292015000,
+      "v": 468,
+      "lo": 118,
+      "hi": 1540,
+      "stage": "Sakmarian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -286905000,
+      "v": 764,
+      "lo": 212,
+      "hi": 2543,
+      "stage": "Artinskian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -278835000,
+      "v": 662,
+      "lo": 420,
+      "hi": 1246,
+      "stage": "Kungurian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -271790000,
+      "v": 339,
+      "lo": 159,
+      "hi": 641,
+      "stage": "Roadian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -264380000,
+      "v": 473,
+      "lo": 228,
+      "hi": 831,
+      "stage": "Capitanian/Wordian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -256895000,
+      "v": 604,
+      "lo": 356,
+      "hi": 1098,
+      "stage": "Wuchiapingian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -253070000,
+      "v": 789,
+      "lo": 484,
+      "hi": 1546,
+      "stage": "Changhsingian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -250890000,
+      "v": 711,
+      "lo": 434,
+      "hi": 1685,
+      "stage": "Induan",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -245670000,
+      "v": 655,
+      "lo": 155,
+      "hi": 2477,
+      "stage": "Anisian/Olenekian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -239230000,
+      "v": 714,
+      "lo": 401,
+      "hi": 1375,
+      "stage": "Ladinian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -232150000,
+      "v": 954,
+      "lo": 711,
+      "hi": 1292,
+      "stage": "Carnian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -216520000,
+      "v": 1005,
+      "lo": 740,
+      "hi": 1445,
+      "stage": "Norian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -203550000,
+      "v": 1266,
+      "lo": 1035,
+      "hi": 1550,
+      "stage": "Rhaetian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -197130000,
+      "v": 1066,
+      "lo": 601,
+      "hi": 1762,
+      "stage": "Sinemurian/Hettangian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -188550000,
+      "v": 822,
+      "lo": 595,
+      "hi": 1134,
+      "stage": "Pliensbachian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -179450000,
+      "v": 797,
+      "lo": 612,
+      "hi": 1031,
+      "stage": "Toarcian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -172800000,
+      "v": 1092,
+      "lo": 803,
+      "hi": 1470,
+      "stage": "Aalenian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -169535000,
+      "v": 899,
+      "lo": 657,
+      "hi": 1218,
+      "stage": "Bajocian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -166730000,
+      "v": 936,
+      "lo": 633,
+      "hi": 1389,
+      "stage": "Bathonian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -163410000,
+      "v": 871,
+      "lo": 530,
+      "hi": 1606,
+      "stage": "Callovian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -158155000,
+      "v": 741,
+      "lo": 528,
+      "hi": 1036,
+      "stage": "Oxfordian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -152010000,
+      "v": 771,
+      "lo": 605,
+      "hi": 983,
+      "stage": "Kimmeridgian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -146170000,
+      "v": 724,
+      "lo": 567,
+      "hi": 913,
+      "stage": "Tithonian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -140400000,
+      "v": 830,
+      "lo": 654,
+      "hi": 1036,
+      "stage": "Berriasian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -135150000,
+      "v": 842,
+      "lo": 543,
+      "hi": 1168,
+      "stage": "Valanginian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -129550000,
+      "v": 810,
+      "lo": 507,
+      "hi": 1150,
+      "stage": "Hauterivian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -123950000,
+      "v": 752,
+      "lo": 569,
+      "hi": 965,
+      "stage": "Barremian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -117300000,
+      "v": 867,
+      "lo": 727,
+      "hi": 1028,
+      "stage": "Aptian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -106850000,
+      "v": 812,
+      "lo": 698,
+      "hi": 944,
+      "stage": "Albian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -97200000,
+      "v": 860,
+      "lo": 733,
+      "hi": 1004,
+      "stage": "Cenomanian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -91645000,
+      "v": 754,
+      "lo": 588,
+      "hi": 978,
+      "stage": "Turonian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -87545000,
+      "v": 721,
+      "lo": 465,
+      "hi": 1165,
+      "stage": "Coniacian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -84675000,
+      "v": 621,
+      "lo": 403,
+      "hi": 965,
+      "stage": "Santonian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -77910000,
+      "v": 971,
+      "lo": 696,
+      "hi": 1492,
+      "stage": "Campanian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -69085000,
+      "v": 943,
+      "lo": 831,
+      "hi": 1066,
+      "stage": "Maastrichtian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -62620000,
+      "v": 810,
+      "lo": 559,
+      "hi": 1078,
+      "stage": "Selandian/Danian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -57620000,
+      "v": 958,
+      "lo": 812,
+      "hi": 1124,
+      "stage": "Thanetian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -52035000,
+      "v": 1183,
+      "lo": 1052,
+      "hi": 1326,
+      "stage": "Ypresian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -44550000,
+      "v": 1049,
+      "lo": 912,
+      "hi": 1204,
+      "stage": "Lutetian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -39370000,
+      "v": 879,
+      "lo": 764,
+      "hi": 1007,
+      "stage": "Bartonian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -35805000,
+      "v": 805,
+      "lo": 711,
+      "hi": 907,
+      "stage": "Priabonian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -30595000,
+      "v": 621,
+      "lo": 552,
+      "hi": 696,
+      "stage": "Rupelian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -25165000,
+      "v": 521,
+      "lo": 424,
+      "hi": 650,
+      "stage": "Chattian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -21745000,
+      "v": 585,
+      "lo": 499,
+      "hi": 679,
+      "stage": "Aquitanian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -18220000,
+      "v": 593,
+      "lo": 520,
+      "hi": 680,
+      "stage": "Burdigalian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -14905000,
+      "v": 778,
+      "lo": 665,
+      "hi": 910,
+      "stage": "Langhian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -12725000,
+      "v": 559,
+      "lo": 499,
+      "hi": 622,
+      "stage": "Serravallian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -9440000,
+      "v": 420,
+      "lo": 383,
+      "hi": 459,
+      "stage": "Tortonian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -6290000,
+      "v": 374,
+      "lo": 341,
+      "hi": 407,
+      "stage": "Messinian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -4465000,
+      "v": 295,
+      "lo": 243,
+      "hi": 359,
+      "stage": "Zanclean",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -3090000,
+      "v": 263,
+      "lo": 241,
+      "hi": 288,
+      "stage": "Piacenzian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -2190000,
+      "v": 297,
+      "lo": 273,
+      "hi": 321,
+      "stage": "Gelasian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -1287000,
+      "v": 253,
+      "lo": 235,
+      "hi": 271,
+      "stage": "Calabrian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -451500,
+      "v": 239,
+      "lo": 223,
+      "hi": 256,
+      "stage": "Chibanian",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -70350,
+      "v": 240,
+      "lo": 225,
+      "hi": 256,
+      "stage": "Upper Pleistocene",
+      "sources": [
+        "judd2024"
+      ]
+    },
+    {
+      "t": -5850,
+      "v": 276,
+      "lo": 256,
+      "hi": 298,
+      "stage": "Holocene",
+      "sources": [
+        "judd2024"
+      ]
+    }
+  ]
+}

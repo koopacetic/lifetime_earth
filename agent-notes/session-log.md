@@ -3,6 +3,52 @@
 Newest first. Each entry: what was done, what was learned, and what's next. Keep entries short; details belong in
 decisions.md and the other docs.
 
+## 2026-11-25 (later): Sun explainer drafted; families question
+- New: data/explainers/sun.json + typeset/explainers/sun.typ → build/explainer-sun.pdf (one page). Curve computed in Typst from the
+  same Gough formula as tools/models.py; milestones 75/80/90% from its inverse. Uses its own chart width (Wl = 86 mm) to fit the
+  right-hand W/m² scale inside the text block.
+- Feulner 2012 read via arXiv HTML (1204.4449v1; Wiley PDF 403). Verified: H→He / mean molecular weight / core contracts and heats
+  (sec 2.1); eq. 1 with t from ZAMS at 4.57 Ga; 1361 W/m² (citing Kopp & Lean 2011); frozen first 2 Gyr (abstract, 2.4); liquid
+  water from 3.8 Ga, no Archean glaciation (2.2); Pongola ~2.9 Ga (global?) and Huronian 2.4–2.2 (5.1); Rye 1995 paleosol CO₂ cap
+  and "CO₂ alone … unable" (5.3); greenhouse most likely (5.5). Sagan & Mullen 1972 not first (Donn 1965); not in sources.bib.
+- Families: no open family-level data (palaeoverse/sepkoski has genera only; Sepkoski 1992 family compendium is print-only).
+  Suggested switching the footer metric to genera; recorded in project-plan.md and footer-candidates.md.
+
+## 2026-11-25: explainer appendix drafts (diversity, climate, day length, largest life)
+**Done**
+- Four one-page drafts in typeset/explainers/ on a shared lib.typ; data in data/explainers/. All compile to one page (build/explainer-*.pdf).
+- New bib keys: sepkoski2002, jones2022, alroy2008, judd2024 (shared with session 4c), lisiecki2005, payne2009. wells1963 tried and dropped (no abstract to check).
+- Data: Sepkoski genera from palaeoverse/sepkoski `sepkoski.rda` (read with the `rdata` pip package in a scratch venv; installing into .venv was blocked);
+  PhanDA GMST+CO₂ CSV from github.com/EJJudd/PhanDA; LR04 from NOAA. Regenerate with agent-notes/explainer_data.py.
+- Day-length page reads session 4c's data/series/day_length.json and moon_distance.json (do not duplicate them).
+- Payne 2009 Dryad file needs a login (API 401; PMC/PNAS SI behind bot checks), so the largest-life curve is a placeholder from the paper's text.
+- Typst 0.15: the drawing `path()` is gone; use `curve` / `polygon` (lib.typ `pline`, `pfill`). `typst.compile(format="png")` returns bytes for a one-page doc.
+**Next:** the "Explainer appendix" checklist in docs/project-plan.md.
+
+## 2026-11-25 (later): footer formatters
+**Done**
+- `display` block in series files, applied by `format_metric` in tools/build.py; modes offset (Temp), ratio (CO₂), share (Moon).
+  "Today" = `common.series_now`: value at t = 0 for models, else the latest point if within the Holocene (PhanDA ends at −5,850).
+  check.py validates the mode and that a present-day value exists. Decision #48.
+- Number–unit space is now U+202F (no break); a plain thin space let "°C" wrap alone onto line 2.
+- Full-book build at 150 ppi: line 1 fits on pp. 822–914 with 3-digit citation markers. Pixel-counting footer lines does not
+  work (ruler ticks, labels share the band); crop and look instead.
+- Note: tools need `.venv/bin/python` (system python3 lacks jsonschema; build.py then reports "check.py failed").
+
+## 2026-11-25: footer series data (sky + air slots)
+**Done**
+- day_length.json replaced: 8 cyclostratigraphic points from farhat2022 Table D.1 (0–2.46 Ga, one tidal model, so consistent).
+  Rhythmite values (Table D.2) left out: Elatina 22.27 h at 620 Ma crosses Luoyixi 21.82 h at 500 Ma.
+- moon_distance.json (new, sky): same points, km. days_per_year.json is now model `year_from_day_length` (8,765.81 h ÷ day).
+- co2.json and temperature.json (new, air): PhanDA stage medians (judd2024), 84 stages 0–482 Ma, `lo`/`hi` = 5th/95th pct,
+  PETM row dropped. CSV: github.com/EJJudd/PhanDA 5_Outputs/PhanDA_GMSTandCO2_percentiles.csv.
+- New bib key farhat2022 (judd2024 was added the same hour by the parallel explainer session, lifetime-earth-50).
+- Dead ends: Farhat model curve has no public data file (arXiv 2207.00438 tables only); Krause 2018 O₂ model "on request";
+  Scotese 2021 GAT tables are images; Payne 2009 SI not on Europe PMC; NCEI paleo search API did not answer.
+  Foster 2017 Supp. Data 2 (LOESS CO₂, 0–420 Ma) downloads fine from static-content.springer.com: cross-check option.
+**Next:** formatters (Temp vs today, CO₂ ×280, Moon rounded + %), mitchell2023 plateau decision, O₂ limit format,
+life slot (alroy2008 genera, payne2009 largest; the explainer session's data/explainers/diversity.json may be reusable).
+
 ## 2026-11-23 (latest): era-level foredge tabs + names explainer
 **Done**
 - data/foredge.json: 11 bands (Hadean + 10 eras), each with a `label` (two lines: eon, era). book.typ draws it in white,
@@ -89,7 +135,7 @@ decisions.md and the other docs.
   Isua fore-arc sediments (p174). Longest empty run now p166–173.
 - 76–94 (4.195–4.10 Ga), 5 events, all verified: Mount Narryer zircons (p85), Cathaysia Hadean zircon (p89), Mars magnetization
   stops (debated, p90), zircon inclusions/subduction (debated, p94), ALH84001 crystallizes (p96). Longest empty run now p76–84.
-- 12 art-candidate rows; no art fetched (PhyloPic has no _Horodyskia_). Dossiers in docs/gaps/ for each stretch.
+- 12 art-candidate rows; no art fetched (PhyloPic has no _Horodyskia_). Dossiers in agent-notes/gaps/ for each stretch.
 - Totals: 349 events, 392 sources, 23 unverified, 0 errors; pages with entries 207 → 228.
 **Learned**
 - Parallel agents share build/png (renders clear each other's PNGs: copy right after rendering) and the scratchpad (use per-agent subdirs).
@@ -104,14 +150,14 @@ decisions.md and the other docs.
   In the stretch: Sudbury dykes (p668), Musgrave and Shawinigan orogenies (spans), Stac Fada impact (p679), Premier
   kimberlite (p685, unverified: Cullinan-diamond clause), Umkondo LIP (p693), Midcontinent Rift span (p693–698).
   Just outside: fossil chlorophyll (p695), eukaryote chloroplasts ~1.25 Ga (p665, debated), Argyle diamonds (p658).
-  Dossier docs/gaps/666-694.md; 3 art-candidate rows (Stac Fada map, Midcontinent Rift map, Cullinan diamond).
+  Dossier agent-notes/gaps/666-694.md; 3 art-candidate rows (Stac Fada map, Midcontinent Rift map, Cullinan diamond).
 - dig-gap skill: candidates are now numbered in the dossier and the presented table.
 **Next**
 - Longest empty stretches now 19 pages each: 616–634, 516–534, 156–174, 76–94.
 
 ## 2026-11-22 (later): gap dig, pages 176–202
 **Done**
-- Second-largest stretch 176–202 (3.695–3.56 Ga, 27 pages): 6 events added; dossier docs/gaps/176-202.md.
+- Second-largest stretch 176–202 (3.695–3.56 Ga, 27 pages): 6 events added; dossier agent-notes/gaps/176-202.md.
   `isua-terranes-collide` (p181, debated), `ancient-gneiss-complex` (p183), `isukasian-orogeny` (span, p183/195),
   `pilbara-crustal-overturn` (span, p195/232, debated), `mars-deuteronilus-ocean` (p195, unverified),
   `isua-magnetic-field` (p175). suavet2013 added as a source on `lunar-dynamo-strong`.
@@ -162,11 +208,11 @@ Pangaea source.
 
 ## 2026-11-21 (late night): gap dig, pages 326–374; dig-gap skill
 **Done**
-- New skill `.claude/skills/dig-gap` (deep-dive one stretch; dossier per stretch in `docs/gaps/`). Art policy in
+- New skill `.claude/skills/dig-gap` (deep-dive one stretch; dossier per stretch in `agent-notes/gaps/`). Art policy in
   dig-gap and add-events: attach only fetchable images (PhyloPic); drawings, maps and diagrams go to art-candidates.md.
 - Largest stretch 326–374 (2.945–2.70 Ga): 9 events added, all verified from abstracts (Pongola glaciation,
   Witwatersrand gold, Moon volcanism wanes, Klipriviersberg basalts, Zimbabwe flare, oldest magnetic reversal,
-  Tumbiana bacteria and stromatolites, Kenoran orogeny on p377); 10 sources. Dossier: docs/gaps/326-374.md.
+  Tumbiana bacteria and stromatolites, Kenoran orogeny on p377); 10 sources. Dossier: agent-notes/gaps/326-374.md.
 - 4 art-candidate rows (Kaapvaal map, reversal diagram, dropstone, Tumbiana stromatolite).
 **Next**
 - Pages 326–334 still empty; next largest stretches 666–704 and 276–314 (`/dig-gap`).
@@ -175,7 +221,7 @@ Pangaea source.
 **Done**
 - 120 of 131 unverified events checked and set `verified: true` (210 of 221 now); 16 corrections (dates moved to ICS
   stages, unsupported clauses removed, two sources added). Details and the 11 still-unverified events at the top of
-  docs/verification-backlog.md.
+  agent-notes/verification-backlog.md.
 - `tools/source_cache.py`: publisher landing-page fallback, `--refetch` and `--refetch-missing`; verification notes kept.
   34 cache files got `## Verification` notes; Rämö 2014 abstract from its open PDF. New source thomson2011.
 - New skill `.claude/skills/verify-sources`.
@@ -185,7 +231,7 @@ Pangaea source.
 
 ## 2026-11-21 (night, later): gap dig 276–314 (3.195–3.0 Ga)
 **Done**
-- Dossier docs/gaps/276-314.md. 8 events (p278–314): Pilbara rifting, Whundo arc, Kaapvaal craton, Cleaverville BIF,
+- Dossier agent-notes/gaps/276-314.md. 8 events (p278–314): Pilbara rifting, Whundo arc, Kaapvaal craton, Cleaverville BIF,
   Archaean genetic expansion (unverified), Dominion Group, Prinsep Orogeny, Maniitsoq impact claim (refuted).
   `plate-tectonics-onset` gains diamonds (shirey2011) and crustal growth (dhuime2012). 14 sources.
 - Maps (Natural Earth): pilbara-map, kaapvaal-dominion-map, maniitsoq-map.
@@ -197,7 +243,7 @@ Pangaea source.
 **Done**
 - 5 events in pages 231–249 (Buck Reef and Josefsdal mats, komatiites, ocean-temperature debate, Vaalbara); 13 sources.
   Hand-drawn `komatiite-spinifex.svg`.
-- docs/image-resources.md: image sources with hints (PhyloPic, Natural Earth, Bioicons, IAN, FGDC, GPlates, BHL...).
+- agent-notes/image-resources.md: image sources with hints (PhyloPic, Natural Earth, Bioicons, IAN, FGDC, GPlates, BHL...).
 - Art added to 8 events: stromatolite (Strelley Pool), _Juramaia_, _Purgatorius_, _Entelognathus_, _Archaefructus_,
   thrips, katydid (PhyloPic); Vaalbara locator map (`tools/basemap.py`, Natural Earth). Mediterranean map made, not attached.
 **Next**
@@ -256,7 +302,7 @@ range vs separate entries for competing dates; review-paper citations; long span
 - Page design v0: ruler on the foredge side (mirrored), full-number time labels, one-line unit header, bold unit-boundary
   ticks with descriptions, events with leader lines, captioned line drawing, footer metrics on every page,
   quiet page numbers, foredge thumb-index bands with trim ticks, dense superscript bibliography.
-- Demo data: 6 events, 3 footer series, 1 drawing, all cited **from memory** → docs/verification-backlog.md.
+- Demo data: 6 events, 3 footer series, 1 drawing, all cited **from memory** → agent-notes/verification-backlog.md.
 - Docs: PROJECT.md (features), decisions.md (28 entries), typesetting-questions.md (answered), project-plan.md,
   front-diagram-ideas.md + sketches (tabled), reference-numbers.md, dev-notes.md.
 

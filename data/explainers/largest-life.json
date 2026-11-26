@@ -1,0 +1,96 @@
+{
+ "_doc": "DRAFT data for typeset/explainers/largest-life.typ. PLACEHOLDER VALUES: the y values are orders of magnitude of body volume above the largest ~3.5 Ga fossils, read from statements in the payne2009 text (16 orders in all; jump of ~6 at ~1.9 Ga; size roughly constant for >1 Gyr; Ordovician cephalopods nearly 6 orders above the largest pre-Ediacaran fossils; giant sequoia 3 orders above them and 1.5 above the blue whale). Replace with the period-level maxima in Payne et al. Table S1 (Dryad doi:10.5061/dryad.223, needs a browser download; the API requires a login).",
+ "title": "The largest living thing",
+ "unit": "orders of magnitude larger than the largest fossils 3.5 billion years ago",
+ "steps": [
+  {
+   "t": -3500000000,
+   "v": 0,
+   "label": "single bacterial cells",
+   "sources": [
+    "payne2009"
+   ]
+  },
+  {
+   "t": -1900000000,
+   "v": 6,
+   "label": "_Grypania_ (first eukaryotic macrofossils)",
+   "sources": [
+    "payne2009"
+   ]
+  },
+  {
+   "t": -600000000,
+   "v": 7,
+   "label": "Ediacaran vendobionts",
+   "sources": [
+    "payne2009"
+   ]
+  },
+  {
+   "t": -450000000,
+   "v": 13,
+   "label": "Ordovician nautiloids",
+   "sources": [
+    "payne2009"
+   ]
+  },
+  {
+   "t": 0,
+   "v": 16,
+   "label": "giant sequoia",
+   "sources": [
+    "payne2009"
+   ]
+  }
+ ],
+ "extra": [
+  {
+   "t": 0,
+   "v": 14.5,
+   "label": "blue whale",
+   "sources": [
+    "payne2009"
+   ]
+  }
+ ],
+ "oxygen_marks": [
+  {
+   "t": -2320000000,
+   "label": "Great Oxidation Event",
+   "sources": [
+    "gumsley2017"
+   ]
+  },
+  {
+   "t": -800000000,
+   "label": "Neoproterozoic oxygen rise",
+   "sources": [
+    "och2012"
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "head": "What the graph shows",
+   "text": "The largest living things grew sixteen orders of magnitude bigger, from single microbial cells to giant sequoias. Most of that growth came in two jumps of about a million-fold each: one near 1.9 billion years ago, when cells with a nucleus appeared, and one between 600 and 450 million years ago, when many-celled life grew large. The two jumps fill less than a fifth of life's history but hold three quarters of the increase.",
+   "sources": [
+    "payne2009"
+   ]
+  },
+  {
+   "head": "How it is known",
+   "text": "For each period the largest known fossil of each kind of life was found in the literature or from experts, and its volume worked out from simple shapes such as cones and ellipsoids. Large fossils tend to be noticed and named (often with names meaning ‘giant’), so the record of the biggest is likely to be fairly complete.",
+   "sources": [
+    "payne2009"
+   ]
+  },
+  {
+   "head": "How sure",
+   "text": "On a scale of sixteen orders of magnitude, errors of one or two hardly show. The first step rests on _Grypania_, coiled ribbons that some read as stacked microbes rather than one organism; its sure 1.6-billion-year-old specimens are the same size. Each jump came soon after a rise in oxygen, which may have let larger bodies breathe.",
+   "sources": [
+    "payne2009"
+   ]
+  }
+ ]
+}

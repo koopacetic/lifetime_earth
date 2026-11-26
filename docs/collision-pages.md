@@ -7,7 +7,7 @@ Ways to resolve a crowded page, roughly in order of preference:
 1. Lower `importance` and drop the least important entries from print (keep them in the data).
 2. Shorten texts or move art to a neighbouring entry.
 3. Merge related entries (e.g. several hominin firsts into one entry).
-4. Design change: zoom insets for the last pages (session 15 idea), or a back-matter "last 5 million years" section.
+4. Design change: zoom insets for the last pages (session 15 idea), ~~or a back-matter "last 5 million years" section~~ (ruled out, decision #47).
 
 | ☐ | Page | Years | Status (2026-11-21) | Notes |
 |---|---|---|---|---|

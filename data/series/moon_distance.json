@@ -1,0 +1,73 @@
+{
+  "id": "moon_distance",
+  "label": "Moon",
+  "unit": "km",
+  "decimals": 0,
+  "order": 4,
+  "slot": "sky",
+  "display": {
+    "mode": "share"
+  },
+  "_note": "Mean Earth–Moon distance (lunar semi-major axis) at the same cyclostratigraphic points as day_length.json, from farhat2022 Table D.1. Present 383,598 km is the long-term mean (Laskar 2004), not the often-quoted 384,400 km. Stored in km; printed as the share of today's distance (display.mode share): 'Moon 97%'. Chosen by the user 2026-11-25 so line 1 of the footer fits.",
+  "points": [
+    {
+      "t": -2460000000,
+      "v": 320452,
+      "sources": [
+        "farhat2022",
+        "lantink2022"
+      ]
+    },
+    {
+      "t": -1400000000,
+      "v": 339777,
+      "sources": [
+        "farhat2022",
+        "meyers2018"
+      ]
+    },
+    {
+      "t": -500000000,
+      "v": 367854,
+      "sources": [
+        "farhat2022"
+      ]
+    },
+    {
+      "t": -493000000,
+      "v": 369153,
+      "sources": [
+        "farhat2022"
+      ]
+    },
+    {
+      "t": -445000000,
+      "v": 373277,
+      "sources": [
+        "farhat2022"
+      ]
+    },
+    {
+      "t": -270000000,
+      "v": 375967,
+      "sources": [
+        "farhat2022"
+      ]
+    },
+    {
+      "t": -55000000,
+      "v": 382284,
+      "sources": [
+        "farhat2022",
+        "meyers2018"
+      ]
+    },
+    {
+      "t": 0,
+      "v": 383598,
+      "sources": [
+        "farhat2022"
+      ]
+    }
+  ]
+}

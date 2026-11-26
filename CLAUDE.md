@@ -3,8 +3,11 @@
 Book: 914 content pages, 5 Myr each, from −4,570,000,000 (page 1) to 0 (page 914), plus front and back matter.
 Pipeline: `data/*.json` → `tools/build.py` (validate, lay out) → `build/book.json` → `typeset/book.typ` (Typst) → PDF.
 Overview, features and status: README.md. Settled decisions: docs/decisions.md (don't relitigate; append new ones).
-Also in docs/: session-log.md (read the latest entry first), project-plan.md, verification-backlog.md (unchecked citations),
-reference-numbers.md (key pages and physical sizes), art-candidates.md (events needing hand drawing or image research), dev-notes.md (Typst/tooling gotchas; read before editing code).
+docs/ is for the user to view, review or act on: project-plan.md, reference-numbers.md (key pages and physical sizes),
+art-candidates.md (events needing hand drawing or image research), content-categories.md, collision-pages.md, footer-candidates.md, etc.
+agent-notes/ is Claude's working memory (not for the user): session-log.md (read the latest entry first), dev-notes.md (Typst/tooling
+gotchas; read before editing code), verification-backlog.md (unchecked citations), image-resources.md, gaps/ (dig-gap dossiers).
+New Claude-only notes go in agent-notes/, never docs/.
 
 ## Commands (use these; don't read data files wholesale)
 - `./run check`: validate everything. Run after any data edit.
@@ -37,4 +40,4 @@ reference-numbers.md (key pages and physical sizes), art-candidates.md (events n
 - data/: events/, series/ (footer metrics), explainers/ (draft metric explainer data), tags.json (master tag list), timescale.json, foredge.json, sources.bib, schema.json
 - sources/: cached abstract + links per bib key (`sources/abstracts/<key>.md`); read before fetching online; `tools/source_cache.py .` adds new keys
 - typeset/explainers/: draft one-page explainers for footer metrics (docs/footer-candidates.md)
-- Skills: `.claude/skills/add-events`, `.claude/skills/fill-gaps` (survey), `.claude/skills/dig-gap` (deep-dive one stretch; dossiers in docs/gaps/)
+- Skills: `.claude/skills/add-events`, `.claude/skills/fill-gaps` (survey), `.claude/skills/dig-gap` (deep-dive one stretch; dossiers in agent-notes/gaps/)

@@ -20,6 +20,7 @@ key without an abstract. Evidence found beyond the abstract (full text, search s
 | [agangi2020](abstracts/agangi2020.md) | 2020 | The {Mesoarchaean} {Dominion} {Group} and the onset of intracontinental volcanism on the { | closed | yes | [doi](https://doi.org/10.1016/j.gr.2020.03.005) |
 | [allwood2006](abstracts/allwood2006.md) | 2006 | Stromatolite reef from the Early Archaean era of Australia | closed | yes | [doi](https://doi.org/10.1038/nature04764) |
 | [allwood2018](abstracts/allwood2018.md) | 2018 | Reassessing evidence of life in 3,700-million-year-old rocks of Greenland | closed | yes | [doi](https://doi.org/10.1038/s41586-018-0610-4) |
+| [alroy2008](abstracts/alroy2008.md) | 2008 | Phanerozoic trends in the global diversity of marine invertebrates | closed | yes | [doi](https://doi.org/10.1126/science.1156963) |
 | [amato2008](abstracts/amato2008.md) | 2008 | Evolution of the {Mazatzal} province and the timing of the {Mazatzal} orogeny: Insights fr | closed | yes | [doi](https://doi.org/10.1130/B26200.1) |
 | [anbar2007](abstracts/anbar2007.md) | 2007 | A Whiff of Oxygen Before the Great Oxidation Event? | closed | yes | [doi](https://doi.org/10.1126/science.1140325) |
 | [andres2021](abstracts/andres2021.md) | 2021 | Morphology and taxonomy of Quetzalcoatlus Lawson 1975 (Pterodactyloidea: Azhdarchoidea) | hybrid | yes | [doi](https://doi.org/10.1080/02724634.2021.1907587) |
@@ -182,7 +183,9 @@ key without an abstract. Evidence found beyond the abstract (full text, search s
 | [ji2006](abstracts/ji2006.md) | 2006 | A Swimming Mammaliaform from the Middle Jurassic and Ecomorphological Diversification of E | closed | yes | [doi](https://doi.org/10.1126/science.1123026) |
 | [johnson1996](abstracts/johnson1996.md) | 1996 | Late Pleistocene Desiccation of Lake Victoria and Rapid Evolution of Cichlid Fishes | closed | yes | [doi](https://doi.org/10.1126/science.273.5278.1091) |
 | [johnson2011](abstracts/johnson2011.md) | 2011 | Two collisions, two sutures: Punctuated pre-1950 {Ma} assembly of the {West Australian Cra | closed | no | [doi](https://doi.org/10.1016/j.precamres.2011.07.011) |
+| [jones2022](abstracts/jones2022.md) | 2022 | sepkoski: Sepkoski's Fossil Marine Animal Genera Compendium | green | yes | [doi](https://doi.org/10.5281/zenodo.7342194) |
 | [jourdan2014](abstracts/jourdan2014.md) | 2014 | High-precision dating of the Kalkarindji large igneous province, Australia, and synchrony  | green | yes | [doi](https://doi.org/10.1130/g35434.1) |
+| [judd2024](abstracts/judd2024.md) | 2024 | A 485-million-year history of Earth's surface temperature | green | yes | [doi](https://doi.org/10.1126/science.adk3705) |
 | [kamo1996](abstracts/kamo1996.md) | 1996 | A 2.023 Ga age for the Vredefort impact event and a first report of shock metamorphosed zi | closed | no | [doi](https://doi.org/10.1016/s0012-821x(96)00180-x) |
 | [karhu1996](abstracts/karhu1996.md) | 1996 | Carbon isotopes and the rise of atmospheric oxygen | closed | yes | [doi](https://doi.org/10.1130/0091-7613(1996)024<0867:ciatro>2.3.co;2) |
 | [karlstrom2014](abstracts/karlstrom2014.md) | 2014 | Formation of the Grand Canyon 5 to 6 million years ago through integration of older palaeo | closed | yes | [doi](https://doi.org/10.1038/ngeo2065) |
@@ -212,6 +215,7 @@ key without an abstract. Evidence found beyond the abstract (full text, search s
 | [li2008b](abstracts/li2008b.md) | 2008 | An ancestral turtle from the Late Triassic of southwestern China | closed | yes | [doi](https://doi.org/10.1038/nature07533) |
 | [li2021](abstracts/li2021.md) | 2021 | Two-billion-year-old volcanism on the Moon from Chang’e-5 basalts | hybrid | yes | [doi](https://doi.org/10.1038/s41586-021-04100-2) |
 | [lillis2008](abstracts/lillis2008.md) | 2008 | Rapid decrease in Martian crustal magnetization in the Noachian era: Implications for the  | bronze | yes | [doi](https://doi.org/10.1029/2008GL034338) |
+| [lisiecki2005](abstracts/lisiecki2005.md) | 2005 | A Pliocene-Pleistocene stack of 57 globally distributed benthic δ18O records | green | yes | [doi](https://doi.org/10.1029/2004PA001071) |
 | [liu2014](abstracts/liu2014.md) | 2014 | Haootia quadriformis n. gen., n. sp., interpreted as a muscular cnidarian impression from  | hybrid | yes | [doi](https://doi.org/10.1098/rspb.2014.1202) |
 | [liu2024](abstracts/liu2024.md) | 2024 | Chronological, Petrogenetic, and Tectonic Significance of {Paleoproterozoic} Continental C | gold | yes | [doi](https://doi.org/10.2113/2024/lithosphere_2023_234) |
 | [loron2019](abstracts/loron2019.md) | 2019 | Early fungi from the Proterozoic era in Arctic Canada | green | yes | [doi](https://doi.org/10.1038/s41586-019-1217-0) |
@@ -292,6 +296,7 @@ key without an abstract. Evidence found beyond the abstract (full text, search s
 | [pavlov2005](abstracts/pavlov2005.md) | 2005 | A third superchron during the Early Paleozoic | hybrid | yes | [doi](https://doi.org/10.18814/epiiugs/2005/v28i2/001) |
 | [pavlov2010](abstracts/pavlov2010.md) | 2010 | Variations in geomagnetic reversal frequency during the Earth's middle age | bronze | yes | [doi](https://doi.org/10.1029/2009gc002583) |
 | [pawlowski2003](abstracts/pawlowski2003.md) | 2003 | The evolution of early Foraminifera | green | yes | [doi](https://doi.org/10.1073/pnas.2035132100) |
+| [payne2009](abstracts/payne2009.md) | 2009 | Two-phase increase in the maximum size of life over 3.5 billion years reflects biological  | hybrid | yes | [doi](https://doi.org/10.1073/pnas.0806314106) |
 | [peltonen1996](abstracts/peltonen1996.md) | 1996 | Petrology and Geochemistry of Metabasalts from the 1.95 {Ga} {Jormua} Ophiolite, Northeast | closed | yes | [doi](https://doi.org/10.1093/petrology/37.6.1359) |
 | [penalver2012](abstracts/penalver2012.md) | 2012 | Thrips pollination of Mesozoic gymnosperms | green | yes | [doi](https://doi.org/10.1073/pnas.1120499109) |
 | [peng2008](abstracts/peng2008.md) | 2008 | A 1.78 {Ga} large igneous province in the {North China} craton: The {Xiong'er Volcanic Pro | closed | no | [doi](https://doi.org/10.1016/j.lithos.2007.07.006) |
@@ -352,6 +357,7 @@ key without an abstract. Evidence found beyond the abstract (full text, search s
 | [scott2006](abstracts/scott2006.md) | 2006 | The diversification of Paleozoic fire systems and fluctuations in atmospheric oxygen conce | green | yes | [doi](https://doi.org/10.1073/pnas.0604090103) |
 | [secord2012](abstracts/secord2012.md) | 2012 | Evolution of the Earliest Horses Driven by Climate Change in the Paleocene-Eocene Thermal  | closed | yes | [doi](https://doi.org/10.1126/science.1213859) |
 | [seilacher1998](abstracts/seilacher1998.md) | 1998 | Triploblastic animals more than 1 billion years ago: trace fossil evidence from {India} | closed | yes | [doi](https://doi.org/10.1126/science.282.5386.80) |
+| [sepkoski2002](abstracts/sepkoski2002.md) | 2002 | A compendium of fossil marine animal genera | unknown | no | — |
 | [servais2018](abstracts/servais2018.md) | 2018 | The Great Ordovician Biodiversification Event (GOBE): definition, concept and duration | bronze | yes | [doi](https://doi.org/10.1111/let.12259) |
 | [shirey2011](abstracts/shirey2011.md) | 2011 | Start of the {Wilson} {Cycle} at 3 {Ga} {Shown} by {Diamonds} from {Subcontinental} {Mantl | closed | yes | [doi](https://doi.org/10.1126/science.1206275) |
 | [shu1999](abstracts/shu1999.md) | 1999 | Lower Cambrian vertebrates from south China | closed | yes | [doi](https://doi.org/10.1038/46965) |
@@ -417,6 +423,7 @@ key without an abstract. Evidence found beyond the abstract (full text, search s
 | [wang2017](abstracts/wang2017.md) | 2017 | Lifetime of the solar nebula constrained by meteorite paleomagnetism | hybrid | yes | [doi](https://doi.org/10.1126/science.aaf5043) |
 | [waterton2020](abstracts/waterton2020.md) | 2020 | Geodynamic {Implications} of {Synchronous} {Norite} and {TTG} {Formation} in the 3 Ga {Man | gold | yes | [doi](https://doi.org/10.3389/feart.2020.562062) |
 | [wellman2003](abstracts/wellman2003.md) | 2003 | Fragments of the earliest land plants | green | yes | [doi](https://doi.org/10.1038/nature01884) |
+| [wells1963](abstracts/wells1963.md) | 1963 | Coral growth and geochronometry | closed | no | [doi](https://doi.org/10.1038/197948a0) |
 | [westall2015](abstracts/westall2015.md) | 2015 | Archean (3.33 Ga) microbe-sediment systems were diverse and flourished in a hydrothermal c | green | yes | [doi](https://doi.org/10.1130/G36646.1) |
 | [westerhold2020](abstracts/westerhold2020.md) | 2020 | An astronomically dated record of Earth’s climate and its predictability over the last 66  | green | yes | [doi](https://doi.org/10.1126/science.aba6853) |
 | [whitehouse2019](abstracts/whitehouse2019.md) | 2019 | On the true antiquity of Eoarchean chemofossils: assessing the claim for Earth's oldest bi | green | yes | [doi](https://doi.org/10.1016/j.precamres.2019.01.001) |

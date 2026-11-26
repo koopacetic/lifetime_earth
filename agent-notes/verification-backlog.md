@@ -283,7 +283,7 @@ DOIs and titles came from web search summaries (publisher, PMC, Crossref mirrors
 | zhu2016 | `gaoyuzhuang-macrofossils` | 30 × 8 cm, ~10 µm cells, 1560 ± 5 Ma; authors abbreviated |
 
 ## Gap dig, pages 326–374 (2026-11-21)
-Nine events added from `docs/gaps/326-374.md`; all `verified: true` because each abstract (OpenAlex) states the claim and
+Nine events added from `agent-notes/gaps/326-374.md`; all `verified: true` because each abstract (OpenAlex) states the claim and
 date. Items still worth a check against the full text:
 - `witwatersrand-gold`: t = −2.88 Ga ± 90 Myr is the session's midpoint between sedimentation onset (2.97 Ga, minter2006)
   and the cross-cutting sills (2.79 Ga, gumsley2020); the gold reefs themselves sit mostly in the upper (Central Rand)
@@ -297,7 +297,7 @@ date. Items still worth a check against the full text:
   Freeman 2006 methanotrophy, Kambalda nickel (hoatson2006).
 
 ## Gap dig, pages 276–314 (2026-11-21)
-Eight events added from `docs/gaps/276-314.md`; seven are `verified: true` (claim and date in the abstract).
+Eight events added from `agent-notes/gaps/276-314.md`; seven are `verified: true` (claim and date in the abstract).
 - `archaean-genetic-expansion` (`verified: false`): the abstract confirms 3,983 families, 27%, electron transport and
   respiration, and later oxygen use. The 3.33–2.85 Ga window comes from the paper body, recalled, not read. Green OA
   copy at hdl.handle.net/1721.1/61263 (MIT DSpace refused automated download).
@@ -325,7 +325,7 @@ Events from the content-categories.md "To add" column, one at a time. Verified u
   (July 2026) summary, not a cited source. Find a citable stratigraphy (e.g. BGS / Lyle 2000) before verifying.
 
 ## Gap dig, pages 156–174 (2026-11-22)
-Three events added from `docs/gaps/156-174.md`; `acasta-reheated` (merged into `acasta-gneiss` 2026-11-23) (bowring1999 abstract) and `isua-forearc-sediments`
+Three events added from `agent-notes/gaps/156-174.md`; `acasta-reheated` (merged into `acasta-gneiss` 2026-11-23) (bowring1999 abstract) and `isua-forearc-sediments`
 (boyd2024 OA full text, quotes in sources/abstracts/boyd2024.md) are verified.
 - `anshan-oldest-china` (cut 2026-11-23, significance review) (`verified: false`): 3773 ± 6 Ma banded trondhjemitic gneiss (Shengousi) is from web-search
   excerpts of the wan2012 abstract (Elsevier elides it; UOW repository ro.uow.edu.au/scipapers/4559 returned 403).
@@ -333,7 +333,7 @@ Three events added from `docs/gaps/156-174.md`; `acasta-reheated` (merged into `
   Baijiafen/Dongshan emplaced ~3.3 and 3.1 Ga) is from a search summary, not a cited source: add a citation or soften.
 
 ## Gap dig, pages 516–534 (2026-11-22)
-Seven events added from `docs/gaps/516-534.md`; `purtuniq-ophiolite` (scott1992), `jormua-ophiolite` (peltonen1996),
+Seven events added from `agent-notes/gaps/516-534.md`; `purtuniq-ophiolite` (scott1992), `jormua-ophiolite` (peltonen1996),
 `snowbird-eclogites` (baldwin2004), `first-phosphorites` (lepland2014) are verified from abstracts; `pechenga-nickel` (cut 2026-11-23, significance review)
 and the Zaonega dates from the martin2015 accepted manuscript (quotes in sources/abstracts/martin2015.md).
 - `zaonega-shungite` (`verified: false`): the oil-to-shungite claim rests on the melezhik1999 title (abstract elided).

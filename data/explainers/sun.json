@@ -1,0 +1,101 @@
+{
+  "_doc": "DRAFT data for typeset/explainers/sun.typ. The curve is computed in Typst from Gough's (1981) formula, the same one tools/models.py uses for the footer: L/L_now = 1 / (1 + 0.4 (1 - age/4.57 Gyr)), age measured from the Sun's arrival on the main sequence 4.57 Ga (feulner2012 eq. 1). Milestone years follow from the formula. 'zone' and 'water' from feulner2012 (sections 2.2, 2.4); ice ages from feulner2012 sec. 5.1 (Pongola, Huronian) and the Snowball events (hoffman2017, rooney2013).",
+  "title": "The brightening Sun",
+  "unit": "% of today's brightness",
+  "sources": [
+    "gough1981",
+    "feulner2012"
+  ],
+  "age_now": 4570000000,
+  "solar_constant": 1361,
+  "milestones": [
+    75,
+    80,
+    90
+  ],
+  "zone": {
+    "from": -4570000000,
+    "to": -2570000000,
+    "label": "With today's air, Earth would have frozen",
+    "sources": [
+      "feulner2012"
+    ]
+  },
+  "water": [
+    {
+      "t": -4300000000,
+      "label": "water? (zircons)",
+      "sources": [
+        "mojzsis2001",
+        "wilde2001"
+      ]
+    },
+    {
+      "t": -3800000000,
+      "label": "oldest water-laid rocks",
+      "sources": [
+        "feulner2012"
+      ]
+    }
+  ],
+  "ice": [
+    {
+      "from": -2900000000,
+      "to": -2900000000,
+      "label": "Pongola",
+      "sources": [
+        "feulner2012"
+      ]
+    },
+    {
+      "from": -2400000000,
+      "to": -2200000000,
+      "label": "Huronian",
+      "sources": [
+        "feulner2012"
+      ]
+    },
+    {
+      "from": -717000000,
+      "to": -635000000,
+      "label": "Snowball Earth",
+      "sources": [
+        "hoffman2017",
+        "rooney2013"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "head": "What the graph shows",
+      "text": "How bright the Sun has been, compared with today. When it settled into steady hydrogen burning 4.57 billion years ago it gave about 70% of today's light. It has brightened slowly and smoothly ever since: past 75% about 3.8 billion years ago, 80% about 2.9 billion, 90% about 1.3 billion. Today the sunlight arriving at Earth carries 1361 watts per square metre (right-hand scale).",
+      "sources": [
+        "gough1981",
+        "feulner2012"
+      ]
+    },
+    {
+      "head": "Why the Sun brightens",
+      "text": "The Sun shines by fusing hydrogen into helium in its core. The helium builds up, so the core becomes denser; it contracts and heats up to keep the star stable, and the hotter core burns faster. This is calculated from the physics of stars, not measured, and the models are checked against the Sun's own vibrations, which reveal its inside. The sunspot cycle changes the Sun's output far too little to show here.",
+      "sources": [
+        "feulner2012",
+        "gough1981"
+      ]
+    },
+    {
+      "head": "The faint young Sun problem",
+      "text": "With the air and clouds of today, a Sun this faint would have kept Earth frozen for its first two billion years (shaded). Yet rocks laid down in water go back 3.8 billion years, life is found by 3.5 billion, and there is no sign of widespread ice anywhere in the Archean. Something kept the young Earth warm. The favourite answer is a stronger greenhouse, with far more carbon dioxide or methane in the air than today. But ancient soils limit how much carbon dioxide there was, and carbon dioxide alone was probably not enough. After more than fifty years the puzzle is not considered solved.",
+      "sources": [
+        "feulner2012"
+      ]
+    },
+    {
+      "head": "Ice ages do not follow the Sun",
+      "text": "The first great ice ages came 2.4 to 2.2 billion years ago, after the Sun had already passed 80%, and the Snowball Earth glaciations came when it had reached 94%. A brighter Sun did not prevent them: the greenhouse gases in the air decide Earth's climate far more than the slow brightening of the Sun.",
+      "sources": [
+        "feulner2012",
+        "hoffman2017"
+      ]
+    }
+  ]
+}

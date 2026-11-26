@@ -238,6 +238,22 @@ def series_value(series: dict, t: int):
     return p["v"], p["sources"]
 
 
+HOLOCENE_START = -11_700  # years; a series' latest point counts as "today" if it is this young
+
+
+def series_now(series: dict):
+    """Present-day value of a series, used by relative footer formats: the value at t = 0 for models,
+    else the latest point if it lies in the Holocene (stage data such as PhanDA end at the Holocene mean age)."""
+    if series.get("model"):
+        r = series_value(series, 0)
+        return None if r is None else r[0]
+    pts = series.get("points") or []
+    if not pts:
+        return None
+    p = max(pts, key=lambda p: p["t"])
+    return p["v"] if p["t"] >= HOLOCENE_START else None
+
+
 UNIT_LEVELS = ("eons", "eras", "periods", "epochs")
 LEVEL_NAMES = {"eons": "Eon", "eras": "Era", "periods": "Period", "epochs": "Epoch"}
 

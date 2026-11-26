@@ -16,7 +16,7 @@ the next session doesn't repeat it. An honestly empty page is fine; never stretc
 - `./run query --from T0 --to T1` with T0/T1 widened by ~50 Myr each side: what the neighbours already say,
   which spans (`span`) run through the gap, which threads it should continue.
 - Note eon/era/period (`data/timescale.json` via `./run query --page N`) and which cratons have rock of this age.
-- Check `docs/gaps/<first>-<last>.md` (or any dossier overlapping the range). If one exists, resume from it.
+- Check `agent-notes/gaps/<first>-<last>.md` (or any dossier overlapping the range). If one exists, resume from it.
 
 ## 2. Mine what is already cited (free)
 - Leads list in `docs/content-categories.md` ("Future threads" and "Leads from sources already cited").
@@ -39,7 +39,7 @@ Prefer reviews and primary papers with DOIs (Crossref/OpenAlex lookups are fine)
 Run independent searches in parallel in one turn.
 
 ## 4. Write the dossier
-Create or update `docs/gaps/<first>-<last>.md` (pages):
+Create or update `agent-notes/gaps/<first>-<last>.md` (pages):
 
 ```
 # Pages 326–374 (−2,945,000,000 to −2,700,000,000)
@@ -67,18 +67,18 @@ the book (they go in too, just note it).
 Attach art only when an existing image can be fetched as is. **Don't create drawings during a dig** (maps, diagrams,
 mini-graphs, redraws, traced outlines): list them in `docs/art-candidates.md` instead, to be made in a separate art pass.
 - **Named organism** (genus or species, fossil or modern relative): read the PhyloPic hints in
-  `docs/image-resources.md`, then `./run art search NAME`; if a usable image exists, `./run art fetch UUID SLUG` and
+  `agent-notes/image-resources.md`, then `./run art search NAME`; if a usable image exists, `./run art fetch UUID SLUG` and
   `./run art outline art/phylopic/SLUG.svg`. Follow its working rules: CC0/PD, then CC BY, then CC BY-SA; no NC;
   check that the rendered preview isn't just a blob. If you use a modern relative, the caption must say "modern".
   The event's `art` gets `file` (relative to `art/`), a `caption` (name plus 1–2 sentences, `_italics_` for taxa)
   and `sources` for the caption's facts; `art fetch` writes the `art/credits.json` record.
 - **Everything else** that would read better as a picture: add a row to `docs/art-candidates.md`
-  (event id, page, what to show, possible source, approach). Use `docs/image-resources.md` to name the likely
+  (event id, page, what to show, possible source, approach). Use `agent-notes/image-resources.md` to name the likely
   resource: Natural Earth locator map (`tools/basemap.py`) for where a site is today; Bioicons for cells;
   USGS FGDC patterns for rock columns; GPlates for past geography (≤1 Ga); NASA/USGS/NOAA for craters and
   eruptions; Smithsonian for minerals; a mini-graph from the cited data for trends; CC BY paper figures to redraw.
 Record results as you go:
-- Something new about a resource (useful, not found, a surprise) goes under that resource in `docs/image-resources.md`,
+- Something new about a resource (useful, not found, a surprise) goes under that resource in `agent-notes/image-resources.md`,
   and its ⏳ becomes 🔎 once you have searched it.
 - Put the art ideas and their status in the dossier's "Art ideas" section.
 
@@ -88,10 +88,10 @@ ordered by importance, then confidence; flag importance 1 as "suggest skip". Num
 for the same candidate, so the user can approve or reject by number ("add 1–4 and 7"). On approval, follow the `add-events` skill (set `importance` to the agreed score) (sources first, `./run add`, `./run check`, `./run png`
 for touched pages). Check every page with art in the PNG; the drawing must not crowd the text.
 Events whose claim or date couldn't be checked against the source (no abstract, paywalled) can still go in with
-`"verified": false`, but each one also gets a row in `docs/verification-backlog.md`.
+`"verified": false`, but each one also gets a row in `agent-notes/verification-backlog.md`.
 
 ## 7. Close out
 - Update the dossier statuses, and the stretch's row in `docs/content-categories.md` (☐ → ◐ or ☑, leads).
-- New unverified claims go to `docs/verification-backlog.md`.
+- New unverified claims go to `agent-notes/verification-backlog.md`.
 - Report: events added (id, page), art added (file, credit), art candidates listed, sources added, `./run fullness --text` before → after for this stretch,
   and what remains empty and why.

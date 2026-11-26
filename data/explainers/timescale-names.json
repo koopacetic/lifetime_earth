@@ -1,5 +1,5 @@
 {
-  "_doc": "Back-matter explainer: what the eon and era names on the foredge tabs mean. Typeset by typeset/book.typ (back matter, before the bibliography). Rows are in foredge-tab order (eons as headings, eras under them); start years come from timescale.json at build time. _underscores_ = italics. Glosses with empty 'sources' still need a citation (see docs/verification-backlog.md).",
+  "_doc": "Back-matter explainer: what the eon and era names on the foredge tabs mean. Typeset by typeset/book.typ (back matter, before the bibliography). Rows are in foredge-tab order (eons as headings, eras under them); start years come from timescale.json at build time. _underscores_ = italics. Glosses with empty 'sources' still need a citation (see agent-notes/verification-backlog.md).",
   "title": "Names of geological time",
   "paragraphs": [
     {"text": "Geologists divide Earth's history into nested units of time. From largest to smallest they are eons, eras, periods, epochs and ages. The tabs on this book's foredge mark the eras (the Hadean, which has no eras, has one tab for the whole eon); the running head at the top of each page names every unit the page begins in.",

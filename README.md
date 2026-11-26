@@ -14,7 +14,7 @@ The book is generated from data (`data/`) by a Python + Typst pipeline, so it ca
   sewn signatures, one volume of about 2.5–3 in; foredge trimmed with a plough. Book 1 of a planned trilogy (~1000 pages each).
 
 See also: [docs/project-plan.md](docs/project-plan.md) · [docs/decisions.md](docs/decisions.md) ·
-[docs/dev-notes.md](docs/dev-notes.md) · [tools/README.md](tools/README.md) · [CLAUDE.md](CLAUDE.md)
+[agent-notes/dev-notes.md](agent-notes/dev-notes.md) · [tools/README.md](tools/README.md) · [CLAUDE.md](CLAUDE.md)
 
 ## Feature list
 
@@ -36,15 +36,18 @@ Status: ✅ working (basic) · 🔧 planned · 💬 tabled for discussion · ❓
 ### Footer metrics (terse generated metadata)
 - ✅ Machinery: `data/series/*.json`, cited point data (never extrapolated) or cited models (`tools/models.py`)
 - ✅ Demo series: Sun brightness (Gough 1981 model, every page), length of day, days per year (Williams 2000, last 620 Myr)
-- ✅ Footer modes compared; every-page chosen (decision #23)
-- 🔧 More series: length of day, O₂, CO₂, mean temperature, land area %, sea level, solar luminosity,
-  Moon distance, days per year, approximate number of land animal species / genera
-- ✅ Decided: terse metrics line on **every** page
+- ✅ Footer layout B (decision #45): line 1 = `sky` · `air` series, line 2 = `life`, on every page; a boxed
+  **100 Myr check-in** strip on pages ending on a round 100 Myr (pp. 14, 34 … 914). Fixed height, so the bottom time label never moves
+- ✅ Rules (decision #43): a series must span ≥10 pages (50 Myr); values relative to today unless familiar (24 h, 365 d)
+- 🔧 Series for the `air`, `life` and `checkin` slots (none yet); replace the linear day-length demo with cited points;
+  candidates in [docs/footer-candidates.md](docs/footer-candidates.md) (Moon distance, O₂, sea level, CO₂, temperature, families, …)
+- 🔧 One-page explainers per metric in the back matter (oxygen draft in `typeset/explainers/oxygen.typ`)
 - ✅ Ordinary page numbers in the footer, quieter than the time labels and metrics
 
 ### Physical book
-- ✅ Foredge bands (prototype): dark thumb-index blocks printed into the bleed and trimmed through by the plough; head and tail trim ticks.
-  Demo set = 4 eons; 🔧 research a life-based set (*before life / single-celled / multicellular / animals / life on land*), with citations.
+- ✅ Foredge tabs: grey thumb-index blocks printed into the bleed and trimmed through by the plough; head and tail trim ticks.
+  **11 era-level tabs** (Hadean eon + 10 eras), each labelled vertically in white bold (decision #44). 🔧 print test of the 6 pt
+  reverse type and the thin Mesozoic/Cenozoic bands. 💬 a life-based set (*before life / single-celled / multicellular / animals / life on land*), with citations.
 - 🔧 Imposition: reorder pages into 4-up booklet sheets per signature (`tools/impose.py`, pypdf), with blank
   padding and optional creep compensation
 - 🔧 Physical page numbers (folio): currently tiny on the outer edge, for binding/debug
@@ -55,13 +58,19 @@ Status: ✅ working (basic) · 🔧 planned · 💬 tabled for discussion · ❓
 - 🔧 Introduction / how to read this book (points to cover: [docs/introduction-notes.md](docs/introduction-notes.md))
 - 💬 Whole-history overview diagram: **tabled to the end of the project**; sketches in [docs/front-diagram-ideas.md](docs/front-diagram-ideas.md); may become introduction text
 - 🔧 Cover and spine (pasted on separately): discuss and draft printable versions near the end of the project
+- ✅ "Names of geological time": one-page back-matter explainer with the foredge tab key (decision #44; 🔧 sources for the Greek glosses)
 - ✅ Bibliography: superscript citations (Nature style), dense 2-column 6.5 pt (about 16 pages per 1000 sources)
-- 🔧 Colophon with image credits generated from `art/credits.json`
+- ✅ Image credits: lettered list after the bibliography, generated from `art/credits.json` (decision #40)
+- 🔧 Colophon
+- 🔧 Glossary appendix (project-plan row 22a2)
 - 🔧 Optional subject index
 - 🔧 Appendices for any full-page images
 
 ### Art
-- ✅ Line drawing on an event (demo: Tyrannosaurus on the Chicxulub page; `./run png 901`) with a full cited caption beside it
+- ✅ Line drawings on 42 events (e.g. Tyrannosaurus on the Chicxulub page; `./run png 901`), each with a full cited caption beside it
+- ✅ In-house drawings: Natural Earth locator maps (`tools/basemap.py`), mini-graphs, cross-sections
+- 🔧 Wide drawings squeeze their caption (p831, 840, 907); fix in `typeset/book.typ`, then reattach _Basilosaurus_ and _Acanthostega_
+- 🔧 Open image needs: [docs/art-candidates.md](docs/art-candidates.md)
 - ✅ `tools/art.py`: PhyloPic search, fetch (with credits and bib entry), outline → uniform-stroke line art
 - 💬 **PhyloPic** as the main source: free silhouettes of organisms, mostly CC0 / CC BY, with an API
   (https://www.phylopic.org/; e.g. search "Dimetrodon" or "Anomalocaris" there). License and attribution go in `art/credits.json`.
@@ -73,5 +82,7 @@ Status: ✅ working (basic) · 🔧 planned · 💬 tabled for discussion · ❓
 - ✅ JSON event data with schema, integer years, required citations, `verified` flag
 - ✅ Tools: check, query, add (sorts, formats, rejects duplicates), build (full / demo / page range / PNG), fullness
 - ✅ Fullness report: markdown summary plus a page-grid image plus a history CSV
-- 💬 Event types / categories (the user has a list; settle it in the first research session)
+- ✅ Event tags from a master list (`data/tags.json`, decision #29), `debated` events (#30), `importance` 1–5 (#41)
+- ✅ Skills for research: add-events, fill-gaps, dig-gap (dossiers in `agent-notes/gaps/`), verify-sources
+- ✅ Source cache: abstract and links per bib key in `sources/abstracts/`
 - 🔧 Shard event files (by eon or topic) once they grow; tools already read every `data/events/*.json`

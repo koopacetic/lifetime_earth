@@ -1,0 +1,60 @@
+{
+ "_doc": "DRAFT data for typeset/explainers/day-length.typ. The main points are NOT here: the page reads data/series/day_length.json and moon_distance.json (farhat2022 Table D.1, cyclostratigraphy) so explainer and footer always agree. This file adds: 'rhythmites' = tidal-laminae values drawn as open circles (not in the footer series), 'stall' = the debated ~19 h plateau band, and the text.",
+ "title": "The lengthening day",
+ "rhythmites": [
+  {
+   "t": -900000000,
+   "t_err": 100000000,
+   "v": 18.9,
+   "label": "Big Cottonwood, Utah",
+   "sources": [
+    "sonett1998"
+   ]
+  },
+  {
+   "t": -620000000,
+   "v": 21.9,
+   "v_err": 0.4,
+   "label": "Elatina, South Australia",
+   "sources": [
+    "williams2000"
+   ]
+  }
+ ],
+ "stall": {
+  "from": -2000000000,
+  "to": -1000000000,
+  "v": 19,
+  "label": "stall at ~19 h? (debated)",
+  "sources": [
+   "mitchell2023"
+  ]
+ },
+ "sections": [
+  {
+   "head": "What the graph shows",
+   "text": "The Moon raises tides on Earth, and the friction of those tides brakes Earth's spin. The day gets longer, and the spin Earth loses is handed to the Moon, which drifts farther away. 2.46 billion years ago a day lasted about 17 hours and the Moon was some 60,000 km closer. The curve is not smooth: tides are stronger when the oceans' shape happens to resonate with them, so the slowing came in spurts.",
+   "sources": [
+    "lantink2022",
+    "farhat2022"
+   ]
+  },
+  {
+   "head": "How it is known",
+   "text": "Two kinds of rock keep time. Tidal rhythmites are stacks of thin layers laid down tide by tide, so counting layers per month and per year gives the days in a month and in a year. Milankovitch cycles are climate rhythms set by the wobble of Earth's axis, whose period depends on Earth's spin and the Moon's distance; layered rocks that record them give both.",
+   "sources": [
+    "williams2000",
+    "lantink2022",
+    "meyers2018"
+   ]
+  },
+  {
+   "head": "How sure",
+   "text": "Only a handful of rocks give values before the Phanerozoic, so the line joins few points. Since the time of the Elatina tides 620 million years ago the Moon has retreated on average at a little more than half today's rate. A run of measurements suggests the day stayed near 19 hours for a billion years, perhaps because a solar tide in the air pushed back against the Moon's braking. This stall is still debated.",
+   "sources": [
+    "williams2000",
+    "mitchell2023"
+   ]
+  }
+ ]
+}

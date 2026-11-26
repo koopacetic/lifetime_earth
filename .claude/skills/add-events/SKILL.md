@@ -21,9 +21,9 @@ Input: a topic ("Snowball Earth") or a range (years or content pages).
 5. **Write events** as a JSON array (fields: `data/schema.json`, including `tags`). Integer years, negative. `t` = midpoint. Always set `importance` (1–5, scale in docs/significance-review.md).
    Titles ≤ 90 chars; text 1–3 sentences, ≤ 600 chars, plain and concrete. `"verified": false` unless you
    checked the date against the source text itself.
-   Unverified events also get a row in `docs/verification-backlog.md` (what to check, where).
+   Unverified events also get a row in `agent-notes/verification-backlog.md` (what to check, where).
 6. **Art**: attach only images that can be fetched as is (PhyloPic: `./run art search`, `fetch`, `outline`; rules in
-   `docs/image-resources.md`). Don't make drawings, maps or diagrams here; add picture-worthy events to
+   `agent-notes/image-resources.md`). Don't make drawings, maps or diagrams here; add picture-worthy events to
    `docs/art-candidates.md` (what to show, likely resource, approach) for a separate art pass.
 7. **Add**: `./run add data/events/<file>.json < /path/to/new.json` (rejects duplicates; use the existing file
    for that era, or events.json until sharding is decided).

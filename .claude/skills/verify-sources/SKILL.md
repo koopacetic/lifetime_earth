@@ -12,7 +12,7 @@ it), not against memory.
 ## 1. Build the worklist
 - `./run check` prints the number of unverified events. List them with their source keys:
   `python3 -c "import json,glob;[print(e['id'],e['sources']) for f in glob.glob('data/events/*.json') for e in json.load(open(f)) if not e.get('verified')]"`
-- Read the top of `docs/verification-backlog.md` ("Still unverified" table) for known gaps and the claims to check.
+- Read the top of `agent-notes/verification-backlog.md` ("Still unverified" table) for known gaps and the claims to check.
 
 ## 2. Fill the cache first (cheap)
 - `.venv/bin/python tools/source_cache.py .` fetches any source key without a `sources/abstracts/<key>.md` yet.
@@ -51,7 +51,7 @@ where it came from (URL or PMCID).
 - Edit the event file with a script (load JSON, change fields, dump), then `./run fmt` and `./run check`.
   Keep a backup copy in the scratchpad first.
 - Add new bib entries to `data/sources.bib`, then run `tools/source_cache.py .` again.
-- Update `docs/verification-backlog.md`: the top section's corrections table (event, was, now, source) and the
+- Update `agent-notes/verification-backlog.md`: the top section's corrections table (event, was, now, source) and the
   "Still unverified" table with what each remaining event lacks.
 - Add a session-log entry. If a correction moves an event far (another page), mention it so the layout gets checked
   (`./run png <page>`).

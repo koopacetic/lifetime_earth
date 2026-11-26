@@ -16,7 +16,7 @@ of editing, check instead of eyeballing. Run with `.venv/bin/python tools/<name>
 | `models.py` | Named, cited analytic models for footer series (e.g. `gough1981` solar luminosity). |
 | `art.py` | PhyloPic pipeline: `search NAME`, `fetch UUID SLUG` (SVG → `art/phylopic/`, plus `art/credits.json` and a bib entry), `outline FILE` (uniform-stroke line drawing → `art/line/`). |
 | `fullness.py` | Lays out **all** pages without typesetting; writes `build/fullness.md` (summary by eon, longest empty stretches), `build/fullness.png` (page grid), and appends to `build/fullness_history.csv`. `--text` prints the summary only. |
-| `basemap.py` | Draws a present-day locator map as line art from Natural Earth GeoJSON (downloaded to a scratch folder): `--bbox W S E N`, `--mark lon,lat,label`, `--label lon,lat,text`. Output goes in `art/line/`; credit `claude-drawings` + `naturalearth` in art/credits.json. See docs/image-resources.md. |
+| `basemap.py` | Draws a present-day locator map as line art from Natural Earth GeoJSON (downloaded to a scratch folder): `--bbox W S E N`, `--mark lon,lat,label`, `--label lon,lat,text`. Output goes in `art/line/`; credit `claude-drawings` + `naturalearth` in art/credits.json. See agent-notes/image-resources.md. |
 
 ## Planned
 

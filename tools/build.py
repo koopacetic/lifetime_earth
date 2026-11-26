@@ -33,10 +33,38 @@ def metrics_at(t: int, series: list[dict], checkin: bool = False) -> list[dict]:
         if r is None:
             continue
         v, srcs = r
-        unit = s["unit"]
-        value = f"{v:,.{s.get('decimals', 1)}f}" + ("" if unit.startswith("%") else "\u2009")
+        value, unit = format_metric(v, s)
         out.append({"label": s["label"], "value": value, "unit": unit, "sources": srcs, "slot": slot})
     return out
+
+
+def _num(v: float, decimals: int) -> str:
+    return f"{v:,.{decimals}f}"
+
+
+def format_metric(v: float, s: dict) -> tuple[str, str]:
+    """(value, unit) strings for the footer. A series may carry "display" (decision #43: relative to today
+    unless the absolute value is familiar); "now" is the series' own latest value (C.series_now), so it
+    shares its citation:
+      offset:  v \u2212 now, signed               ("Temp +16 \u00b0C")
+      ratio:   v / now                       ("CO\u2082 8.1\u00d7"; decimals below 10, whole numbers above)
+      share:   v / now as a whole percent    ("Moon 97%")"""
+    unit = s["unit"]
+    d = s.get("display")
+    if not d:
+        return _num(v, s.get("decimals", 1)) + ("" if unit.startswith("%") else "\u202f"), unit
+    now = C.series_now(s)
+    mode = d["mode"]
+    if mode == "offset":
+        x = round(v - now, d.get("decimals", 0))
+        sign = "\u00b1" if x == 0 else ("+" if x > 0 else "\u2212")
+        return sign + _num(abs(x), d.get("decimals", 0)) + "\u202f", d.get("unit", unit)
+    if mode == "ratio":
+        x = v / now
+        return _num(x, d.get("decimals", 1) if round(x, 1) < 10 else 0), d.get("unit", "\u00d7")
+    if mode == "share":
+        return f"{round(100 * v / now)}", "%"
+    raise ValueError(f"series {s['id']}: unknown display mode {mode!r}")
 
 
 def foredge_band(t: int, fe: dict) -> dict | None:

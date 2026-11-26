@@ -5,9 +5,66 @@
   "decimals": 1,
   "order": 2,
   "slot": "sky",
-  "_note": "Linear between cited points; printed only inside the data range. Demo: needs a fuller tidal-history curve.",
+  "_note": "Solar day from cyclostratigraphy (Milankovitch precession), all values as recomputed in farhat2022 Table D.1 with one tidal model so they are mutually consistent: Walvis Ridge 55 Ma, Lucaogou 270 Ma (cycle-count analysis b), Yangtze 445 Ma, Alum Shale 493 Ma, Luoyixi 500 Ma, Xiamaling 1.4 Ga, Joffre 2.46 Ga. Present = Laskar 2004 initial condition. Linear between points; blank before 2.46 Ga. Rhythmite values (Table D.2, e.g. Elatina 22.27 h at 620 Ma) are left out because they cross the cyclostratigraphic curve. mitchell2023 argues for a ~19 h plateau from ~2 to ~1 Ga, which linear interpolation does not show.",
   "points": [
-    {"t": -620000000, "v": 21.9, "sources": ["williams2000"]},
-    {"t": 0,          "v": 24.0, "sources": ["williams2000"]}
+    {
+      "t": -2460000000,
+      "v": 16.98,
+      "sources": [
+        "farhat2022",
+        "lantink2022"
+      ]
+    },
+    {
+      "t": -1400000000,
+      "v": 18.7,
+      "sources": [
+        "farhat2022",
+        "meyers2018"
+      ]
+    },
+    {
+      "t": -500000000,
+      "v": 21.82,
+      "sources": [
+        "farhat2022"
+      ]
+    },
+    {
+      "t": -493000000,
+      "v": 21.99,
+      "sources": [
+        "farhat2022"
+      ]
+    },
+    {
+      "t": -445000000,
+      "v": 22.53,
+      "sources": [
+        "farhat2022"
+      ]
+    },
+    {
+      "t": -270000000,
+      "v": 22.9,
+      "sources": [
+        "farhat2022"
+      ]
+    },
+    {
+      "t": -55000000,
+      "v": 23.8,
+      "sources": [
+        "farhat2022",
+        "meyers2018"
+      ]
+    },
+    {
+      "t": 0,
+      "v": 24.0,
+      "sources": [
+        "farhat2022"
+      ]
+    }
   ]
 }
